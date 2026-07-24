@@ -1,8 +1,8 @@
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/hero/dark-v6.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./assets/hero/light-v6.svg">
-    <img src="./assets/hero/dark-v6.svg" width="100%" alt="Muhammad Rafi Priyo - Full-Stack Developer">
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/hero/dark-v7.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/hero/light-v7.svg">
+    <img src="./assets/hero/dark-v7.svg" width="100%" alt="Muhammad Rafi Priyo - Full-Stack Developer">
   </picture>
 </div>
 
