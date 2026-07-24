@@ -415,135 +415,131 @@
         <text x="790" y="384" fill="#0F172A" font-size="16" font-weight="700"
           font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">riyooprivateweb.my.id</text>
       </g>
-      <g opacity="0">
-        <animate attributeName="opacity" from="0" to="1" begin="1.72s" dur="0.45s" fill="freeze"/>
-        <circle cx="594" cy="417" r="4" fill="#10B981"/>
-        <text x="612" y="422" fill="#475569" font-size="13" font-weight="700"
-          letter-spacing="1.6" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">EMAIL</text>
-        <text x="790" y="422" fill="#0F172A" font-size="16" font-weight="700"
-          font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">raymufiyo@gmail.com</text>
-      </g>
 
-    <text x="588" y="399" fill="#475569" font-size="13" font-weight="700"
-      letter-spacing="1.7" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <line x1="588" y1="402" x2="1118" y2="402"
+      stroke="#0F172A" stroke-opacity="0.07"/>
+
+    <text x="588" y="416" fill="#475569" font-size="12.5" font-weight="700"
+      letter-spacing="1.6"
+      font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
       SKILLS.EXPLORE()
     </text>
 
     
       <g>
-        <rect x="588" y="414" width="68" height="32" rx="16"
+        <rect x="588" y="424" width="68" height="31" rx="15.5"
           fill="#F8FAFC" fill-opacity="0.66"
           stroke="url(#accentGradient)" stroke-opacity="0.58"/>
-        <text x="622.0" y="435" text-anchor="middle"
-          fill="#0F172A" font-size="13" font-weight="700"
+        <text x="622.0" y="444.5" text-anchor="middle"
+          fill="#0F172A" font-size="12.8" font-weight="700"
           font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">HTML</text>
       </g>
       <g>
-        <rect x="664" y="414" width="64" height="32" rx="16"
+        <rect x="664" y="424" width="64" height="31" rx="15.5"
           fill="#F8FAFC" fill-opacity="0.66"
           stroke="url(#accentGradient)" stroke-opacity="0.58"/>
-        <text x="696.0" y="435" text-anchor="middle"
-          fill="#0F172A" font-size="13" font-weight="700"
+        <text x="696.0" y="444.5" text-anchor="middle"
+          fill="#0F172A" font-size="12.8" font-weight="700"
           font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">CSS</text>
       </g>
       <g>
-        <rect x="736" y="414" width="100" height="32" rx="16"
+        <rect x="736" y="424" width="100" height="31" rx="15.5"
           fill="#F8FAFC" fill-opacity="0.66"
           stroke="url(#accentGradient)" stroke-opacity="0.58"/>
-        <text x="786.0" y="435" text-anchor="middle"
-          fill="#0F172A" font-size="13" font-weight="700"
+        <text x="786.0" y="444.5" text-anchor="middle"
+          fill="#0F172A" font-size="12.8" font-weight="700"
           font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">JavaScript</text>
       </g>
       <g>
-        <rect x="844" y="414" width="100" height="32" rx="16"
+        <rect x="844" y="424" width="100" height="31" rx="15.5"
           fill="#F8FAFC" fill-opacity="0.66"
           stroke="url(#accentGradient)" stroke-opacity="0.58"/>
-        <text x="894.0" y="435" text-anchor="middle"
-          fill="#0F172A" font-size="13" font-weight="700"
+        <text x="894.0" y="444.5" text-anchor="middle"
+          fill="#0F172A" font-size="12.8" font-weight="700"
           font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">TypeScript</text>
       </g>
       <g>
-        <rect x="952" y="414" width="62" height="32" rx="16"
+        <rect x="952" y="424" width="62" height="31" rx="15.5"
           fill="#F8FAFC" fill-opacity="0.66"
           stroke="url(#accentGradient)" stroke-opacity="0.58"/>
-        <text x="983.0" y="435" text-anchor="middle"
-          fill="#0F172A" font-size="13" font-weight="700"
+        <text x="983.0" y="444.5" text-anchor="middle"
+          fill="#0F172A" font-size="12.8" font-weight="700"
           font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">PHP</text>
       </g>
       <g>
-        <rect x="1022" y="414" width="78" height="32" rx="16"
+        <rect x="1022" y="424" width="78" height="31" rx="15.5"
           fill="#F8FAFC" fill-opacity="0.66"
           stroke="url(#accentGradient)" stroke-opacity="0.58"/>
-        <text x="1061.0" y="435" text-anchor="middle"
-          fill="#0F172A" font-size="13" font-weight="700"
+        <text x="1061.0" y="444.5" text-anchor="middle"
+          fill="#0F172A" font-size="12.8" font-weight="700"
           font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">Python</text>
       </g>
       <g>
-        <rect x="588" y="458" width="74" height="32" rx="16"
+        <rect x="588" y="467" width="74" height="31" rx="15.5"
           fill="#F8FAFC" fill-opacity="0.66"
           stroke="url(#accentGradient)" stroke-opacity="0.58"/>
-        <text x="625.0" y="479" text-anchor="middle"
-          fill="#0F172A" font-size="13" font-weight="700"
+        <text x="625.0" y="487.5" text-anchor="middle"
+          fill="#0F172A" font-size="12.8" font-weight="700"
           font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">React</text>
       </g>
       <g>
-        <rect x="670" y="458" width="82" height="32" rx="16"
+        <rect x="670" y="467" width="82" height="31" rx="15.5"
           fill="#F8FAFC" fill-opacity="0.66"
           stroke="url(#accentGradient)" stroke-opacity="0.58"/>
-        <text x="711.0" y="479" text-anchor="middle"
-          fill="#0F172A" font-size="13" font-weight="700"
+        <text x="711.0" y="487.5" text-anchor="middle"
+          fill="#0F172A" font-size="12.8" font-weight="700"
           font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">Next.js</text>
       </g>
       <g>
-        <rect x="760" y="458" width="84" height="32" rx="16"
+        <rect x="760" y="467" width="84" height="31" rx="15.5"
           fill="#F8FAFC" fill-opacity="0.66"
           stroke="url(#accentGradient)" stroke-opacity="0.58"/>
-        <text x="802.0" y="479" text-anchor="middle"
-          fill="#0F172A" font-size="13" font-weight="700"
+        <text x="802.0" y="487.5" text-anchor="middle"
+          fill="#0F172A" font-size="12.8" font-weight="700"
           font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">Node.js</text>
       </g>
       <g>
-        <rect x="852" y="458" width="76" height="32" rx="16"
+        <rect x="852" y="467" width="76" height="31" rx="15.5"
           fill="#F8FAFC" fill-opacity="0.66"
           stroke="url(#accentGradient)" stroke-opacity="0.58"/>
-        <text x="890.0" y="479" text-anchor="middle"
-          fill="#0F172A" font-size="13" font-weight="700"
+        <text x="890.0" y="487.5" text-anchor="middle"
+          fill="#0F172A" font-size="12.8" font-weight="700"
           font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">MySQL</text>
       </g>
       <g>
-        <rect x="936" y="458" width="58" height="32" rx="16"
+        <rect x="936" y="467" width="58" height="31" rx="15.5"
           fill="#F8FAFC" fill-opacity="0.66"
           stroke="url(#accentGradient)" stroke-opacity="0.58"/>
-        <text x="965.0" y="479" text-anchor="middle"
-          fill="#0F172A" font-size="13" font-weight="700"
+        <text x="965.0" y="487.5" text-anchor="middle"
+          fill="#0F172A" font-size="12.8" font-weight="700"
           font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">Git</text>
       </g>
       <g>
-        <rect x="1002" y="458" width="72" height="32" rx="16"
+        <rect x="1002" y="467" width="72" height="31" rx="15.5"
           fill="#F8FAFC" fill-opacity="0.66"
           stroke="url(#accentGradient)" stroke-opacity="0.58"/>
-        <text x="1038.0" y="479" text-anchor="middle"
-          fill="#0F172A" font-size="13" font-weight="700"
+        <text x="1038.0" y="487.5" text-anchor="middle"
+          fill="#0F172A" font-size="12.8" font-weight="700"
           font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">ESP32</text>
       </g>
 
-    <line x1="588" y1="510" x2="1118" y2="510" stroke="#0F172A" stroke-opacity="0.08"/>
+    <line x1="588" y1="512" x2="1118" y2="512" stroke="#0F172A" stroke-opacity="0.08"/>
 
-    <circle cx="594" cy="536" r="6" fill="#7C3AED"/>
-    <text x="610" y="541" fill="#0F172A" font-size="14" font-weight="700"
+    <circle cx="594" cy="538" r="6" fill="#7C3AED"/>
+    <text x="610" y="543" fill="#0F172A" font-size="14" font-weight="700"
       font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">GitHub</text>
 
-    <circle cx="710" cy="536" r="6" fill="#22D3EE"/>
-    <text x="726" y="541" fill="#0F172A" font-size="14" font-weight="700"
+    <circle cx="710" cy="538" r="6" fill="#22D3EE"/>
+    <text x="726" y="543" fill="#0F172A" font-size="14" font-weight="700"
       font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">LinkedIn</text>
 
-    <circle cx="846" cy="536" r="6" fill="#10B981"/>
-    <text x="862" y="541" fill="#0F172A" font-size="14" font-weight="700"
+    <circle cx="846" cy="538" r="6" fill="#10B981"/>
+    <text x="862" y="543" fill="#0F172A" font-size="14" font-weight="700"
       font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">Portfolio</text>
 
-    <text x="1118" y="541" text-anchor="end" fill="#475569" font-size="12.5"
+    <text x="1118" y="543" text-anchor="end" fill="#475569" font-size="12.5"
       font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
-      status: building_the_future
+      status: online
     </text>
 
     <path d="M492 80 H1134 L1090 124 H492 Z" fill="#0F172A" opacity="0.025"/>
