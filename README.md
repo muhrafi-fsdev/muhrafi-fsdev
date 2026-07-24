@@ -1,8 +1,8 @@
-<div align="center">
+﻿<div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/hero/dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./assets/hero/light.svg">
-    <img src="./assets/hero/dark.svg" width="100%" alt="Muhammad Rafi Priyo — Full-Stack Developer">
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/hero/dark-v4.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/hero/light-v4.svg">
+    <img src="./assets/hero/dark-v4.svg" width="100%" alt="Muhammad Rafi Priyo â€” Full-Stack Developer">
   </picture>
 </div>
 
@@ -13,10 +13,10 @@
 
 ## Selected Projects
 
-- **[NusaMind AI Swift](https://github.com/muhrafi-fsdev/NUSAMIND-SWIFT)** — Local-first AI assistant dengan verified retrieval, memory lokal, file analysis, dan defensive cybersecurity.
-- **[RayStore Top Up](https://github.com/muhrafi-fsdev/Raystore-topup)** — Prototype top-up game dengan katalog dinamis, checkout bertahap, membership, invoice, dan PWA.
-- **[Academic Organizer](https://github.com/muhrafi-fsdev/AcademicOrganizer)** — Aplikasi pengelola tugas, jadwal, dan aktivitas akademik.
-- **[Private Portfolio](https://github.com/muhrafi-fsdev/PrivatePortofolio)** · **[Live Site](https://riyooprivateweb.my.id/PORTFOLIO_WEB/)** — Portfolio pribadi dan showcase project.
+- **[NusaMind AI Swift](https://github.com/muhrafi-fsdev/NUSAMIND-SWIFT)** â€” Local-first AI assistant dengan verified retrieval, memory lokal, file analysis, dan defensive cybersecurity.
+- **[RayStore Top Up](https://github.com/muhrafi-fsdev/Raystore-topup)** â€” Prototype top-up game dengan katalog dinamis, checkout bertahap, membership, invoice, dan PWA.
+- **[Academic Organizer](https://github.com/muhrafi-fsdev/AcademicOrganizer)** â€” Aplikasi pengelola tugas, jadwal, dan aktivitas akademik.
+- **[Private Portfolio](https://github.com/muhrafi-fsdev/PrivatePortofolio)** Â· **[Live Site](https://riyooprivateweb.my.id/PORTFOLIO_WEB/)** â€” Portfolio pribadi dan showcase project.
 
 ## Technology Stack
 
@@ -36,10 +36,11 @@
 
 <div align="center">
   <a href="https://www.linkedin.com/in/rafipriyo">LinkedIn</a>
-  &nbsp;·&nbsp;
+  &nbsp;Â·&nbsp;
   <a href="https://www.instagram.com/mhmmd_rayfy?igsh=b2RrOXk0NDN5OTNj">Instagram</a>
-  &nbsp;·&nbsp;
+  &nbsp;Â·&nbsp;
   <a href="mailto:raymufiyo@gmail.com">Email</a>
-  &nbsp;·&nbsp;
+  &nbsp;Â·&nbsp;
   <a href="https://riyooprivateweb.my.id/PORTFOLIO_WEB/">Portfolio</a>
 </div>
+
