@@ -1,0 +1,13 @@
+{
+  "name": "muhrafi-github-profile",
+  "version": "1.0.0",
+  "private": true,
+  "description": "GitHub profile README and animated contribution heatmap generator for muhrafi-fsdev",
+  "type": "module",
+  "scripts": {
+    "generate": "node generate.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
