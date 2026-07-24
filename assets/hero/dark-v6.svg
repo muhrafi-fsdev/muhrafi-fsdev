@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 520" role="img" aria-labelledby="title desc">
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 520" role="img" aria-labelledby="title desc">
 <title id="title">Muhammad Rafi Priyo - GitHub profile hero</title>
 <desc id="desc">Stable developer profile banner with complete static content.</desc>
 <defs>
@@ -40,7 +40,7 @@
 
 <circle cx="558" cy="267" r="4" fill="#10B981"/><text x="574" y="271" class="label">LOCATION</text><text x="552" y="296" class="value">Indonesia</text>
 <circle cx="843" cy="267" r="4" fill="#10B981"/><text x="859" y="271" class="label">EDUCATION</text><text x="837" y="296" class="value">Telkom University</text>
-<circle cx="558" cy="327" r="4" fill="#10B981"/><text x="574" y="331" class="label">CURRENT FOCUS</text><text x="552" y="356" class="value">Full-Stack · AI · IoT</text>
+<circle cx="558" cy="327" r="4" fill="#10B981"/><text x="574" y="331" class="label">CURRENT FOCUS</text><text x="552" y="356" class="value">Full-Stack Â· AI Â· IoT</text>
 <circle cx="843" cy="327" r="4" fill="#10B981"/><text x="859" y="331" class="label">PORTFOLIO</text><text x="837" y="356" class="value">riyooprivateweb.my.id</text>
 
 <line x1="552" y1="374" x2="1118" y2="374" stroke="#21304A"/>
