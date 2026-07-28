@@ -1,0 +1,233 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="610" viewBox="0 0 1180 610" role="img" aria-label="Muhammad Rafi Priyo animated developer profile command center">
+<defs>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#7C3AED"/>
+    <stop offset=".5" stop-color="#22D3EE"/>
+    <stop offset="1" stop-color="#10B981"/>
+    <animateTransform attributeName="gradientTransform" type="translate" values="-1 0;1 0;-1 0" dur="8s" repeatCount="indefinite"/>
+  </linearGradient>
+  <linearGradient id="asciiGrad" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#22D3EE"><animate attributeName="stop-color" values="#22D3EE;#7C3AED;#10B981;#22D3EE" dur="5s" repeatCount="indefinite"/></stop>
+    <stop offset=".5" stop-color="#7C3AED"><animate attributeName="stop-color" values="#7C3AED;#10B981;#22D3EE;#7C3AED" dur="5s" repeatCount="indefinite"/></stop>
+    <stop offset="1" stop-color="#10B981"><animate attributeName="stop-color" values="#10B981;#22D3EE;#7C3AED;#10B981" dur="5s" repeatCount="indefinite"/></stop>
+  </linearGradient>
+  <linearGradient id="panelGrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0A101F"/><stop offset="1" stop-color="#0C1426"/></linearGradient>
+  <linearGradient id="scanGrad" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22D3EE" stop-opacity="0"/><stop offset=".5" stop-color="#22D3EE" stop-opacity=".28"/><stop offset="1" stop-color="#10B981" stop-opacity="0"/></linearGradient>
+  <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <clipPath id="leftClip"><rect x="36" y="84" width="420" height="492" rx="12"/></clipPath>
+  <clipPath id="rightClip"><rect x="504" y="84" width="640" height="492" rx="12"/></clipPath>
+  <style>.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}.sans{font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}</style>
+</defs>
+
+<rect x="2" y="2" width="1176" height="606" rx="18" fill="#070B16" stroke="url(#accent)" stroke-width="2" stroke-dasharray="22 8"><animate attributeName="stroke-dashoffset" values="0;-60" dur="4s" repeatCount="indefinite"/></rect>
+<rect x="2" y="2" width="1176" height="46" rx="18" fill="#0B1222"/><rect x="2" y="32" width="1176" height="16" fill="#0B1222"/><line x1="2" y1="48" x2="1178" y2="48" stroke="#1E293B"/>
+<circle cx="30" cy="25" r="5.5" fill="#ff5f56"/><circle cx="50" cy="25" r="5.5" fill="#ffbd2e"/><circle cx="70" cy="25" r="5.5" fill="#27c93f"/>
+<text x="590" y="29" text-anchor="middle" font-size="12" fill="#94A3B8" class="mono">raymufiyo@gmail.com — % ./profile.sh --live</text><rect x="796" y="18" width="3" height="15" fill="#22D3EE"><animate attributeName="opacity" values="1;0;1" dur=".8s" repeatCount="indefinite"/></rect>
+
+<text x="38" y="74" font-size="10" letter-spacing="3" fill="#475569" class="mono">IDENTITY.MAP</text>
+<rect x="36" y="84" width="420" height="492" rx="12" fill="url(#panelGrad)" stroke="#22D3EE" stroke-opacity=".34"/>
+<rect x="52" y="100" width="388" height="44" rx="8" fill="#0B1222"/>
+<text x="68" y="127" font-size="11" letter-spacing="2" fill="#22D3EE" class="mono">ASCII_IDENTITY://RAFI</text>
+<circle cx="420" cy="122" r="5" fill="#10B981" filter="url(#glow)"><animate attributeName="r" values="4;7;4" dur="1.8s" repeatCount="indefinite"/><animate attributeName="opacity" values=".35;1;.35" dur="1.8s" repeatCount="indefinite"/></circle>
+
+<text x="82" y="172" font-size="20" font-weight="700" fill="url(#asciiGrad)" class="mono">
+  RRRRRRRRRRRR.
+  <animate attributeName="opacity" values=".45;1;.45" dur="3.2s" begin="0.00s" repeatCount="indefinite"/>
+</text>
+<text x="82" y="199" font-size="20" font-weight="700" fill="url(#asciiGrad)" class="mono">
+  RR::::::::::RR
+  <animate attributeName="opacity" values=".45;1;.45" dur="3.2s" begin="0.12s" repeatCount="indefinite"/>
+</text>
+<text x="82" y="226" font-size="20" font-weight="700" fill="url(#asciiGrad)" class="mono">
+  RR:::::::::::RR
+  <animate attributeName="opacity" values=".45;1;.45" dur="3.2s" begin="0.24s" repeatCount="indefinite"/>
+</text>
+<text x="82" y="253" font-size="20" font-weight="700" fill="url(#asciiGrad)" class="mono">
+  RR:::::RR:::::RR
+  <animate attributeName="opacity" values=".45;1;.45" dur="3.2s" begin="0.36s" repeatCount="indefinite"/>
+</text>
+<text x="82" y="280" font-size="20" font-weight="700" fill="url(#asciiGrad)" class="mono">
+  RR:::::R  RR::::R
+  <animate attributeName="opacity" values=".45;1;.45" dur="3.2s" begin="0.48s" repeatCount="indefinite"/>
+</text>
+<text x="82" y="307" font-size="20" font-weight="700" fill="url(#asciiGrad)" class="mono">
+  RR:::::R   RR:::R
+  <animate attributeName="opacity" values=".45;1;.45" dur="3.2s" begin="0.60s" repeatCount="indefinite"/>
+</text>
+<text x="82" y="334" font-size="20" font-weight="700" fill="url(#asciiGrad)" class="mono">
+  RR:::::RRRRR::::R
+  <animate attributeName="opacity" values=".45;1;.45" dur="3.2s" begin="0.72s" repeatCount="indefinite"/>
+</text>
+<text x="82" y="361" font-size="20" font-weight="700" fill="url(#asciiGrad)" class="mono">
+  RR::::::::::::RR
+  <animate attributeName="opacity" values=".45;1;.45" dur="3.2s" begin="0.84s" repeatCount="indefinite"/>
+</text>
+<text x="82" y="388" font-size="20" font-weight="700" fill="url(#asciiGrad)" class="mono">
+  RR::::::RR::::R
+  <animate attributeName="opacity" values=".45;1;.45" dur="3.2s" begin="0.96s" repeatCount="indefinite"/>
+</text>
+<text x="82" y="415" font-size="20" font-weight="700" fill="url(#asciiGrad)" class="mono">
+  RR:::::R  RR::::R
+  <animate attributeName="opacity" values=".45;1;.45" dur="3.2s" begin="1.08s" repeatCount="indefinite"/>
+</text>
+<text x="82" y="442" font-size="20" font-weight="700" fill="url(#asciiGrad)" class="mono">
+  RRRRRRR    RRRRRRR
+  <animate attributeName="opacity" values=".45;1;.45" dur="3.2s" begin="1.20s" repeatCount="indefinite"/>
+</text>
+<g clip-path="url(#leftClip)"><rect x="52" y="138" width="388" height="28" fill="url(#scanGrad)" opacity=".95"><animate attributeName="y" values="138;520;138" dur="4.2s" repeatCount="indefinite"/></rect></g>
+<line x1="68" y1="492" x2="424" y2="492" stroke="url(#accent)" stroke-width="2" stroke-dasharray="70 20"><animate attributeName="stroke-dashoffset" values="0;-180" dur="3s" repeatCount="indefinite"/></line>
+<text x="68" y="522" font-size="12" fill="#94A3B8" class="mono">identity.ready()</text><circle cx="195" cy="518" r="4" fill="#10B981"><animate attributeName="cx" values="195;230;195" dur="2.5s" repeatCount="indefinite"/></circle>
+<text x="68" y="551" font-size="9.5" fill="#475569" class="mono">MRP_SYSTEMS · LOCAL_FIRST · BUILD_IN_PUBLIC</text>
+
+<text x="506" y="74" font-size="10" letter-spacing="3" fill="#475569" class="mono">SYSTEM.INFO</text>
+<rect x="504" y="84" width="640" height="492" rx="12" fill="url(#panelGrad)" stroke="#22D3EE" stroke-opacity=".34"/>
+<rect x="520" y="100" width="608" height="224" rx="8" fill="#0A101F" stroke="#1E293B"/>
+
+<g>
+  <text x="585" y="122" font-size="10.5" font-weight="700" letter-spacing="1.4" fill="#22D3EE" class="mono">NAME</text>
+  <text x="758" y="122" font-size="12.5" font-weight="700" fill="#F8FAFC" class="sans">Muhammad Rafi Priyo</text>
+  <circle cx="1110" cy="118" r="3.2" fill="#10B981">
+    <animate attributeName="opacity" values=".2;1;.2" dur="2.00s" begin="0.00s" repeatCount="indefinite"/>
+  </circle>
+</g>
+<g>
+  <text x="585" y="150" font-size="10.5" font-weight="700" letter-spacing="1.4" fill="#22D3EE" class="mono">HANDLE</text>
+  <text x="758" y="150" font-size="12.5" font-weight="700" fill="#F8FAFC" class="sans">@muhrafi-fsdev</text>
+  <circle cx="1110" cy="146" r="3.2" fill="#10B981">
+    <animate attributeName="opacity" values=".2;1;.2" dur="2.17s" begin="0.13s" repeatCount="indefinite"/>
+  </circle>
+</g>
+<g>
+  <text x="585" y="178" font-size="10.5" font-weight="700" letter-spacing="1.4" fill="#22D3EE" class="mono">LOCATION</text>
+  <text x="758" y="178" font-size="12.5" font-weight="700" fill="#F8FAFC" class="sans">Indonesia</text>
+  <circle cx="1110" cy="174" r="3.2" fill="#10B981">
+    <animate attributeName="opacity" values=".2;1;.2" dur="2.34s" begin="0.26s" repeatCount="indefinite"/>
+  </circle>
+</g>
+<g>
+  <text x="585" y="206" font-size="10.5" font-weight="700" letter-spacing="1.4" fill="#22D3EE" class="mono">EDUCATION</text>
+  <text x="758" y="206" font-size="12.5" font-weight="700" fill="#F8FAFC" class="sans">Telkom University</text>
+  <circle cx="1110" cy="202" r="3.2" fill="#10B981">
+    <animate attributeName="opacity" values=".2;1;.2" dur="2.51s" begin="0.39s" repeatCount="indefinite"/>
+  </circle>
+</g>
+<g>
+  <text x="585" y="234" font-size="10.5" font-weight="700" letter-spacing="1.4" fill="#22D3EE" class="mono">ROLE</text>
+  <text x="758" y="234" font-size="12.5" font-weight="700" fill="#F8FAFC" class="sans">Full-Stack Developer</text>
+  <circle cx="1110" cy="230" r="3.2" fill="#10B981">
+    <animate attributeName="opacity" values=".2;1;.2" dur="2.68s" begin="0.52s" repeatCount="indefinite"/>
+  </circle>
+</g>
+<g>
+  <text x="585" y="262" font-size="10.5" font-weight="700" letter-spacing="1.4" fill="#22D3EE" class="mono">FOCUS</text>
+  <text x="758" y="262" font-size="12.5" font-weight="700" fill="#F8FAFC" class="sans">Local AI · Web · IoT</text>
+  <circle cx="1110" cy="258" r="3.2" fill="#10B981">
+    <animate attributeName="opacity" values=".2;1;.2" dur="2.85s" begin="0.65s" repeatCount="indefinite"/>
+  </circle>
+</g>
+<g>
+  <text x="585" y="290" font-size="10.5" font-weight="700" letter-spacing="1.4" fill="#22D3EE" class="mono">BUILDING</text>
+  <text x="758" y="290" font-size="12.5" font-weight="700" fill="#F8FAFC" class="sans">NusaMind · NusaMonitor</text>
+  <circle cx="1110" cy="286" r="3.2" fill="#10B981">
+    <animate attributeName="opacity" values=".2;1;.2" dur="3.02s" begin="0.78s" repeatCount="indefinite"/>
+  </circle>
+</g>
+<g>
+  <text x="585" y="318" font-size="10.5" font-weight="700" letter-spacing="1.4" fill="#22D3EE" class="mono">PORTFOLIO</text>
+  <text x="758" y="318" font-size="12.5" font-weight="700" fill="#F8FAFC" class="sans">riyooprivateweb.my.id</text>
+  <circle cx="1110" cy="314" r="3.2" fill="#10B981">
+    <animate attributeName="opacity" values=".2;1;.2" dur="3.19s" begin="0.91s" repeatCount="indefinite"/>
+  </circle>
+</g>
+<g clip-path="url(#rightClip)"><rect x="520" y="100" width="608" height="22" fill="url(#scanGrad)" opacity=".7"><animate attributeName="y" values="100;540;100" dur="5.4s" repeatCount="indefinite"/></rect></g>
+
+<text x="520" y="341" font-size="10" letter-spacing="2" fill="#22D3EE" class="mono">PROFILE.METRICS</text>
+<line x1="552" y1="351" x2="552" y2="400" stroke="url(#accent)" opacity=".68"/><text x="632" y="373" text-anchor="middle" font-size="24" font-weight="800" fill="#F8FAFC" class="sans">12+</text><text x="632" y="394" text-anchor="middle" font-size="8.5" letter-spacing="1.1" fill="#94A3B8" class="mono">PUBLIC REPOSITORIES</text>
+<line x1="760" y1="351" x2="760" y2="400" stroke="url(#accent)" opacity=".68"/><text x="840" y="373" text-anchor="middle" font-size="24" font-weight="800" fill="#F8FAFC" class="sans">4</text><text x="840" y="394" text-anchor="middle" font-size="8.5" letter-spacing="1.1" fill="#94A3B8" class="mono">ENGINEERING FOCUS</text>
+<line x1="968" y1="351" x2="968" y2="400" stroke="url(#accent)" opacity=".68"/><text x="1048" y="373" text-anchor="middle" font-size="24" font-weight="800" fill="#F8FAFC" class="sans">ID</text><text x="1048" y="394" text-anchor="middle" font-size="8.5" letter-spacing="1.1" fill="#94A3B8" class="mono">BASED IN INDONESIA</text>
+
+<text x="520" y="421" font-size="10" letter-spacing="2" fill="#22D3EE" class="mono">SKILLS.EXPLORE()</text>
+
+<g>
+  <rect x="574.0" y="432" width="58.0" height="27" rx="13.5" fill="#0C1426" stroke="url(#accent)" stroke-opacity=".62">
+    <animate attributeName="stroke-opacity" values=".28;.95;.28" dur="4s" begin="0.00s" repeatCount="indefinite"/>
+  </rect>
+  <text x="603.0" y="450" text-anchor="middle" font-size="10.5" font-weight="700" fill="#F8FAFC" class="sans">HTML</text>
+</g>
+<g>
+  <rect x="640.0" y="432" width="58.0" height="27" rx="13.5" fill="#0C1426" stroke="url(#accent)" stroke-opacity=".62">
+    <animate attributeName="stroke-opacity" values=".28;.95;.28" dur="4s" begin="0.18s" repeatCount="indefinite"/>
+  </rect>
+  <text x="669.0" y="450" text-anchor="middle" font-size="10.5" font-weight="700" fill="#F8FAFC" class="sans">CSS</text>
+</g>
+<g>
+  <rect x="706.0" y="432" width="96.0" height="27" rx="13.5" fill="#0C1426" stroke="url(#accent)" stroke-opacity=".62">
+    <animate attributeName="stroke-opacity" values=".28;.95;.28" dur="4s" begin="0.36s" repeatCount="indefinite"/>
+  </rect>
+  <text x="754.0" y="450" text-anchor="middle" font-size="10.5" font-weight="700" fill="#F8FAFC" class="sans">JavaScript</text>
+</g>
+<g>
+  <rect x="810.0" y="432" width="96.0" height="27" rx="13.5" fill="#0C1426" stroke="url(#accent)" stroke-opacity=".62">
+    <animate attributeName="stroke-opacity" values=".28;.95;.28" dur="4s" begin="0.54s" repeatCount="indefinite"/>
+  </rect>
+  <text x="858.0" y="450" text-anchor="middle" font-size="10.5" font-weight="700" fill="#F8FAFC" class="sans">TypeScript</text>
+</g>
+<g>
+  <rect x="914.0" y="432" width="59.0" height="27" rx="13.5" fill="#0C1426" stroke="url(#accent)" stroke-opacity=".62">
+    <animate attributeName="stroke-opacity" values=".28;.95;.28" dur="4s" begin="0.72s" repeatCount="indefinite"/>
+  </rect>
+  <text x="943.5" y="450" text-anchor="middle" font-size="10.5" font-weight="700" fill="#F8FAFC" class="sans">React</text>
+</g>
+<g>
+  <rect x="981.0" y="432" width="73.8" height="27" rx="13.5" fill="#0C1426" stroke="url(#accent)" stroke-opacity=".62">
+    <animate attributeName="stroke-opacity" values=".28;.95;.28" dur="4s" begin="0.90s" repeatCount="indefinite"/>
+  </rect>
+  <text x="1017.9" y="450" text-anchor="middle" font-size="10.5" font-weight="700" fill="#F8FAFC" class="sans">Next.js</text>
+</g>
+<g>
+  <rect x="574.0" y="468" width="73.8" height="27" rx="13.5" fill="#0C1426" stroke="url(#accent)" stroke-opacity=".62">
+    <animate attributeName="stroke-opacity" values=".28;.95;.28" dur="4s" begin="1.08s" repeatCount="indefinite"/>
+  </rect>
+  <text x="610.9" y="486" text-anchor="middle" font-size="10.5" font-weight="700" fill="#F8FAFC" class="sans">Node.js</text>
+</g>
+<g>
+  <rect x="655.8" y="468" width="58.0" height="27" rx="13.5" fill="#0C1426" stroke="url(#accent)" stroke-opacity=".62">
+    <animate attributeName="stroke-opacity" values=".28;.95;.28" dur="4s" begin="1.26s" repeatCount="indefinite"/>
+  </rect>
+  <text x="684.8" y="486" text-anchor="middle" font-size="10.5" font-weight="700" fill="#F8FAFC" class="sans">PHP</text>
+</g>
+<g>
+  <rect x="721.8" y="468" width="66.4" height="27" rx="13.5" fill="#0C1426" stroke="url(#accent)" stroke-opacity=".62">
+    <animate attributeName="stroke-opacity" values=".28;.95;.28" dur="4s" begin="1.44s" repeatCount="indefinite"/>
+  </rect>
+  <text x="755.0" y="486" text-anchor="middle" font-size="10.5" font-weight="700" fill="#F8FAFC" class="sans">Python</text>
+</g>
+<g>
+  <rect x="796.2" y="468" width="59.0" height="27" rx="13.5" fill="#0C1426" stroke="url(#accent)" stroke-opacity=".62">
+    <animate attributeName="stroke-opacity" values=".28;.95;.28" dur="4s" begin="1.62s" repeatCount="indefinite"/>
+  </rect>
+  <text x="825.7" y="486" text-anchor="middle" font-size="10.5" font-weight="700" fill="#F8FAFC" class="sans">MySQL</text>
+</g>
+<g>
+  <rect x="863.2" y="468" width="58.0" height="27" rx="13.5" fill="#0C1426" stroke="url(#accent)" stroke-opacity=".62">
+    <animate attributeName="stroke-opacity" values=".28;.95;.28" dur="4s" begin="1.80s" repeatCount="indefinite"/>
+  </rect>
+  <text x="892.2" y="486" text-anchor="middle" font-size="10.5" font-weight="700" fill="#F8FAFC" class="sans">Git</text>
+</g>
+<g>
+  <rect x="929.2" y="468" width="59.0" height="27" rx="13.5" fill="#0C1426" stroke="url(#accent)" stroke-opacity=".62">
+    <animate attributeName="stroke-opacity" values=".28;.95;.28" dur="4s" begin="1.98s" repeatCount="indefinite"/>
+  </rect>
+  <text x="958.7" y="486" text-anchor="middle" font-size="10.5" font-weight="700" fill="#F8FAFC" class="sans">ESP32</text>
+</g>
+
+<text x="520" y="545" font-size="10" letter-spacing="2" fill="#22D3EE" class="mono">MOST.USED.LANGUAGES</text>
+<rect x="562" y="554" width="548" height="7" rx="3.5" fill="#1E293B"/><rect x="562" y="554" width="548" height="7" rx="3.5" fill="url(#accent)"><animate attributeName="width" values="120;548;360;548" dur="6s" repeatCount="indefinite"/></rect>
+<circle cx="564" cy="584" r="3.5" fill="#7C3AED"/><text x="573" y="588" font-size="8.8" fill="#94A3B8" class="sans">TypeScript</text>
+<circle cx="666" cy="584" r="3.5" fill="#22D3EE"/><text x="675" y="588" font-size="8.8" fill="#94A3B8" class="sans">JavaScript</text>
+<circle cx="770" cy="584" r="3.5" fill="#10B981"/><text x="779" y="588" font-size="8.8" fill="#94A3B8" class="sans">Python</text>
+<circle cx="850" cy="584" r="3.5" fill="#F97316"/><text x="859" y="588" font-size="8.8" fill="#94A3B8" class="sans">CSS</text>
+<circle cx="910" cy="584" r="3.5" fill="#EF4444"/><text x="919" y="588" font-size="8.8" fill="#94A3B8" class="sans">HTML</text>
+<circle cx="972" cy="584" r="3.5" fill="#475569"/><text x="981" y="588" font-size="8.8" fill="#94A3B8" class="sans">Other</text>
+<g><circle cx="1065" cy="25" r="4" fill="#10B981"><animate attributeName="cx" values="980;1130;980" dur="5s" repeatCount="indefinite"/></circle><circle cx="1080" cy="25" r="2.2" fill="#22D3EE"><animate attributeName="cx" values="965;1115;965" dur="5s" repeatCount="indefinite"/></circle></g>
+</svg>

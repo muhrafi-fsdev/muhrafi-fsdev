@@ -1,7 +1,7 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/muhrafi-fsdev/muhrafi-fsdev/main/dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/muhrafi-fsdev/muhrafi-fsdev/main/light.svg">
-  <img width="100%" alt="Muhammad Rafi Priyo profile command center" src="https://raw.githubusercontent.com/muhrafi-fsdev/muhrafi-fsdev/main/dark.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/muhrafi-fsdev/muhrafi-fsdev/main/assets/hero/command-center-dark-v2.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/muhrafi-fsdev/muhrafi-fsdev/main/assets/hero/command-center-light-v2.svg">
+  <img width="100%" alt="Muhammad Rafi Priyo profile command center" src="https://raw.githubusercontent.com/muhrafi-fsdev/muhrafi-fsdev/main/assets/hero/command-center-dark-v2.svg">
 </picture>
 
 <br>
