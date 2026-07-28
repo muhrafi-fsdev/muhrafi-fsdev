@@ -1,45 +1,51 @@
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/hero/dark-v7.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./assets/hero/light-v7.svg">
-    <img src="./assets/hero/dark-v7.svg" width="100%" alt="Muhammad Rafi Priyo - Full-Stack Developer">
-  </picture>
-</div>
-
-<p align="center">
-  Mahasiswa Telkom University dan junior full-stack developer yang membangun aplikasi web,
-  personal AI, serta sistem IoT dengan fokus pada fungsi, struktur, dan pengalaman pengguna.
-</p>
-
-## Selected Projects
-
-- **[NusaMind AI Swift](https://github.com/muhrafi-fsdev/NUSAMIND-SWIFT)** - Local-first AI assistant dengan verified retrieval, memory lokal, file analysis, dan defensive cybersecurity.
-- **[RayStore Top Up](https://github.com/muhrafi-fsdev/Raystore-topup)** - Prototype top-up game dengan katalog dinamis, checkout bertahap, membership, invoice, dan PWA.
-- **[Academic Organizer](https://github.com/muhrafi-fsdev/AcademicOrganizer)** - Aplikasi pengelola tugas, jadwal, dan aktivitas akademik.
-- **[Private Portfolio](https://github.com/muhrafi-fsdev/PrivatePortofolio)** · **[Live Site](https://riyooprivateweb.my.id/PORTFOLIO_WEB/)** - Portfolio pribadi dan showcase project.
-
-## Technology Stack
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/muhrafi-fsdev/muhrafi-fsdev/main/dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/muhrafi-fsdev/muhrafi-fsdev/main/light.svg">
+  <img width="100%" alt="Muhammad Rafi Priyo profile command center" src="https://raw.githubusercontent.com/muhrafi-fsdev/muhrafi-fsdev/main/dark.svg">
+</picture>
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,nodejs,php,python,mysql,git,github,vscode,arduino&perline=14" alt="Technology stack">
-</div>
 
-## Contribution Flight
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=muhrafi-fsdev&hide_border=true&background=070B16&stroke=22D3EE&ring=A78BFA&fire=10B981&currStreakLabel=22D3EE&sideLabels=94A3B8&currStreakNum=F8FAFC&sideNums=F8FAFC&dates=64748B">
+  <img width="100%" alt="GitHub contribution streak" src="https://streak-stats.demolab.com?user=muhrafi-fsdev&hide_border=true&background=FFFFFF&stroke=0891B2&ring=7C3AED&fire=059669&currStreakLabel=0891B2&sideLabels=475569&currStreakNum=0F172A&sideNums=0F172A&dates=94A3B8">
+</picture>
 
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/heatmap/dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./assets/heatmap/light.svg">
-    <img src="./assets/heatmap/dark.svg" width="100%" alt="Animated GitHub contribution flight">
-  </picture>
-</div>
+<br>
 
-<div align="center">
-  <a href="https://www.linkedin.com/in/rafipriyo">LinkedIn</a>
-  &nbsp;·&nbsp;
-  <a href="https://www.instagram.com/mhmmd_rayfy?igsh=b2RrOXk0NDN5OTNj">Instagram</a>
-  &nbsp;·&nbsp;
-  <a href="mailto:raymufiyo@gmail.com">Email</a>
-  &nbsp;·&nbsp;
-  <a href="https://riyooprivateweb.my.id/PORTFOLIO_WEB/">Portfolio</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=muhrafi-fsdev&show_icons=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=22D3EE&icon_color=A78BFA&text_color=94A3B8&bg_color=070B16">
+  <img width="49%" alt="GitHub statistics" src="https://github-readme-stats.vercel.app/api?username=muhrafi-fsdev&show_icons=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=0891B2&icon_color=7C3AED&text_color=0F172A&bg_color=FFFFFF">
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=muhrafi-fsdev&layout=compact&langs_count=8&hide_border=true&title_color=22D3EE&text_color=94A3B8&bg_color=070B16">
+  <img width="49%" alt="Most used languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=muhrafi-fsdev&layout=compact&langs_count=8&hide_border=true&title_color=0891B2&text_color=0F172A&bg_color=FFFFFF">
+</picture>
+
+<br><br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/muhrafi-fsdev/muhrafi-fsdev/output/snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/muhrafi-fsdev/muhrafi-fsdev/output/snake-light.svg">
+  <img width="100%" alt="Contribution snake animation" src="https://raw.githubusercontent.com/muhrafi-fsdev/muhrafi-fsdev/output/snake-dark.svg">
+</picture>
+
+<br><br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/muhrafi-fsdev/muhrafi-fsdev/projects/projects.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/muhrafi-fsdev/muhrafi-fsdev/projects/projects-light.svg">
+  <img width="100%" alt="Muhammad Rafi Priyo featured projects" src="https://raw.githubusercontent.com/muhrafi-fsdev/muhrafi-fsdev/projects/projects.svg">
+</picture>
+
+<br>
+
+<a href="https://www.linkedin.com/in/rafipriyo"><img src="https://img.shields.io/badge/LinkedIn-0A101F?style=for-the-badge&logo=linkedin&logoColor=22D3EE" alt="LinkedIn"></a>
+&nbsp;
+<a href="https://www.instagram.com/mhmmd_rayfy"><img src="https://img.shields.io/badge/Instagram-0A101F?style=for-the-badge&logo=instagram&logoColor=A78BFA" alt="Instagram"></a>
+&nbsp;
+<a href="mailto:raymufiyo@gmail.com"><img src="https://img.shields.io/badge/Email-0A101F?style=for-the-badge&logo=gmail&logoColor=10B981" alt="Email"></a>
+&nbsp;
+<a href="https://riyooprivateweb.my.id/PORTFOLIO_WEB/"><img src="https://img.shields.io/badge/Portfolio-0A101F?style=for-the-badge&logo=vercel&logoColor=F8FAFC" alt="Portfolio"></a>
+
 </div>

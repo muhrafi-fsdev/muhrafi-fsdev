@@ -1,0 +1,43 @@
+name: Generate Projects Panel
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */6 * * *"
+  push:
+    branches: [main]
+    paths:
+      - "projects.json"
+      - ".github/scripts/fetch_data.py"
+      - ".github/scripts/generate_projects.py"
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch live repository data
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 .github/scripts/fetch_data.py
+      - name: Generate SVG panels
+        run: |
+          mkdir -p generated
+          python3 .github/scripts/generate_projects.py merged.json generated
+      - name: Publish projects branch
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cd generated
+          git init
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b projects
+          git add .
+          git commit -m "Update project panels"
+          git remote add origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          git push --force origin projects

@@ -1,0 +1,110 @@
+[
+  {
+    "name": "NusaMind Swift",
+    "repo": "muhrafi-fsdev/NUSAMIND-SWIFT",
+    "description": "Local-first AI assistant with retrieval, file analysis, memory, and defensive security.",
+    "tags": [
+      "TypeScript",
+      "Python",
+      "AI"
+    ],
+    "accent": "#22D3EE",
+    "stars": 0,
+    "forks": 0,
+    "languages": {
+      "TypeScript": 55,
+      "Python": 30,
+      "CSS": 15
+    }
+  },
+  {
+    "name": "NusaMind Zenith",
+    "repo": "muhrafi-fsdev/NUSAMIND-ZENITH",
+    "description": "Balanced personal AI workspace for reasoning, multi-file work, and automation.",
+    "tags": [
+      "TypeScript",
+      "Python",
+      "Agent"
+    ],
+    "accent": "#A78BFA",
+    "stars": 0,
+    "forks": 0,
+    "languages": {
+      "TypeScript": 50,
+      "Python": 35,
+      "CSS": 15
+    }
+  },
+  {
+    "name": "NusaMonitor",
+    "repo": "muhrafi-fsdev/NusaMonitor",
+    "description": "Indonesia-focused situational awareness dashboard using public live-data sources.",
+    "tags": [
+      "Node.js",
+      "Maps",
+      "Live Data"
+    ],
+    "accent": "#10B981",
+    "stars": 0,
+    "forks": 0,
+    "languages": {
+      "JavaScript": 60,
+      "CSS": 25,
+      "HTML": 15
+    }
+  },
+  {
+    "name": "RYKA Core",
+    "repo": "muhrafi-fsdev/RYKA-CORE",
+    "description": "Core AI and software engineering experiments for local-first intelligent systems.",
+    "tags": [
+      "AI",
+      "Core",
+      "Research"
+    ],
+    "accent": "#F59E0B",
+    "stars": 0,
+    "forks": 0,
+    "languages": {
+      "TypeScript": 50,
+      "Python": 40,
+      "Shell": 10
+    }
+  },
+  {
+    "name": "RayStore",
+    "repo": "muhrafi-fsdev/Raystore-topup",
+    "description": "Game top-up prototype with catalog, checkout, invoice, membership, and PWA shell.",
+    "tags": [
+      "JavaScript",
+      "PWA",
+      "UI"
+    ],
+    "accent": "#F97316",
+    "stars": 0,
+    "forks": 0,
+    "languages": {
+      "CSS": 48,
+      "JavaScript": 32,
+      "HTML": 20
+    }
+  },
+  {
+    "name": "Academic Organizer",
+    "repo": "muhrafi-fsdev/AcademicOrganizer",
+    "description": "Task, schedule, and academic activity organizer for student workflows.",
+    "tags": [
+      "Web",
+      "Productivity",
+      "Student"
+    ],
+    "accent": "#3B82F6",
+    "stars": 0,
+    "forks": 0,
+    "languages": {
+      "HTML": 42,
+      "JavaScript": 33,
+      "CSS": 25
+    }
+  }
+]
