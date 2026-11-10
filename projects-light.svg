@@ -14,11 +14,11 @@
  <rect width="557" height="192" rx="13" fill="#FFFFFF" stroke="#B9CADE" stroke-width="1.5"/>
  <path d="M13 1H544Q556 1 556 13V37H1V13Q1 1 13 1Z" fill="#E9F1F8"/>
  <path d="M1 38H556" stroke="#B9CADE"/>
- <circle cx="20" cy="19" r="4" fill="#27BEE6"/>
+ <circle cx="20" cy="19" r="4" fill="#087E9A"/>
  <text x="34" y="24" font-size="14" class="mono" fill="#456078">muhrafi-fsdev/NUSAMIND-SWIFT</text>
  <text x="531" y="24" text-anchor="end" class="mono" font-size="16" fill="#627C95">↗</text>
- <rect x="20" y="55" width="52" height="52" rx="11" fill="#EDF5FA" stroke="#27BEE6" stroke-width="1.5"/>
- <text x="46" y="90" text-anchor="middle" class="sans" font-size="28" font-weight="780" fill="#27BEE6">N</text>
+ <rect x="20" y="55" width="52" height="52" rx="11" fill="#EDF5FA" stroke="#087E9A" stroke-width="1.5"/>
+ <text x="46" y="90" text-anchor="middle" class="sans" font-size="28" font-weight="780" fill="#087E9A">N</text>
  <text x="86" y="80" class="sans" font-size="23" font-weight="760" fill="#17283B">NusaMind Swift</text>
  <text x="86" y="110" class="sans" font-size="17" fill="#456078">Local-first AI assistant for reasoning,</text>
  <text x="86" y="132" class="sans" font-size="17" fill="#456078">files, memory, and safer workflows.</text>
@@ -30,11 +30,11 @@
  <rect width="557" height="192" rx="13" fill="#FFFFFF" stroke="#B9CADE" stroke-width="1.5"/>
  <path d="M13 1H544Q556 1 556 13V37H1V13Q1 1 13 1Z" fill="#E9F1F8"/>
  <path d="M1 38H556" stroke="#B9CADE"/>
- <circle cx="20" cy="19" r="4" fill="#9C8AF1"/>
+ <circle cx="20" cy="19" r="4" fill="#6654B2"/>
  <text x="34" y="24" font-size="14" class="mono" fill="#456078">muhrafi-fsdev/NUSAMIND-ZENITH</text>
  <text x="531" y="24" text-anchor="end" class="mono" font-size="16" fill="#627C95">↗</text>
- <rect x="20" y="55" width="52" height="52" rx="11" fill="#EDF5FA" stroke="#9C8AF1" stroke-width="1.5"/>
- <text x="46" y="90" text-anchor="middle" class="sans" font-size="28" font-weight="780" fill="#9C8AF1">N</text>
+ <rect x="20" y="55" width="52" height="52" rx="11" fill="#EDF5FA" stroke="#6654B2" stroke-width="1.5"/>
+ <text x="46" y="90" text-anchor="middle" class="sans" font-size="28" font-weight="780" fill="#6654B2">N</text>
  <text x="86" y="80" class="sans" font-size="23" font-weight="760" fill="#17283B">NusaMind Zenith</text>
  <text x="86" y="110" class="sans" font-size="17" fill="#456078">Personal AI workspace for multi-file</text>
  <text x="86" y="132" class="sans" font-size="17" fill="#456078">work, reasoning, and automation.</text>
@@ -46,11 +46,11 @@
  <rect width="557" height="192" rx="13" fill="#FFFFFF" stroke="#B9CADE" stroke-width="1.5"/>
  <path d="M13 1H544Q556 1 556 13V37H1V13Q1 1 13 1Z" fill="#E9F1F8"/>
  <path d="M1 38H556" stroke="#B9CADE"/>
- <circle cx="20" cy="19" r="4" fill="#2EBD9F"/>
+ <circle cx="20" cy="19" r="4" fill="#087E70"/>
  <text x="34" y="24" font-size="14" class="mono" fill="#456078">muhrafi-fsdev/NusaMonitor</text>
  <text x="531" y="24" text-anchor="end" class="mono" font-size="16" fill="#627C95">↗</text>
- <rect x="20" y="55" width="52" height="52" rx="11" fill="#EDF5FA" stroke="#2EBD9F" stroke-width="1.5"/>
- <text x="46" y="90" text-anchor="middle" class="sans" font-size="28" font-weight="780" fill="#2EBD9F">N</text>
+ <rect x="20" y="55" width="52" height="52" rx="11" fill="#EDF5FA" stroke="#087E70" stroke-width="1.5"/>
+ <text x="46" y="90" text-anchor="middle" class="sans" font-size="28" font-weight="780" fill="#087E70">N</text>
  <text x="86" y="80" class="sans" font-size="23" font-weight="760" fill="#17283B">NusaMonitor</text>
  <text x="86" y="110" class="sans" font-size="17" fill="#456078">Indonesia-focused live-data dashboard</text>
  <text x="86" y="132" class="sans" font-size="17" fill="#456078">for situational awareness.</text>
@@ -62,11 +62,11 @@
  <rect width="557" height="192" rx="13" fill="#FFFFFF" stroke="#B9CADE" stroke-width="1.5"/>
  <path d="M13 1H544Q556 1 556 13V37H1V13Q1 1 13 1Z" fill="#E9F1F8"/>
  <path d="M1 38H556" stroke="#B9CADE"/>
- <circle cx="20" cy="19" r="4" fill="#E3AC48"/>
+ <circle cx="20" cy="19" r="4" fill="#976500"/>
  <text x="34" y="24" font-size="14" class="mono" fill="#456078">muhrafi-fsdev/RYKA-CORE</text>
  <text x="531" y="24" text-anchor="end" class="mono" font-size="16" fill="#627C95">↗</text>
- <rect x="20" y="55" width="52" height="52" rx="11" fill="#EDF5FA" stroke="#E3AC48" stroke-width="1.5"/>
- <text x="46" y="90" text-anchor="middle" class="sans" font-size="28" font-weight="780" fill="#E3AC48">R</text>
+ <rect x="20" y="55" width="52" height="52" rx="11" fill="#EDF5FA" stroke="#976500" stroke-width="1.5"/>
+ <text x="46" y="90" text-anchor="middle" class="sans" font-size="28" font-weight="780" fill="#976500">R</text>
  <text x="86" y="80" class="sans" font-size="23" font-weight="760" fill="#17283B">RYKA Core</text>
  <text x="86" y="110" class="sans" font-size="17" fill="#456078">Local-first AI and software</text>
  <text x="86" y="132" class="sans" font-size="17" fill="#456078">engineering experiments.</text>
@@ -78,11 +78,11 @@
  <rect width="557" height="192" rx="13" fill="#FFFFFF" stroke="#B9CADE" stroke-width="1.5"/>
  <path d="M13 1H544Q556 1 556 13V37H1V13Q1 1 13 1Z" fill="#E9F1F8"/>
  <path d="M1 38H556" stroke="#B9CADE"/>
- <circle cx="20" cy="19" r="4" fill="#F18D58"/>
+ <circle cx="20" cy="19" r="4" fill="#A34C1F"/>
  <text x="34" y="24" font-size="14" class="mono" fill="#456078">muhrafi-fsdev/Raystore-topup</text>
  <text x="531" y="24" text-anchor="end" class="mono" font-size="16" fill="#627C95">↗</text>
- <rect x="20" y="55" width="52" height="52" rx="11" fill="#EDF5FA" stroke="#F18D58" stroke-width="1.5"/>
- <text x="46" y="90" text-anchor="middle" class="sans" font-size="28" font-weight="780" fill="#F18D58">R</text>
+ <rect x="20" y="55" width="52" height="52" rx="11" fill="#EDF5FA" stroke="#A34C1F" stroke-width="1.5"/>
+ <text x="46" y="90" text-anchor="middle" class="sans" font-size="28" font-weight="780" fill="#A34C1F">R</text>
  <text x="86" y="80" class="sans" font-size="23" font-weight="760" fill="#17283B">RayStore</text>
  <text x="86" y="110" class="sans" font-size="17" fill="#456078">Digital top-up prototype with catalog,</text>
  <text x="86" y="132" class="sans" font-size="17" fill="#456078">checkout, and invoices.</text>
@@ -94,11 +94,11 @@
  <rect width="557" height="192" rx="13" fill="#FFFFFF" stroke="#B9CADE" stroke-width="1.5"/>
  <path d="M13 1H544Q556 1 556 13V37H1V13Q1 1 13 1Z" fill="#E9F1F8"/>
  <path d="M1 38H556" stroke="#B9CADE"/>
- <circle cx="20" cy="19" r="4" fill="#609BFF"/>
+ <circle cx="20" cy="19" r="4" fill="#285DA9"/>
  <text x="34" y="24" font-size="14" class="mono" fill="#456078">muhrafi-fsdev/AcademicOrganizer</text>
  <text x="531" y="24" text-anchor="end" class="mono" font-size="16" fill="#627C95">↗</text>
- <rect x="20" y="55" width="52" height="52" rx="11" fill="#EDF5FA" stroke="#609BFF" stroke-width="1.5"/>
- <text x="46" y="90" text-anchor="middle" class="sans" font-size="28" font-weight="780" fill="#609BFF">A</text>
+ <rect x="20" y="55" width="52" height="52" rx="11" fill="#EDF5FA" stroke="#285DA9" stroke-width="1.5"/>
+ <text x="46" y="90" text-anchor="middle" class="sans" font-size="28" font-weight="780" fill="#285DA9">A</text>
  <text x="86" y="80" class="sans" font-size="23" font-weight="760" fill="#17283B">Academic Organizer</text>
  <text x="86" y="110" class="sans" font-size="17" fill="#456078">Tasks, schedules, and academic</text>
  <text x="86" y="132" class="sans" font-size="17" fill="#456078">workflows in one workspace.</text>
