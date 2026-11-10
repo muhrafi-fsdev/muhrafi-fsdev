@@ -1,0 +1,59 @@
+name: Render Smooth Profile Motion
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/scripts/render_motion.py"
+      - ".github/workflows/render-motion.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: animated-profile-assets
+  cancel-in-progress: false
+
+jobs:
+  render:
+    if: github.repository == 'muhrafi-fsdev/muhrafi-fsdev'
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Check out animation source
+        uses: actions/checkout@v4
+      - name: Install frame renderer
+        run: python3 -m pip install --quiet Pillow==11.3.0
+      - name: Render 25 fps animated GIF and WebP
+        run: python3 .github/scripts/render_motion.py --frames 80
+      - name: Verify frame counts and animation dimensions
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          from PIL import Image
+          for name in ("command-center", "rocket-launch"):
+              for mode in ("dark", "light"):
+                  for ext in ("gif", "webp"):
+                      p=Path("dist") / f"{name}-{mode}.{ext}"
+                      assert p.is_file() and p.stat().st_size > 10000, p
+                      with Image.open(p) as img:
+                          assert img.n_frames >= 75, (p,img.n_frames)
+                          assert img.size[0] == 1000, (p,img.size)
+                          assert img.info.get("loop",0) == 0, p
+                      print(f"OK: {p} / {p.stat().st_size} bytes")
+          PY
+      - name: Publish motion assets branch
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          cd dist
+          git init
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b motion
+          git add command-center-*.gif command-center-*.webp rocket-launch-*.gif rocket-launch-*.webp
+          git commit -m "Render smooth frame-based profile motion"
+          git remote add origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          git push --force origin motion
