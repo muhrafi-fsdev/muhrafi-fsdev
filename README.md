@@ -38,11 +38,11 @@ I build software from user interfaces to backend services, with a growing focus 
   <img alt="Animated pixel rocket launching developer projects into production" src="https://raw.githubusercontent.com/muhrafi-fsdev/muhrafi-fsdev/main/assets/mission/rocket-v1-dark.svg?v=20261110-hybrid4" width="100%">
 </picture>
 
-The current work spans **NusaMind** tools and the **NusaMonitor** ecosystem. Projects evolve through prototyping, testing, and iteration, not imaginary progress percentages.
+Current focus: **NusaMind** developer tools and the **NusaMonitor** ecosystem. I prefer practical iterations, measurable results, and clean implementation.
 
 ### `03 / Featured repositories`
 
-These are **real GitHub links with selectable text**, not screenshots or image-only project cards.
+Selected work across AI tooling, full-stack applications, and engineering experiments.
 
 <table width="100%">
 <tr>
@@ -86,7 +86,7 @@ These are **real GitHub links with selectable text**, not screenshots or image-o
 <details>
 <summary><strong>Open live repository data</strong> · language, last push, stars</summary>
 
-Generated from the official GitHub API. The scheduled workflow updates this Markdown table without inventing statistics.
+Updated daily through GitHub Actions using public repository data from the GitHub API.
 
 <!-- LIVE_REPOS_START -->
 | Repository | Primary language | Last push (UTC) | Stars |
