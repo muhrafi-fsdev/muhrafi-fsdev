@@ -1,15 +1,19 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/muhrafi-fsdev/muhrafi-fsdev/main/assets/hero/command-center-dark-v2.svg?v=restore-command-center-20261110">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/muhrafi-fsdev/muhrafi-fsdev/main/assets/hero/command-center-light-v2.svg?v=restore-command-center-20261110">
-  <img width="100%" alt="Developer command center showing Muhammad Rafi Priyo, skills, and engineering focus" src="https://raw.githubusercontent.com/muhrafi-fsdev/muhrafi-fsdev/main/assets/hero/command-center-dark-v2.svg?v=restore-command-center-20261110">
+  <source media="(prefers-color-scheme: dark)" type="image/webp" srcset="https://raw.githubusercontent.com/muhrafi-fsdev/muhrafi-fsdev/motion/command-center-dark.webp?v=frame-motion-25fps-20261110">
+  <source media="(prefers-color-scheme: light)" type="image/webp" srcset="https://raw.githubusercontent.com/muhrafi-fsdev/muhrafi-fsdev/motion/command-center-light.webp?v=frame-motion-25fps-20261110">
+  <source media="(prefers-color-scheme: dark)" type="image/gif" srcset="https://raw.githubusercontent.com/muhrafi-fsdev/muhrafi-fsdev/motion/command-center-dark.gif?v=frame-motion-25fps-20261110">
+  <source media="(prefers-color-scheme: light)" type="image/gif" srcset="https://raw.githubusercontent.com/muhrafi-fsdev/muhrafi-fsdev/motion/command-center-light.gif?v=frame-motion-25fps-20261110">
+  <img width="100%" alt="25 FPS frame-by-frame animated terminal command center showing developer identity and technical focus" src="https://raw.githubusercontent.com/muhrafi-fsdev/muhrafi-fsdev/motion/command-center-dark.gif?v=frame-motion-25fps-20261110">
 </picture>
 
 <br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/muhrafi-fsdev/muhrafi-fsdev/main/assets/mission/rocket-v1-dark.svg?v=restore-command-center-20261110">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/muhrafi-fsdev/muhrafi-fsdev/main/assets/mission/rocket-v1-light.svg?v=restore-command-center-20261110">
-  <img width="100%" alt="Animated pixel rocket with current software development missions" src="https://raw.githubusercontent.com/muhrafi-fsdev/muhrafi-fsdev/main/assets/mission/rocket-v1-dark.svg?v=restore-command-center-20261110">
+  <source media="(prefers-color-scheme: dark)" type="image/webp" srcset="https://raw.githubusercontent.com/muhrafi-fsdev/muhrafi-fsdev/motion/rocket-launch-dark.webp?v=frame-motion-25fps-20261110">
+  <source media="(prefers-color-scheme: light)" type="image/webp" srcset="https://raw.githubusercontent.com/muhrafi-fsdev/muhrafi-fsdev/motion/rocket-launch-light.webp?v=frame-motion-25fps-20261110">
+  <source media="(prefers-color-scheme: dark)" type="image/gif" srcset="https://raw.githubusercontent.com/muhrafi-fsdev/muhrafi-fsdev/motion/rocket-launch-dark.gif?v=frame-motion-25fps-20261110">
+  <source media="(prefers-color-scheme: light)" type="image/gif" srcset="https://raw.githubusercontent.com/muhrafi-fsdev/muhrafi-fsdev/motion/rocket-launch-light.gif?v=frame-motion-25fps-20261110">
+  <img width="100%" alt="25 FPS frame-by-frame pixel rocket launch with animated particles, atmospheric smoke and flame" src="https://raw.githubusercontent.com/muhrafi-fsdev/muhrafi-fsdev/motion/rocket-launch-dark.gif?v=frame-motion-25fps-20261110">
 </picture>
 
 <br>
