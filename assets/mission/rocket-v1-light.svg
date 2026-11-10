@@ -3,8 +3,8 @@
 <desc id="desc">Animated pixel rocket representing software projects launching into production.</desc>
 <defs>
   <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0" stop-color="#0F172A"/>
-    <stop offset="1" stop-color="#EEF2FF"/>
+    <stop offset="0" stop-color="#F8FAFF"/>
+    <stop offset="1" stop-color="#E8F0FA"/>
   </linearGradient>
   <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
     <stop offset="0" stop-color="#7C3AED"/>
@@ -23,21 +23,21 @@
 </defs>
 
 <rect x="2" y="2" width="1176" height="326" rx="18" fill="url(#bg)" stroke="url(#accent)" stroke-width="2"/>
-<rect x="22" y="22" width="1136" height="42" rx="9" fill="#94A3B8"/>
+<rect x="22" y="22" width="1136" height="42" rx="9" fill="#DEE8F3"/>
 <circle cx="43" cy="43" r="5" fill="#FF5F56"/>
 <circle cx="61" cy="43" r="5" fill="#FFBD2E"/>
 <circle cx="79" cy="43" r="5" fill="#27C93F"/>
 <text x="102" y="48" fill="#475569" font-size="12" class="mono">mission-control://muhrafi-fsdev</text>
 <text x="1135" y="48" text-anchor="end" fill="#10B981" font-size="11" class="mono">STATUS: OPERATIONAL</text>
 
-<text x="48" y="101" fill="#22D3EE" font-size="12" letter-spacing="2" font-weight="700" class="mono">LAUNCH.SEQUENCE</text>
-<text x="48" y="137" fill="#0F172A" font-size="29" font-weight="800" class="sans">Building Ideas Into Production</text>
-<text x="48" y="166" fill="#475569" font-size="14" class="sans">Full-Stack Development Â· Local AI Â· Web Platforms Â· IoT Systems</text>
+<text x="48" y="101" fill="#087D96" font-size="14" letter-spacing="2" font-weight="700" class="mono">LAUNCH.SEQUENCE</text>
+<text x="48" y="137" fill="#0F172A" font-size="33" font-weight="800" class="sans">Building Ideas Into Production</text>
+<text x="48" y="166" fill="#475569" font-size="17" class="sans">Full-Stack Development · Local AI · Web Platforms · IoT Systems</text>
 
 <g transform="translate(48 198)">
-  <rect width="195" height="76" rx="10" fill="#FFFFFF" stroke="#22D3EE" stroke-opacity=".24"/>
-  <text x="16" y="24" fill="#64748B" font-size="10" letter-spacing="1.2" class="mono">CURRENT BUILD</text>
-  <text x="16" y="48" fill="#0F172A" font-size="15" font-weight="700" class="sans">NusaMind Systems</text>
+  <rect width="195" height="76" rx="11" fill="#FFFFFF" stroke="#22D3EE" stroke-opacity=".24"/>
+  <text x="16" y="24" fill="#64748B" font-size="12" letter-spacing="1" class="mono">CURRENT BUILD</text>
+  <text x="16" y="48" fill="#0F172A" font-size="17" font-weight="700" class="sans">NusaMind Systems</text>
   <circle cx="169" cy="42" r="7" fill="#10B981" filter="url(#glow)">
     <animate attributeName="opacity" values=".35;1;.35" dur="2s" repeatCount="indefinite"/>
   </circle>
@@ -45,8 +45,8 @@
 
 <g transform="translate(259 198)">
   <rect width="195" height="76" rx="10" fill="#FFFFFF" stroke="#A78BFA" stroke-opacity=".24"/>
-  <text x="16" y="24" fill="#64748B" font-size="10" letter-spacing="1.2" class="mono">NEXT MISSION</text>
-  <text x="16" y="48" fill="#0F172A" font-size="15" font-weight="700" class="sans">NusaMonitor ID</text>
+  <text x="16" y="24" fill="#64748B" font-size="12" letter-spacing="1" class="mono">NEXT MISSION</text>
+  <text x="16" y="48" fill="#0F172A" font-size="17" font-weight="700" class="sans">NusaMonitor ID</text>
   <text x="16" y="65" fill="#A78BFA" font-size="10" class="mono">LIVE DATA PLATFORM</text>
 </g>
 
@@ -58,7 +58,7 @@
   <circle cx="1086" cy="106" r="2" fill="#A78BFA"><animate attributeName="opacity" values=".15;1;.15" dur="2.4s" repeatCount="indefinite"/></circle>
 </g>
 
-<g opacity=".8">
+<g opacity=".46">
   <rect x="594" y="126" width="104" height="4" rx="2" fill="#22D3EE">
     <animate attributeName="x" values="594;545;594" dur="1.8s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values=".1;.9;.1" dur="1.8s" repeatCount="indefinite"/>
