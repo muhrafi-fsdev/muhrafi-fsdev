@@ -38,13 +38,13 @@
 <text x="31" y="54" class="sans" font-size="18" font-weight="750" fill="#F1F6FC">NusaMonitor ID</text>
 </g>
 <g fill="#39D5E7" opacity=".5">
-<circle cx="684" cy="103" r="2" class="star"/><circle cx="744" cy="228" r="2" class="star"/>
-<circle cx="1059" cy="103" r="2" class="star"/><circle cx="1124" cy="224" r="2" class="star"/>
+<circle cx="684" cy="103" r="2"><animate attributeName="opacity" values=".2;1;.2" dur="4.5s" begin="0.45s" repeatCount="indefinite"/></circle><circle cx="744" cy="228" r="2"><animate attributeName="opacity" values=".2;1;.2" dur="5s" begin="0.9s" repeatCount="indefinite"/></circle>
+<circle cx="1059" cy="103" r="2"><animate attributeName="opacity" values=".2;1;.2" dur="5.5s" begin="1.35s" repeatCount="indefinite"/></circle><circle cx="1124" cy="224" r="2"><animate attributeName="opacity" values=".2;1;.2" dur="6s" begin="1.8s" repeatCount="indefinite"/></circle>
 </g>
 <path d="M640 279Q866 167 1161 280" fill="none" stroke="#39D5E7" stroke-width="1.5" opacity=".27"/>
 <path d="M667 294Q860 216 1140 294" fill="none" stroke="#B3A0FF" stroke-width="1.5" opacity=".18"/>
 <g transform="translate(858 75)">
-<g class="float" shape-rendering="crispEdges">
+<g shape-rendering="crispEdges"><animateTransform attributeName="transform" type="translate" values="0 0;0 -10;0 0" keyTimes="0;.5;1" dur="5s" repeatCount="indefinite"/>
 <rect x="43" y="0" width="28" height="15" fill="#45D6B1"/>
 <rect x="32" y="15" width="50" height="17" fill="#E2E8F0"/>
 <rect x="22" y="32" width="70" height="18" fill="#E2E8F0"/>
@@ -57,10 +57,10 @@
 <rect x="82" y="76" width="20" height="17" fill="#39D5E7"/>
 <rect x="43" y="36" width="28" height="28" fill="#0B1527" stroke="#39D5E7" stroke-width="4"/>
 <rect x="49" y="42" width="16" height="16" fill="#176C88"/>
-<g class="flame">
-<rect x="44" y="119" width="26" height="18" fill="#F9B33D"/>
-<rect x="50" y="137" width="14" height="20" fill="#F97316"/>
-<rect x="54" y="157" width="6" height="20" fill="#EF5B55"/>
+<g><animate attributeName="opacity" values=".75;1;.82;.75" dur="1.6s" repeatCount="indefinite"/>
+<rect x="44" y="119" width="26" height="18" fill="#F9B33D"><animate attributeName="height" values="18;25;18" dur="1.4s" repeatCount="indefinite"/></rect>
+<rect x="50" y="137" width="14" height="20" fill="#F97316"><animate attributeName="height" values="20;29;20" dur="1.2s" repeatCount="indefinite"/></rect>
+<rect x="54" y="157" width="6" height="20" fill="#EF5B55"><animate attributeName="height" values="20;30;20" dur="1s" repeatCount="indefinite"/></rect>
 </g>
 </g>
 </g>
