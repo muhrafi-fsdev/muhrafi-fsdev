@@ -1,233 +1,55 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="610" viewBox="0 0 1180 610" role="img" aria-label="Muhammad Rafi Priyo animated developer profile command center">
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="640" viewBox="0 0 1180 640" role="img" aria-labelledby="title desc">
+<title id="title">Muhammad Rafi Priyo | Command Center</title>
+<desc id="desc">Developer identity dashboard with an ASCII letter R, profile details, engineering focus and technologies.</desc>
 <defs>
-  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0" stop-color="#6D28D9"/>
-    <stop offset=".5" stop-color="#0891B2"/>
-    <stop offset="1" stop-color="#059669"/>
-    <animateTransform attributeName="gradientTransform" type="translate" values="-1 0;1 0;-1 0" dur="8s" repeatCount="indefinite"/>
-  </linearGradient>
-  <linearGradient id="asciiGrad" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0" stop-color="#0891B2"><animate attributeName="stop-color" values="#0891B2;#6D28D9;#059669;#0891B2" dur="5s" repeatCount="indefinite"/></stop>
-    <stop offset=".5" stop-color="#6D28D9"><animate attributeName="stop-color" values="#6D28D9;#059669;#0891B2;#6D28D9" dur="5s" repeatCount="indefinite"/></stop>
-    <stop offset="1" stop-color="#059669"><animate attributeName="stop-color" values="#059669;#0891B2;#6D28D9;#059669" dur="5s" repeatCount="indefinite"/></stop>
-  </linearGradient>
-  <linearGradient id="panelGrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#F8FAFC"/></linearGradient>
-  <linearGradient id="scanGrad" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#0891B2" stop-opacity="0"/><stop offset=".5" stop-color="#0891B2" stop-opacity=".28"/><stop offset="1" stop-color="#059669" stop-opacity="0"/></linearGradient>
-  <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-  <clipPath id="leftClip"><rect x="36" y="84" width="420" height="492" rx="12"/></clipPath>
-  <clipPath id="rightClip"><rect x="504" y="84" width="640" height="492" rx="12"/></clipPath>
-  <style>.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}.sans{font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}</style>
+<linearGradient id="border-grad"><stop stop-color="#6654B2"/><stop offset=".52" stop-color="#087E9A"/><stop offset="1" stop-color="#087E70"/></linearGradient>
+<linearGradient id="letter" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#087E9A"/><stop offset="1" stop-color="#6654B2"/></linearGradient>
+<style>
+.sans{font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif}
+.mono{font-family:ui-monospace,"Cascadia Code",Consolas,monospace}
+.label{font-size:15px;font-weight:700;letter-spacing:1px}
+.value{font-size:18px;font-weight:650}
+.ascii{font-family:Consolas,"Liberation Mono",monospace;font-size:24px;font-weight:800;letter-spacing:.25px;white-space:pre}
+.tag{font-size:14px;font-weight:650}
+.indicator{animation:soft-pulse 3.8s ease-in-out infinite}
+@keyframes soft-pulse{0%,100%{opacity:1}50%{opacity:.4}}
+@media(prefers-reduced-motion:reduce){.indicator{animation:none}}
+</style>
 </defs>
-
-<rect x="2" y="2" width="1176" height="606" rx="18" fill="#F5F7FB" stroke="url(#accent)" stroke-width="2" stroke-dasharray="26 14"><animate attributeName="stroke-dashoffset" values="0;-60" dur="9s" repeatCount="indefinite"/></rect>
-<rect x="2" y="2" width="1176" height="46" rx="18" fill="#E9EEF5"/><rect x="2" y="32" width="1176" height="16" fill="#E9EEF5"/><line x1="2" y1="48" x2="1178" y2="48" stroke="#CBD5E1"/>
-<circle cx="30" cy="25" r="5.5" fill="#ff5f56"/><circle cx="50" cy="25" r="5.5" fill="#ffbd2e"/><circle cx="70" cy="25" r="5.5" fill="#27c93f"/>
-<text x="590" y="29" text-anchor="middle" font-size="12" fill="#475569" class="mono">muhrafi-fsdev  ~  ./profile.sh --live</text><rect x="796" y="18" width="3" height="15" fill="#0891B2"><animate attributeName="opacity" values="1;0;1" dur=".8s" repeatCount="indefinite"/></rect>
-
-<text x="38" y="74" font-size="10" letter-spacing="3" fill="#566B84" class="mono">IDENTITY.MAP</text>
-<rect x="36" y="84" width="420" height="492" rx="12" fill="url(#panelGrad)" stroke="#0891B2" stroke-opacity=".34"/>
-<rect x="52" y="100" width="388" height="44" rx="8" fill="#E9EEF5"/>
-<text x="68" y="127" font-size="11" letter-spacing="2" fill="#0891B2" class="mono">ASCII_IDENTITY://RAFI</text>
-<circle cx="420" cy="122" r="5" fill="#059669" filter="url(#glow)"><animate attributeName="r" values="4;7;4" dur="1.8s" repeatCount="indefinite"/><animate attributeName="opacity" values=".35;1;.35" dur="1.8s" repeatCount="indefinite"/></circle>
-
-<text x="82" y="172" font-size="20" font-weight="700" fill="url(#asciiGrad)" class="mono">
-  RRRRRRRRRRRR.
-  <animate attributeName="opacity" values=".45;1;.45" dur="3.2s" begin="0.00s" repeatCount="indefinite"/>
-</text>
-<text x="82" y="199" font-size="20" font-weight="700" fill="url(#asciiGrad)" class="mono">
-  RR::::::::::RR
-  <animate attributeName="opacity" values=".45;1;.45" dur="3.2s" begin="0.12s" repeatCount="indefinite"/>
-</text>
-<text x="82" y="226" font-size="20" font-weight="700" fill="url(#asciiGrad)" class="mono">
-  RR:::::::::::RR
-  <animate attributeName="opacity" values=".45;1;.45" dur="3.2s" begin="0.24s" repeatCount="indefinite"/>
-</text>
-<text x="82" y="253" font-size="20" font-weight="700" fill="url(#asciiGrad)" class="mono">
-  RR:::::RR:::::RR
-  <animate attributeName="opacity" values=".45;1;.45" dur="3.2s" begin="0.36s" repeatCount="indefinite"/>
-</text>
-<text x="82" y="280" font-size="20" font-weight="700" fill="url(#asciiGrad)" class="mono">
-  RR:::::R  RR::::R
-  <animate attributeName="opacity" values=".45;1;.45" dur="3.2s" begin="0.48s" repeatCount="indefinite"/>
-</text>
-<text x="82" y="307" font-size="20" font-weight="700" fill="url(#asciiGrad)" class="mono">
-  RR:::::R   RR:::R
-  <animate attributeName="opacity" values=".45;1;.45" dur="3.2s" begin="0.60s" repeatCount="indefinite"/>
-</text>
-<text x="82" y="334" font-size="20" font-weight="700" fill="url(#asciiGrad)" class="mono">
-  RR:::::RRRRR::::R
-  <animate attributeName="opacity" values=".45;1;.45" dur="3.2s" begin="0.72s" repeatCount="indefinite"/>
-</text>
-<text x="82" y="361" font-size="20" font-weight="700" fill="url(#asciiGrad)" class="mono">
-  RR::::::::::::RR
-  <animate attributeName="opacity" values=".45;1;.45" dur="3.2s" begin="0.84s" repeatCount="indefinite"/>
-</text>
-<text x="82" y="388" font-size="20" font-weight="700" fill="url(#asciiGrad)" class="mono">
-  RR::::::RR::::R
-  <animate attributeName="opacity" values=".45;1;.45" dur="3.2s" begin="0.96s" repeatCount="indefinite"/>
-</text>
-<text x="82" y="415" font-size="20" font-weight="700" fill="url(#asciiGrad)" class="mono">
-  RR:::::R  RR::::R
-  <animate attributeName="opacity" values=".45;1;.45" dur="3.2s" begin="1.08s" repeatCount="indefinite"/>
-</text>
-<text x="82" y="442" font-size="20" font-weight="700" fill="url(#asciiGrad)" class="mono">
-  RRRRRRR    RRRRRRR
-  <animate attributeName="opacity" values=".45;1;.45" dur="3.2s" begin="1.20s" repeatCount="indefinite"/>
-</text>
-<g clip-path="url(#leftClip)"><rect x="52" y="138" width="388" height="28" fill="url(#scanGrad)" opacity=".40"><animate attributeName="y" values="138;520;138" dur="4.2s" repeatCount="indefinite"/></rect></g>
-<line x1="68" y1="492" x2="424" y2="492" stroke="url(#accent)" stroke-width="2" stroke-dasharray="70 20"><animate attributeName="stroke-dashoffset" values="0;-180" dur="3s" repeatCount="indefinite"/></line>
-<text x="68" y="522" font-size="12" fill="#475569" class="mono">identity.ready()</text><circle cx="195" cy="518" r="4" fill="#059669"><animate attributeName="cx" values="195;230;195" dur="2.5s" repeatCount="indefinite"/></circle>
-<text x="68" y="551" font-size="9.5" fill="#566B84" class="mono">MRP_SYSTEMS · LOCAL_FIRST · BUILD_IN_PUBLIC</text>
-
-<text x="506" y="74" font-size="10" letter-spacing="3" fill="#566B84" class="mono">SYSTEM.INFO</text>
-<rect x="504" y="84" width="640" height="492" rx="12" fill="url(#panelGrad)" stroke="#0891B2" stroke-opacity=".34"/>
-<rect x="520" y="100" width="608" height="224" rx="8" fill="#FFFFFF" stroke="#CBD5E1"/>
-
-<g>
-  <text x="585" y="122" font-size="12.5" font-weight="700" letter-spacing="1.2" fill="#0891B2" class="mono">NAME</text>
-  <text x="758" y="122" font-size="15.5" font-weight="700" fill="#0F172A" class="sans">Muhammad Rafi Priyo</text>
-  <circle cx="1110" cy="118" r="3.2" fill="#059669">
-    <animate attributeName="opacity" values=".2;1;.2" dur="2.00s" begin="0.00s" repeatCount="indefinite"/>
-  </circle>
-</g>
-<g>
-  <text x="585" y="150" font-size="12.5" font-weight="700" letter-spacing="1.2" fill="#0891B2" class="mono">HANDLE</text>
-  <text x="758" y="150" font-size="15.5" font-weight="700" fill="#0F172A" class="sans">@muhrafi-fsdev</text>
-  <circle cx="1110" cy="146" r="3.2" fill="#059669">
-    <animate attributeName="opacity" values=".2;1;.2" dur="2.17s" begin="0.13s" repeatCount="indefinite"/>
-  </circle>
-</g>
-<g>
-  <text x="585" y="178" font-size="12.5" font-weight="700" letter-spacing="1.2" fill="#0891B2" class="mono">LOCATION</text>
-  <text x="758" y="178" font-size="15.5" font-weight="700" fill="#0F172A" class="sans">Indonesia</text>
-  <circle cx="1110" cy="174" r="3.2" fill="#059669">
-    <animate attributeName="opacity" values=".2;1;.2" dur="2.34s" begin="0.26s" repeatCount="indefinite"/>
-  </circle>
-</g>
-<g>
-  <text x="585" y="206" font-size="12.5" font-weight="700" letter-spacing="1.2" fill="#0891B2" class="mono">EDUCATION</text>
-  <text x="758" y="206" font-size="15.5" font-weight="700" fill="#0F172A" class="sans">Telkom University</text>
-  <circle cx="1110" cy="202" r="3.2" fill="#059669">
-    <animate attributeName="opacity" values=".2;1;.2" dur="2.51s" begin="0.39s" repeatCount="indefinite"/>
-  </circle>
-</g>
-<g>
-  <text x="585" y="234" font-size="12.5" font-weight="700" letter-spacing="1.2" fill="#0891B2" class="mono">ROLE</text>
-  <text x="758" y="234" font-size="15.5" font-weight="700" fill="#0F172A" class="sans">Full-Stack Developer</text>
-  <circle cx="1110" cy="230" r="3.2" fill="#059669">
-    <animate attributeName="opacity" values=".2;1;.2" dur="2.68s" begin="0.52s" repeatCount="indefinite"/>
-  </circle>
-</g>
-<g>
-  <text x="585" y="262" font-size="12.5" font-weight="700" letter-spacing="1.2" fill="#0891B2" class="mono">FOCUS</text>
-  <text x="758" y="262" font-size="15.5" font-weight="700" fill="#0F172A" class="sans">Local AI · Web · IoT</text>
-  <circle cx="1110" cy="258" r="3.2" fill="#059669">
-    <animate attributeName="opacity" values=".2;1;.2" dur="2.85s" begin="0.65s" repeatCount="indefinite"/>
-  </circle>
-</g>
-<g>
-  <text x="585" y="290" font-size="12.5" font-weight="700" letter-spacing="1.2" fill="#0891B2" class="mono">BUILDING</text>
-  <text x="758" y="290" font-size="15.5" font-weight="700" fill="#0F172A" class="sans">NusaMind · NusaMonitor</text>
-  <circle cx="1110" cy="286" r="3.2" fill="#059669">
-    <animate attributeName="opacity" values=".2;1;.2" dur="3.02s" begin="0.78s" repeatCount="indefinite"/>
-  </circle>
-</g>
-<g>
-  <text x="585" y="318" font-size="12.5" font-weight="700" letter-spacing="1.2" fill="#0891B2" class="mono">PORTFOLIO</text>
-  <text x="758" y="318" font-size="15.5" font-weight="700" fill="#0F172A" class="sans">riyooprivateweb.my.id</text>
-  <circle cx="1110" cy="314" r="3.2" fill="#059669">
-    <animate attributeName="opacity" values=".2;1;.2" dur="3.19s" begin="0.91s" repeatCount="indefinite"/>
-  </circle>
-</g>
-<g clip-path="url(#rightClip)"><rect x="520" y="100" width="608" height="22" fill="url(#scanGrad)" opacity=".30"><animate attributeName="y" values="100;540;100" dur="5.4s" repeatCount="indefinite"/></rect></g>
-
-<text x="520" y="341" font-size="10" letter-spacing="2" fill="#0891B2" class="mono">PROFILE.METRICS</text>
-<line x1="552" y1="351" x2="552" y2="400" stroke="url(#accent)" opacity=".68"/><text x="632" y="373" text-anchor="middle" font-size="24" font-weight="800" fill="#0F172A" class="sans">06</text><text x="632" y="394" text-anchor="middle" font-size="11" letter-spacing=".7" fill="#475569" class="mono">FEATURED PROJECTS</text>
-<line x1="760" y1="351" x2="760" y2="400" stroke="url(#accent)" opacity=".68"/><text x="840" y="373" text-anchor="middle" font-size="24" font-weight="800" fill="#0F172A" class="sans">03</text><text x="840" y="394" text-anchor="middle" font-size="11" letter-spacing=".7" fill="#475569" class="mono">CORE DISCIPLINES</text>
-<line x1="968" y1="351" x2="968" y2="400" stroke="url(#accent)" opacity=".68"/><text x="1048" y="373" text-anchor="middle" font-size="24" font-weight="800" fill="#0F172A" class="sans">ID</text><text x="1048" y="394" text-anchor="middle" font-size="11" letter-spacing=".7" fill="#475569" class="mono">BASED IN INDONESIA</text>
-
-<text x="520" y="421" font-size="10" letter-spacing="2" fill="#0891B2" class="mono">SKILLS.EXPLORE()</text>
-
-<g>
-  <rect x="574.0" y="432" width="58.0" height="27" rx="13.5" fill="#F8FAFC" stroke="url(#accent)" stroke-opacity=".62">
-    <animate attributeName="stroke-opacity" values=".28;.95;.28" dur="4s" begin="0.00s" repeatCount="indefinite"/>
-  </rect>
-  <text x="603.0" y="450" text-anchor="middle" font-size="12" font-weight="700" fill="#0F172A" class="sans">HTML</text>
-</g>
-<g>
-  <rect x="640.0" y="432" width="58.0" height="27" rx="13.5" fill="#F8FAFC" stroke="url(#accent)" stroke-opacity=".62">
-    <animate attributeName="stroke-opacity" values=".28;.95;.28" dur="4s" begin="0.18s" repeatCount="indefinite"/>
-  </rect>
-  <text x="669.0" y="450" text-anchor="middle" font-size="12" font-weight="700" fill="#0F172A" class="sans">CSS</text>
-</g>
-<g>
-  <rect x="706.0" y="432" width="96.0" height="27" rx="13.5" fill="#F8FAFC" stroke="url(#accent)" stroke-opacity=".62">
-    <animate attributeName="stroke-opacity" values=".28;.95;.28" dur="4s" begin="0.36s" repeatCount="indefinite"/>
-  </rect>
-  <text x="754.0" y="450" text-anchor="middle" font-size="12" font-weight="700" fill="#0F172A" class="sans">JavaScript</text>
-</g>
-<g>
-  <rect x="810.0" y="432" width="96.0" height="27" rx="13.5" fill="#F8FAFC" stroke="url(#accent)" stroke-opacity=".62">
-    <animate attributeName="stroke-opacity" values=".28;.95;.28" dur="4s" begin="0.54s" repeatCount="indefinite"/>
-  </rect>
-  <text x="858.0" y="450" text-anchor="middle" font-size="12" font-weight="700" fill="#0F172A" class="sans">TypeScript</text>
-</g>
-<g>
-  <rect x="914.0" y="432" width="59.0" height="27" rx="13.5" fill="#F8FAFC" stroke="url(#accent)" stroke-opacity=".62">
-    <animate attributeName="stroke-opacity" values=".28;.95;.28" dur="4s" begin="0.72s" repeatCount="indefinite"/>
-  </rect>
-  <text x="943.5" y="450" text-anchor="middle" font-size="12" font-weight="700" fill="#0F172A" class="sans">React</text>
-</g>
-<g>
-  <rect x="981.0" y="432" width="73.8" height="27" rx="13.5" fill="#F8FAFC" stroke="url(#accent)" stroke-opacity=".62">
-    <animate attributeName="stroke-opacity" values=".28;.95;.28" dur="4s" begin="0.90s" repeatCount="indefinite"/>
-  </rect>
-  <text x="1017.9" y="450" text-anchor="middle" font-size="12" font-weight="700" fill="#0F172A" class="sans">Next.js</text>
-</g>
-<g>
-  <rect x="574.0" y="468" width="73.8" height="27" rx="13.5" fill="#F8FAFC" stroke="url(#accent)" stroke-opacity=".62">
-    <animate attributeName="stroke-opacity" values=".28;.95;.28" dur="4s" begin="1.08s" repeatCount="indefinite"/>
-  </rect>
-  <text x="610.9" y="486" text-anchor="middle" font-size="12" font-weight="700" fill="#0F172A" class="sans">Node.js</text>
-</g>
-<g>
-  <rect x="655.8" y="468" width="58.0" height="27" rx="13.5" fill="#F8FAFC" stroke="url(#accent)" stroke-opacity=".62">
-    <animate attributeName="stroke-opacity" values=".28;.95;.28" dur="4s" begin="1.26s" repeatCount="indefinite"/>
-  </rect>
-  <text x="684.8" y="486" text-anchor="middle" font-size="12" font-weight="700" fill="#0F172A" class="sans">PHP</text>
-</g>
-<g>
-  <rect x="721.8" y="468" width="66.4" height="27" rx="13.5" fill="#F8FAFC" stroke="url(#accent)" stroke-opacity=".62">
-    <animate attributeName="stroke-opacity" values=".28;.95;.28" dur="4s" begin="1.44s" repeatCount="indefinite"/>
-  </rect>
-  <text x="755.0" y="486" text-anchor="middle" font-size="12" font-weight="700" fill="#0F172A" class="sans">Python</text>
-</g>
-<g>
-  <rect x="796.2" y="468" width="59.0" height="27" rx="13.5" fill="#F8FAFC" stroke="url(#accent)" stroke-opacity=".62">
-    <animate attributeName="stroke-opacity" values=".28;.95;.28" dur="4s" begin="1.62s" repeatCount="indefinite"/>
-  </rect>
-  <text x="825.7" y="486" text-anchor="middle" font-size="12" font-weight="700" fill="#0F172A" class="sans">MySQL</text>
-</g>
-<g>
-  <rect x="863.2" y="468" width="58.0" height="27" rx="13.5" fill="#F8FAFC" stroke="url(#accent)" stroke-opacity=".62">
-    <animate attributeName="stroke-opacity" values=".28;.95;.28" dur="4s" begin="1.80s" repeatCount="indefinite"/>
-  </rect>
-  <text x="892.2" y="486" text-anchor="middle" font-size="12" font-weight="700" fill="#0F172A" class="sans">Git</text>
-</g>
-<g>
-  <rect x="929.2" y="468" width="59.0" height="27" rx="13.5" fill="#F8FAFC" stroke="url(#accent)" stroke-opacity=".62">
-    <animate attributeName="stroke-opacity" values=".28;.95;.28" dur="4s" begin="1.98s" repeatCount="indefinite"/>
-  </rect>
-  <text x="958.7" y="486" text-anchor="middle" font-size="12" font-weight="700" fill="#0F172A" class="sans">ESP32</text>
-</g>
-
-<text x="520" y="545" font-size="10" letter-spacing="2" fill="#0891B2" class="mono">TECH.STACK.SNAPSHOT</text>
-<rect x="562" y="554" width="548" height="7" rx="3.5" fill="#CBD5E1"/><rect x="562" y="554" width="548" height="7" rx="3.5" fill="url(#accent)"><animate attributeName="width" values="120;548;360;548" dur="6s" repeatCount="indefinite"/></rect>
-<circle cx="564" cy="584" r="3.5" fill="#6D28D9"/><text x="573" y="588" font-size="11" fill="#475569" class="sans">TypeScript</text>
-<circle cx="666" cy="584" r="3.5" fill="#0891B2"/><text x="675" y="588" font-size="11" fill="#475569" class="sans">JavaScript</text>
-<circle cx="770" cy="584" r="3.5" fill="#059669"/><text x="779" y="588" font-size="11" fill="#475569" class="sans">Python</text>
-<circle cx="850" cy="584" r="3.5" fill="#F97316"/><text x="859" y="588" font-size="11" fill="#475569" class="sans">CSS</text>
-<circle cx="910" cy="584" r="3.5" fill="#EF4444"/><text x="919" y="588" font-size="11" fill="#475569" class="sans">HTML</text>
-<circle cx="972" cy="584" r="3.5" fill="#566B84"/><text x="981" y="588" font-size="11" fill="#475569" class="sans">Other</text>
-<g><circle cx="1065" cy="25" r="4" fill="#059669"><animate attributeName="cx" values="980;1130;980" dur="5s" repeatCount="indefinite"/></circle><circle cx="1080" cy="25" r="2.2" fill="#0891B2"><animate attributeName="cx" values="965;1115;965" dur="5s" repeatCount="indefinite"/></circle></g>
+<rect x="2" y="2" width="1176" height="636" rx="16" fill="#F4F7FC" stroke="url(#border-grad)" stroke-width="2"/>
+<path d="M18 52H1162" stroke="#B9CADE"/>
+<path d="M18 52V17Q18 16 20 16H1160V52Z" fill="#E7EEF7"/>
+<circle cx="38" cy="34" r="5" fill="#FF625A"/><circle cx="57" cy="34" r="5" fill="#FFBD2E"/><circle cx="76" cy="34" r="5" fill="#35C75A"/>
+<text x="590" y="39" font-size="15" text-anchor="middle" class="mono" fill="#456078">muhrafi-fsdev ~ ./profile.sh --live</text>
+<circle cx="1108" cy="34" r="4.5" fill="#087E70" class="indicator"/><text x="1121" y="38" font-size="12" fill="#456078" class="mono">LIVE</text>
+<text x="30" y="83" font-size="14" letter-spacing="2" font-weight="700" fill="#456078" class="mono">IDENTITY.MAP</text>
+<text x="481" y="83" font-size="14" letter-spacing="2" font-weight="700" fill="#456078" class="mono">SYSTEM.INFO</text>
+<rect x="24" y="94" width="432" height="516" rx="12" fill="#FFFFFF" stroke="#B9CADE"/>
+<rect x="42" y="110" width="396" height="50" rx="9" fill="#F4F8FD"/>
+<text x="60" y="141" font-size="16" letter-spacing="1.1" font-weight="700" fill="#087E9A" class="mono">ASCII_IDENTITY://RAFI</text>
+<circle cx="416" cy="135" r="5" fill="#087E70" class="indicator"/>
+<text x="88" y="187" class="ascii" fill="url(#letter)">RRRRRRRRRRRR.</text><text x="88" y="214.5" class="ascii" fill="url(#letter)">RR::::::::::RR</text><text x="88" y="242" class="ascii" fill="url(#letter)">RR:::::::::::RR</text><text x="88" y="269.5" class="ascii" fill="url(#letter)">RR:::::RR:::::RR</text><text x="88" y="297" class="ascii" fill="url(#letter)">RR:::::R  RR::::R</text><text x="88" y="324.5" class="ascii" fill="url(#letter)">RR:::::R   RR:::R</text><text x="88" y="352" class="ascii" fill="url(#letter)">RR:::::RRRRR::::R</text><text x="88" y="379.5" class="ascii" fill="url(#letter)">RR::::::::::::RR</text><text x="88" y="407" class="ascii" fill="url(#letter)">RR::::::RR::::R</text><text x="88" y="434.5" class="ascii" fill="url(#letter)">RR:::::R  RR::::R</text><text x="88" y="462" class="ascii" fill="url(#letter)">RRRRRRR    RRRRRRR</text>
+<path d="M50 520H430" stroke="#B9CADE"/>
+<text x="60" y="548" font-size="16" fill="#17283B" class="mono">identity.ready()</text><circle cx="218" cy="542" r="4" fill="#087E70" class="indicator"/>
+<text x="60" y="580" font-size="13.5" fill="#456078" class="mono">LOCAL-FIRST / BUILD / REFINE</text>
+<rect x="473" y="94" width="683" height="516" rx="12" fill="#FFFFFF" stroke="#B9CADE"/>
+<rect x="495" y="111" width="639" height="309" rx="10" fill="#F4F8FD" stroke="#B9CADE" stroke-opacity=".75"/>
+<text x="516" y="141" font-size="16" letter-spacing="1.2" font-weight="700" class="mono" fill="#087E9A">// PROFILE.SYS</text>
+<line x1="514" y1="153" x2="1124" y2="153" stroke="#B9CADE"/>
+<line x1="514" y1="192" x2="1124" y2="192" stroke="#B9CADE" stroke-opacity=".34"/><text x="528" y="183" class="mono label" fill="#087E9A">NAME</text><text x="766" y="183" class="sans value" fill="#17283B">Muhammad Rafi Priyo</text><line x1="514" y1="221.5" x2="1124" y2="221.5" stroke="#B9CADE" stroke-opacity=".34"/><text x="528" y="212.5" class="mono label" fill="#087E9A">HANDLE</text><text x="766" y="212.5" class="sans value" fill="#17283B">@muhrafi-fsdev</text><line x1="514" y1="251" x2="1124" y2="251" stroke="#B9CADE" stroke-opacity=".34"/><text x="528" y="242" class="mono label" fill="#087E9A">LOCATION</text><text x="766" y="242" class="sans value" fill="#17283B">Indonesia</text><line x1="514" y1="280.5" x2="1124" y2="280.5" stroke="#B9CADE" stroke-opacity=".34"/><text x="528" y="271.5" class="mono label" fill="#087E9A">EDUCATION</text><text x="766" y="271.5" class="sans value" fill="#17283B">Telkom University</text><line x1="514" y1="310" x2="1124" y2="310" stroke="#B9CADE" stroke-opacity=".34"/><text x="528" y="301" class="mono label" fill="#087E9A">ROLE</text><text x="766" y="301" class="sans value" fill="#17283B">Full-Stack Developer</text><line x1="514" y1="339.5" x2="1124" y2="339.5" stroke="#B9CADE" stroke-opacity=".34"/><text x="528" y="330.5" class="mono label" fill="#087E9A">FOCUS</text><text x="766" y="330.5" class="sans value" fill="#17283B">Web · AI · IoT</text><line x1="514" y1="369" x2="1124" y2="369" stroke="#B9CADE" stroke-opacity=".34"/><text x="528" y="360" class="mono label" fill="#087E9A">BUILDING</text><text x="766" y="360" class="sans value" fill="#17283B">NusaMind · NusaMonitor</text><line x1="514" y1="398.5" x2="1124" y2="398.5" stroke="#B9CADE" stroke-opacity=".34"/><text x="528" y="389.5" class="mono label" fill="#087E9A">PORTFOLIO</text><text x="766" y="389.5" class="sans value" fill="#17283B">riyooprivateweb.my.id</text>
+<text x="512" y="444" font-size="14" font-weight="750" letter-spacing="1.8" class="mono" fill="#087E9A">PROFILE.SNAPSHOT</text>
+<line x1="511" y1="484" x2="1125" y2="484" stroke="#B9CADE"/>
+<text x="604" y="471" text-anchor="middle" font-size="26" font-weight="800" class="sans" fill="#17283B">06</text>
+<text x="604" y="498" text-anchor="middle" font-size="11.5" class="mono" fill="#456078">FEATURED PROJECTS</text>
+<line x1="718" y1="451" x2="718" y2="497" stroke="#B9CADE"/>
+<text x="833" y="471" text-anchor="middle" font-size="26" font-weight="800" class="sans" fill="#17283B">03</text>
+<text x="833" y="498" text-anchor="middle" font-size="11.5" class="mono" fill="#456078">FOCUS AREAS</text>
+<line x1="938" y1="451" x2="938" y2="497" stroke="#B9CADE"/>
+<text x="1050" y="471" text-anchor="middle" font-size="26" font-weight="800" class="sans" fill="#17283B">ID</text>
+<text x="1050" y="498" text-anchor="middle" font-size="11.5" class="mono" fill="#456078">INDONESIA</text>
+<text x="512" y="520" font-size="13" font-weight="750" letter-spacing="1.4" class="mono" fill="#087E9A">TOOLS / TECHNOLOGIES</text>
+<rect x="528" y="531" width="64" height="29" rx="10" fill="#F4F8FD" stroke="#B9CADE"/><text x="560" y="550.5" text-anchor="middle" class="sans tag" fill="#17283B">HTML</text><rect x="603" y="531" width="64" height="29" rx="10" fill="#F4F8FD" stroke="#B9CADE"/><text x="635" y="550.5" text-anchor="middle" class="sans tag" fill="#17283B">CSS</text><rect x="678" y="531" width="113" height="29" rx="10" fill="#F4F8FD" stroke="#B9CADE"/><text x="734.5" y="550.5" text-anchor="middle" class="sans tag" fill="#17283B">JavaScript</text><rect x="802" y="531" width="113" height="29" rx="10" fill="#F4F8FD" stroke="#B9CADE"/><text x="858.5" y="550.5" text-anchor="middle" class="sans tag" fill="#17283B">TypeScript</text><rect x="926" y="531" width="78" height="29" rx="10" fill="#F4F8FD" stroke="#B9CADE"/><text x="965" y="550.5" text-anchor="middle" class="sans tag" fill="#17283B">React</text><rect x="1015" y="531" width="89" height="29" rx="10" fill="#F4F8FD" stroke="#B9CADE"/><text x="1059.5" y="550.5" text-anchor="middle" class="sans tag" fill="#17283B">Next.js</text>
+<rect x="528" y="568" width="85" height="29" rx="10" fill="#F4F8FD" stroke="#B9CADE"/><text x="570.5" y="587.5" text-anchor="middle" class="sans tag" fill="#17283B">Node.js</text><rect x="624" y="568" width="65" height="29" rx="10" fill="#F4F8FD" stroke="#B9CADE"/><text x="656.5" y="587.5" text-anchor="middle" class="sans tag" fill="#17283B">PHP</text><rect x="700" y="568" width="80" height="29" rx="10" fill="#F4F8FD" stroke="#B9CADE"/><text x="740" y="587.5" text-anchor="middle" class="sans tag" fill="#17283B">Python</text><rect x="791" y="568" width="78" height="29" rx="10" fill="#F4F8FD" stroke="#B9CADE"/><text x="830" y="587.5" text-anchor="middle" class="sans tag" fill="#17283B">MySQL</text><rect x="880" y="568" width="60" height="29" rx="10" fill="#F4F8FD" stroke="#B9CADE"/><text x="910" y="587.5" text-anchor="middle" class="sans tag" fill="#17283B">Git</text><rect x="951" y="568" width="82" height="29" rx="10" fill="#F4F8FD" stroke="#B9CADE"/><text x="992" y="587.5" text-anchor="middle" class="sans tag" fill="#17283B">Docker</text><rect x="1044" y="568" width="78" height="29" rx="10" fill="#F4F8FD" stroke="#B9CADE"/><text x="1083" y="587.5" text-anchor="middle" class="sans tag" fill="#17283B">ESP32</text>
+<text x="30" y="630" font-size="11" class="mono" fill="#456078">MRP.DEV / ENGINEERING WORKSPACE</text>
+<text x="1150" y="630" text-anchor="end" font-size="11" class="mono" fill="#456078">STATUS: READY</text>
 </svg>
