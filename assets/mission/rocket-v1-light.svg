@@ -1,104 +1,68 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="330" viewBox="0 0 1180 330" role="img" aria-labelledby="title desc">
-<title id="title">Muhammad Rafi Priyo pixel rocket mission animation</title>
-<desc id="desc">Animated pixel rocket representing software projects launching into production.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="318" viewBox="0 0 1180 318" role="img" aria-labelledby="title desc">
+<title id="title">Launch sequence | Building Ideas Into Production</title>
+<desc id="desc">Pixel rocket above a two-mission developer board. Animation moves slowly and honors reduced motion preferences.</desc>
 <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0" stop-color="#F8FAFF"/>
-    <stop offset="1" stop-color="#E8F0FA"/>
-  </linearGradient>
-  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0" stop-color="#7C3AED"/>
-    <stop offset=".5" stop-color="#22D3EE"/>
-    <stop offset="1" stop-color="#10B981"/>
-    <animate attributeName="x1" values="0;.2;0" dur="8s" repeatCount="indefinite"/>
-  </linearGradient>
-  <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
-    <feGaussianBlur stdDeviation="4" result="b"/>
-    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-  </filter>
-  <style>
-    .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
-    .sans{font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
-  </style>
+<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#F4F7FC"/><stop offset="1" stop-color="#E9F1F9"/></linearGradient>
+<linearGradient id="border-grad"><stop stop-color="#6654B2"/><stop offset=".5" stop-color="#087E9A"/><stop offset="1" stop-color="#087E70"/></linearGradient>
+<style>
+.sans{font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif}
+.mono{font-family:ui-monospace,Consolas,monospace}
+.float{animation:bob 5.5s ease-in-out infinite}
+.flame{animation:soft-flame 1.2s ease-in-out infinite;transform-origin:50% 0;transform-box:fill-box}
+.star{animation:twinkle 5.8s ease-in-out infinite}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+@keyframes soft-flame{0%,100%{transform:scaleY(.86);opacity:.9}50%{transform:scaleY(1.05);opacity:1}}
+@keyframes twinkle{0%,100%{opacity:.22}50%{opacity:.65}}
+@media(prefers-reduced-motion:reduce){.float,.flame,.star{animation:none}}
+</style>
 </defs>
-
-<rect x="2" y="2" width="1176" height="326" rx="18" fill="url(#bg)" stroke="url(#accent)" stroke-width="2"/>
-<rect x="22" y="22" width="1136" height="42" rx="9" fill="#DEE8F3"/>
-<circle cx="43" cy="43" r="5" fill="#FF5F56"/>
-<circle cx="61" cy="43" r="5" fill="#FFBD2E"/>
-<circle cx="79" cy="43" r="5" fill="#27C93F"/>
-<text x="102" y="48" fill="#475569" font-size="12" class="mono">mission-control://muhrafi-fsdev</text>
-<text x="1135" y="48" text-anchor="end" fill="#10B981" font-size="11" class="mono">STATUS: OPERATIONAL</text>
-
-<text x="48" y="101" fill="#087D96" font-size="14" letter-spacing="2" font-weight="700" class="mono">LAUNCH.SEQUENCE</text>
-<text x="48" y="137" fill="#0F172A" font-size="33" font-weight="800" class="sans">Building Ideas Into Production</text>
-<text x="48" y="166" fill="#475569" font-size="17" class="sans">Full-Stack Development · Local AI · Web Platforms · IoT Systems</text>
-
-<g transform="translate(48 198)">
-  <rect width="195" height="76" rx="11" fill="#FFFFFF" stroke="#22D3EE" stroke-opacity=".24"/>
-  <text x="16" y="24" fill="#64748B" font-size="12" letter-spacing="1" class="mono">CURRENT BUILD</text>
-  <text x="16" y="48" fill="#0F172A" font-size="17" font-weight="700" class="sans">NusaMind Systems</text>
-  <circle cx="169" cy="42" r="7" fill="#10B981" filter="url(#glow)">
-    <animate attributeName="opacity" values=".35;1;.35" dur="2s" repeatCount="indefinite"/>
-  </circle>
+<rect x="2" y="2" width="1176" height="314" rx="16" fill="url(#bg)" stroke="url(#border-grad)" stroke-width="2"/>
+<rect x="22" y="18" width="1136" height="39" rx="8" fill="#FFFFFF" stroke="#B9CADE" stroke-opacity=".6"/>
+<circle cx="42" cy="37.5" r="4.5" fill="#FF625A"/><circle cx="59" cy="37.5" r="4.5" fill="#FFBD2E"/><circle cx="76" cy="37.5" r="4.5" fill="#35C75A"/>
+<text x="98" y="43" class="mono" font-size="14" fill="#456078">mission-control://muhrafi-fsdev</text>
+<circle cx="1010" cy="38" r="4" fill="#087E70"/>
+<text x="1024" y="43" class="mono" font-size="13" fill="#456078">BUILD MODE</text>
+<text x="48" y="100" class="mono" font-size="15" font-weight="750" letter-spacing="2" fill="#087E9A">LAUNCH.SEQUENCE</text>
+<text x="47" y="144" class="sans" font-size="38" font-weight="780" letter-spacing="-.5" fill="#17283B">Building Ideas Into Production</text>
+<text x="48" y="178" class="sans" font-size="18" fill="#456078">Full-stack development  ·  Local AI  ·  Web platforms  ·  IoT systems</text>
+<g transform="translate(48 210)">
+<rect width="264" height="76" rx="11" fill="#FFFFFF" stroke="#B9CADE"/>
+<rect x="14" y="16" width="5" height="43" rx="2.5" fill="#087E70"/>
+<text x="31" y="29" font-family="ui-monospace,Consolas,monospace" font-size="12" font-weight="700" fill="#456078" letter-spacing="1">CURRENT BUILD</text>
+<text x="31" y="54" class="sans" font-size="18" font-weight="750" fill="#17283B">NusaMind Systems</text>
 </g>
-
-<g transform="translate(259 198)">
-  <rect width="195" height="76" rx="10" fill="#FFFFFF" stroke="#A78BFA" stroke-opacity=".24"/>
-  <text x="16" y="24" fill="#64748B" font-size="12" letter-spacing="1" class="mono">NEXT MISSION</text>
-  <text x="16" y="48" fill="#0F172A" font-size="17" font-weight="700" class="sans">NusaMonitor ID</text>
-  <text x="16" y="65" fill="#A78BFA" font-size="10" class="mono">LIVE DATA PLATFORM</text>
+<g transform="translate(325 210)">
+<rect width="264" height="76" rx="11" fill="#FFFFFF" stroke="#B9CADE"/>
+<rect x="14" y="16" width="5" height="43" rx="2.5" fill="#6654B2"/>
+<text x="31" y="29" class="mono" font-size="12" font-weight="700" fill="#456078" letter-spacing="1">NEXT MILESTONE</text>
+<text x="31" y="54" class="sans" font-size="18" font-weight="750" fill="#17283B">NusaMonitor ID</text>
 </g>
-
-<g opacity=".85">
-  <circle cx="548" cy="104" r="2" fill="#22D3EE"><animate attributeName="opacity" values=".15;1;.15" dur="2.2s" repeatCount="indefinite"/></circle>
-  <circle cx="604" cy="170" r="2" fill="#A78BFA"><animate attributeName="opacity" values="1;.15;1" dur="3s" repeatCount="indefinite"/></circle>
-  <circle cx="704" cy="92" r="2" fill="#10B981"><animate attributeName="opacity" values=".15;1;.15" dur="2.7s" repeatCount="indefinite"/></circle>
-  <circle cx="830" cy="238" r="2" fill="#22D3EE"><animate attributeName="opacity" values="1;.15;1" dur="3.4s" repeatCount="indefinite"/></circle>
-  <circle cx="1086" cy="106" r="2" fill="#A78BFA"><animate attributeName="opacity" values=".15;1;.15" dur="2.4s" repeatCount="indefinite"/></circle>
+<g fill="#087E9A" opacity=".5">
+<circle cx="684" cy="103" r="2" class="star"/><circle cx="744" cy="228" r="2" class="star"/>
+<circle cx="1059" cy="103" r="2" class="star"/><circle cx="1124" cy="224" r="2" class="star"/>
 </g>
-
-<g opacity=".46">
-  <rect x="594" y="126" width="104" height="4" rx="2" fill="#22D3EE">
-    <animate attributeName="x" values="594;545;594" dur="1.8s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values=".1;.9;.1" dur="1.8s" repeatCount="indefinite"/>
-  </rect>
-  <rect x="570" y="176" width="134" height="4" rx="2" fill="#7C3AED">
-    <animate attributeName="x" values="570;505;570" dur="1.5s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values=".1;.9;.1" dur="1.5s" repeatCount="indefinite"/>
-  </rect>
-  <rect x="618" y="226" width="82" height="4" rx="2" fill="#10B981">
-    <animate attributeName="x" values="618;570;618" dur="1.65s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values=".1;.9;.1" dur="1.65s" repeatCount="indefinite"/>
-  </rect>
+<path d="M640 279Q866 167 1161 280" fill="none" stroke="#087E9A" stroke-width="1.5" opacity=".27"/>
+<path d="M667 294Q860 216 1140 294" fill="none" stroke="#6654B2" stroke-width="1.5" opacity=".18"/>
+<g transform="translate(858 75)">
+<g class="float" shape-rendering="crispEdges">
+<rect x="43" y="0" width="28" height="15" fill="#087E70"/>
+<rect x="32" y="15" width="50" height="17" fill="#E2E8F0"/>
+<rect x="22" y="32" width="70" height="18" fill="#E2E8F0"/>
+<rect x="22" y="50" width="70" height="18" fill="#CBD5E1"/>
+<rect x="32" y="68" width="50" height="31" fill="#E2E8F0"/>
+<rect x="43" y="99" width="28" height="20" fill="#CBD5E1"/>
+<rect x="0" y="57" width="32" height="19" fill="#087E9A"/>
+<rect x="82" y="57" width="32" height="19" fill="#6654B2"/>
+<rect x="12" y="76" width="20" height="17" fill="#087E70"/>
+<rect x="82" y="76" width="20" height="17" fill="#087E9A"/>
+<rect x="43" y="36" width="28" height="28" fill="#0B1527" stroke="#087E9A" stroke-width="4"/>
+<rect x="49" y="42" width="16" height="16" fill="#176C88"/>
+<g class="flame">
+<rect x="44" y="119" width="26" height="18" fill="#F9B33D"/>
+<rect x="50" y="137" width="14" height="20" fill="#F97316"/>
+<rect x="54" y="157" width="6" height="20" fill="#EF5B55"/>
 </g>
-
-<g>
-  <animateTransform attributeName="transform" type="translate" values="780 74;796 57;780 74" dur="3.1s" repeatCount="indefinite"/>
-  <g shape-rendering="crispEdges">
-    <rect x="46" y="0" width="28" height="18" fill="#10B981"/>
-    <rect x="34" y="18" width="52" height="18" fill="#94A3B8"/>
-    <rect x="22" y="36" width="76" height="18" fill="#94A3B8"/>
-    <rect x="22" y="54" width="76" height="18" fill="#94A3B8"/>
-    <rect x="34" y="72" width="52" height="36" fill="#94A3B8"/>
-    <rect x="46" y="108" width="28" height="26" fill="#94A3B8"/>
-    <rect x="0" y="66" width="34" height="18" fill="#22D3EE"/>
-    <rect x="86" y="66" width="34" height="18" fill="#7C3AED"/>
-    <rect x="12" y="84" width="22" height="18" fill="#10B981"/>
-    <rect x="86" y="84" width="22" height="18" fill="#22D3EE"/>
-    <rect x="46" y="42" width="28" height="28" fill="#FFFFFF" stroke="#22D3EE" stroke-width="4"/>
-    <rect x="50" y="46" width="20" height="20" fill="#0E7490"/>
-  </g>
-  <g filter="url(#glow)">
-    <rect x="46" y="134" width="28" height="20" fill="#F59E0B"><animate attributeName="height" values="20;38;20" dur=".48s" repeatCount="indefinite"/></rect>
-    <rect x="52" y="154" width="16" height="24" fill="#F97316"><animate attributeName="height" values="24;43;24" dur=".36s" repeatCount="indefinite"/></rect>
-    <rect x="56" y="178" width="8" height="22" fill="#EF4444"><animate attributeName="height" values="22;34;22" dur=".28s" repeatCount="indefinite"/></rect>
-  </g>
 </g>
-
-<text x="1118" y="287" text-anchor="end" fill="#64748B" font-size="11" class="mono">progress_over_perfection()</text>
-<line x1="486" y1="301" x2="1118" y2="301" stroke="#CBD5E1" stroke-width="7"/>
-<line x1="486" y1="301" x2="946" y2="301" stroke="url(#accent)" stroke-width="7">
-  <animate attributeName="x2" values="760;946;880;946" dur="6s" repeatCount="indefinite"/>
-</line>
+</g>
+<text x="1137" y="302" text-anchor="end" class="mono" font-size="12" fill="#627C95">progress_over_perfection()</text>
 </svg>
