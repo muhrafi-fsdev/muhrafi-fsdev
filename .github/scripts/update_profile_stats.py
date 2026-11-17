@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Update the native Markdown repository-activity table in the profile README.
+"""Refresh the profile README’s linked project cards and public activity details.
 
 Uses only official GitHub API responses. It never invents numbers or overwrites
 unrelated sections, and exits without writing if API data is incomplete.
@@ -14,19 +14,22 @@ import sys
 import urllib.error
 import urllib.request
 from datetime import datetime, timezone
+from html import escape
+from itertools import islice
 
 README = pathlib.Path("README.md")
 START = "<!-- LIVE_REPOS_START -->"
 END = "<!-- LIVE_REPOS_END -->"
 OWNER = "muhrafi-fsdev"
 REPOS = [
-    ("NusaMind Swift", "NUSAMIND-SWIFT"),
-    ("NusaMind Zenith", "NUSAMIND-ZENITH"),
-    ("NusaMonitor", "NusaMonitor"),
-    ("RYKA Core", "RYKA-CORE"),
-    ("RayStore", "Raystore-topup"),
-    ("Academic Organizer", "AcademicOrganizer"),
+    ("NusaMind Zenith", "NUSAMIND-ZENITH", "zenith"),
+    ("NusaMind Swift", "NUSAMIND-SWIFT", "swift"),
+    ("NusaMonitor", "NusaMonitor", "monitor"),
+    ("RYKA Core", "RYKA-CORE", "ryka"),
+    ("RayStore", "Raystore-topup", "raystore"),
+    ("Academic Organizer", "AcademicOrganizer", "academic"),
 ]
+CARD_DIR = "assets/nightshift/profile-cards"
 
 
 def fetch_repo(repo: str) -> dict:
@@ -51,26 +54,61 @@ def fetch_repo(repo: str) -> dict:
     return data
 
 
-def render_table(metadata: list[tuple[str, str, dict]]) -> str:
-    rows = [
-        "| Repository | Primary language | Last push (UTC) | Stars |",
-        "| :-- | :-- | :-- | --: |",
-    ]
-    for title, repo, data in metadata:
+def render_activity(metadata: list[tuple[str, str, str, dict]]) -> str:
+    """Keep image layouts and links stable while replacing only public metadata."""
+    projects = []
+    for title, repo, card, data in metadata:
         timestamp = data["pushed_at"]
         date = datetime.fromisoformat(timestamp.replace("Z", "+00:00"))
         if date.tzinfo is None:
             raise ValueError(f"Timezone missing for {repo}")
-        day = date.astimezone(timezone.utc).strftime("%Y-%m-%d")
-        lang = (data.get("language") or "Not specified").replace("|", "\\|")
+        lang = data.get("language") or "Not specified"
         count = int(data["stargazers_count"])
         if count < 0:
-            raise ValueError(f"Negative star count: {repo}")
-        rows.append(
+            raise ValueError(f"Negative star count for {repo}")
+        projects.append((title, repo, card, date.astimezone(timezone.utc), lang, count))
+
+    lead_title, lead_repo, _, latest, _, _ = max(projects, key=lambda row: row[3])
+    parts = []
+    cards = iter(projects)
+    while group := list(islice(cards, 2)):
+        parts.append('<p align="center">')
+        for title, repo, card, date, lang, count in group:
+            url = f"https://github.com/{OWNER}/{repo}"
+            day = date.strftime("%Y-%m-%d")
+            details = f"{lang} · Last push {day} UTC · {count} {'star' if count == 1 else 'stars'}"
+            name = escape(title, quote=True)
+            tooltip = escape(details, quote=True)
+            prefix = f"{CARD_DIR}/repo-{card}"
+            parts.extend([
+                f'  <a href="{url}" title="{tooltip}"><picture>',
+                f'    <source media="(prefers-color-scheme: light)" srcset="{prefix}-light.webp">',
+                f'    <source media="(prefers-color-scheme: dark)" srcset="{prefix}-dark.webp">',
+                f'    <img src="{prefix}-dark.webp" width="400" alt="{name} — {tooltip}">',
+                '  </picture></a>',
+            ])
+        parts.extend(['</p>', ''])
+
+    lead_url = f"https://github.com/{OWNER}/{lead_repo}"
+    parts.extend([
+        f'<sub><strong>Latest public push</strong> · <a href="{lead_url}">{escape(lead_title)}</a>'
+        f' · {latest:%d %b %Y} (UTC)</sub>',
+        '',
+        '<details>',
+        '<summary>Languages, push dates, and stars</summary>',
+        '',
+        "| Repository | Primary language | Last push (UTC) | Stars |",
+        "| :-- | :-- | :-- | --: |",
+    ])
+    for title, repo, _, date, language, count in projects:
+        # Only metadata that belongs to this fixed public repository list is rendered.
+        md_lang = escape(" ".join(language.split())).replace("|", "&#124;")
+        parts.append(
             f"| [{title}](https://github.com/{OWNER}/{repo}) "
-            f"| {lang} | {day} | {count} |"
+            f"| {md_lang} | {date:%Y-%m-%d} | {count} |"
         )
-    return "\n".join(rows)
+    parts.extend(['', '</details>'])
+    return "\n".join(parts)
 
 
 def main() -> int:
@@ -78,11 +116,11 @@ def main() -> int:
     if original.count(START) != 1 or original.count(END) != 1:
         raise RuntimeError("README live-stat markers are missing or duplicated")
     # Collect every API response before touching README.
-    metadata = [(title, repo, fetch_repo(repo)) for title, repo in REPOS]
-    table = render_table(metadata)
+    metadata = [(title, repo, card, fetch_repo(repo)) for title, repo, card in REPOS]
+    activity = render_activity(metadata)
     updated = re.sub(
         re.escape(START) + r"[\s\S]*?" + re.escape(END),
-        lambda _: START + "\n" + table + "\n" + END,
+        lambda _: START + "\n" + activity + "\n" + END,
         original,
         count=1,
     )

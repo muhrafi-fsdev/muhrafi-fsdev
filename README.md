@@ -18,15 +18,13 @@
 
 ## About me
 
-<img align="right" src="assets/nightshift/mascot.webp" width="146" alt="Chibi radio technician with a black cat and a toolbox">
-
-<table>
-  <tr><th scope="row">Studying</th><td>Telecommunication Engineering at Telkom University</td></tr>
-  <tr><th scope="row">Building</th><td>NusaMind and other local-first AI tools</td></tr>
-  <tr><th scope="row">On the bench</th><td>Raspberry Pi and MQTT experiments</td></tr>
-</table>
-
-<br clear="right">
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="assets/nightshift/profile-cards/about-light-compact.webp">
+  <source media="(max-width: 600px)" srcset="assets/nightshift/profile-cards/about-dark-compact.webp">
+  <source media="(prefers-color-scheme: light)" srcset="assets/nightshift/profile-cards/about-light.webp">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/nightshift/profile-cards/about-dark.webp">
+  <img src="assets/nightshift/profile-cards/about-dark.webp" width="1160" alt="Rafi’s field notes. I study Telecommunication Engineering at Telkom University, build web apps and local-first AI tools such as NusaMind, and experiment with IoT using Raspberry Pi and MQTT. A chibi radio technician and a black cat sit by the notes.">
+</picture>
 
 ## GitHub activity
 
@@ -46,23 +44,66 @@
   <img width="100%" alt="Animated snake following the GitHub contribution calendar" src="https://raw.githubusercontent.com/muhrafi-fsdev/muhrafi-fsdev/output/snake-dark.svg?v=restore-command-center-20261110">
 </picture>
 
-<details>
-<summary>Public repository activity</summary>
+### Public repository activity
 
 <!-- LIVE_REPOS_START -->
+<p align="center">
+  <a href="https://github.com/muhrafi-fsdev/NUSAMIND-ZENITH" title="TypeScript · Last push 2026-10-23 UTC · 0 stars"><picture>
+    <source media="(prefers-color-scheme: light)" srcset="assets/nightshift/profile-cards/repo-zenith-light.webp">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/nightshift/profile-cards/repo-zenith-dark.webp">
+    <img src="assets/nightshift/profile-cards/repo-zenith-dark.webp" width="400" alt="NusaMind Zenith — TypeScript · Last push 2026-10-23 UTC · 0 stars">
+  </picture></a>
+  <a href="https://github.com/muhrafi-fsdev/NUSAMIND-SWIFT" title="TypeScript · Last push 2026-09-15 UTC · 0 stars"><picture>
+    <source media="(prefers-color-scheme: light)" srcset="assets/nightshift/profile-cards/repo-swift-light.webp">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/nightshift/profile-cards/repo-swift-dark.webp">
+    <img src="assets/nightshift/profile-cards/repo-swift-dark.webp" width="400" alt="NusaMind Swift — TypeScript · Last push 2026-09-15 UTC · 0 stars">
+  </picture></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/muhrafi-fsdev/NusaMonitor" title="JavaScript · Last push 2026-07-25 UTC · 0 stars"><picture>
+    <source media="(prefers-color-scheme: light)" srcset="assets/nightshift/profile-cards/repo-monitor-light.webp">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/nightshift/profile-cards/repo-monitor-dark.webp">
+    <img src="assets/nightshift/profile-cards/repo-monitor-dark.webp" width="400" alt="NusaMonitor — JavaScript · Last push 2026-07-25 UTC · 0 stars">
+  </picture></a>
+  <a href="https://github.com/muhrafi-fsdev/RYKA-CORE" title="TypeScript · Last push 2026-10-25 UTC · 0 stars"><picture>
+    <source media="(prefers-color-scheme: light)" srcset="assets/nightshift/profile-cards/repo-ryka-light.webp">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/nightshift/profile-cards/repo-ryka-dark.webp">
+    <img src="assets/nightshift/profile-cards/repo-ryka-dark.webp" width="400" alt="RYKA Core — TypeScript · Last push 2026-10-25 UTC · 0 stars">
+  </picture></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/muhrafi-fsdev/Raystore-topup" title="CSS · Last push 2026-07-24 UTC · 0 stars"><picture>
+    <source media="(prefers-color-scheme: light)" srcset="assets/nightshift/profile-cards/repo-raystore-light.webp">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/nightshift/profile-cards/repo-raystore-dark.webp">
+    <img src="assets/nightshift/profile-cards/repo-raystore-dark.webp" width="400" alt="RayStore — CSS · Last push 2026-07-24 UTC · 0 stars">
+  </picture></a>
+  <a href="https://github.com/muhrafi-fsdev/AcademicOrganizer" title="HTML · Last push 2026-02-11 UTC · 0 stars"><picture>
+    <source media="(prefers-color-scheme: light)" srcset="assets/nightshift/profile-cards/repo-academic-light.webp">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/nightshift/profile-cards/repo-academic-dark.webp">
+    <img src="assets/nightshift/profile-cards/repo-academic-dark.webp" width="400" alt="Academic Organizer — HTML · Last push 2026-02-11 UTC · 0 stars">
+  </picture></a>
+</p>
+
+<sub><strong>Latest public push</strong> · <a href="https://github.com/muhrafi-fsdev/RYKA-CORE">RYKA Core</a> · 25 Oct 2026 (UTC)</sub>
+
+<details>
+<summary>Languages, push dates, and stars</summary>
+
 | Repository | Primary language | Last push (UTC) | Stars |
 | :-- | :-- | :-- | --: |
-| [NusaMind Swift](https://github.com/muhrafi-fsdev/NUSAMIND-SWIFT) | TypeScript | 2026-09-15 | 0 |
 | [NusaMind Zenith](https://github.com/muhrafi-fsdev/NUSAMIND-ZENITH) | TypeScript | 2026-10-23 | 0 |
+| [NusaMind Swift](https://github.com/muhrafi-fsdev/NUSAMIND-SWIFT) | TypeScript | 2026-09-15 | 0 |
 | [NusaMonitor](https://github.com/muhrafi-fsdev/NusaMonitor) | JavaScript | 2026-07-25 | 0 |
 | [RYKA Core](https://github.com/muhrafi-fsdev/RYKA-CORE) | TypeScript | 2026-10-25 | 0 |
 | [RayStore](https://github.com/muhrafi-fsdev/Raystore-topup) | CSS | 2026-07-24 | 0 |
 | [Academic Organizer](https://github.com/muhrafi-fsdev/AcademicOrganizer) | HTML | 2026-02-11 | 0 |
-<!-- LIVE_REPOS_END -->
-
-<sub>Refreshed by GitHub Actions using public GitHub repository data.</sub>
 
 </details>
+<!-- LIVE_REPOS_END -->
+
+<sub>Activity data refreshed by GitHub Actions.</sub>
 
 <h2 align="center">Toolkit</h2>
 
