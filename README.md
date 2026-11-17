@@ -1,35 +1,44 @@
-<img src="assets/nightshift/banner.webp" width="1440" alt="Anime illustration of a hoodie-clad developer looking out over a rainy hillside city at night">
+<picture>
+  <source media="(prefers-reduced-motion: no-preference)" type="image/webp" srcset="assets/nightshift/refined/banner-motion.webp">
+  <img src="assets/nightshift/banner.webp" width="1440" alt="Anime illustration looking out over a hillside city on a rainy night">
+</picture>
 
 <h1 align="center">Hi, I’m Rafi</h1>
 
 <p align="center">
-  <a href="https://riyooprivateweb.my.id/PORTFOLIO_WEB/">Portfolio</a> &nbsp;·&nbsp;
-  <a href="https://www.linkedin.com/in/rafipriyo">LinkedIn</a> &nbsp;·&nbsp;
-  <a href="https://www.instagram.com/mhmmd_rayfy">Instagram</a> &nbsp;·&nbsp;
-  <a href="mailto:raymufiyo@gmail.com">Email</a>
+  <sub>Telecommunication Engineering · Web development · Local AI</sub>
+</p>
+
+<p align="center">
+  <a href="https://riyooprivateweb.my.id/PORTFOLIO_WEB/"><img src="assets/nightshift/refined/portfolio.svg" width="36" alt="Portfolio"></a>&nbsp;
+  <a href="https://www.linkedin.com/in/rafipriyo"><img src="assets/nightshift/refined/linkedin.svg" width="36" alt="LinkedIn"></a>&nbsp;
+  <a href="https://www.instagram.com/mhmmd_rayfy"><img src="assets/nightshift/refined/instagram.svg" width="36" alt="Instagram"></a>&nbsp;
+  <a href="mailto:raymufiyo@gmail.com"><img src="assets/nightshift/refined/email.svg" width="36" alt="Email"></a>
 </p>
 
 ## About me
 
 <img align="right" src="assets/nightshift/mascot.webp" width="146" alt="Chibi radio technician with a black cat and a toolbox">
 
-| | |
-| :-- | :-- |
-| **Studying** | Telecommunication Engineering at Telkom University |
-| **Building** | Web apps and local-first AI tools, including NusaMind |
-| **On the bench** | IoT experiments with Raspberry Pi and MQTT |
+<table>
+  <tr><th scope="row">Studying</th><td>Telecommunication Engineering at Telkom University</td></tr>
+  <tr><th scope="row">Building</th><td>NusaMind and other local-first AI tools</td></tr>
+  <tr><th scope="row">On the bench</th><td>Raspberry Pi and MQTT experiments</td></tr>
+</table>
 
 <br clear="right">
 
 ## GitHub activity
 
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="assets/nightshift/activity-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/nightshift/activity-dark.svg">
-  <img src="assets/nightshift/activity-dark.svg" width="880" alt="Weekly GitHub public contributions, with totals, active days, and best day for the 12-week period marked on the chart.">
+  <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="assets/nightshift/activity-light.svg">
+  <source media="(max-width: 600px)" srcset="assets/nightshift/activity-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/nightshift/refined/activity-light-wide.webp">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/nightshift/refined/activity-dark-wide.webp">
+  <img src="assets/nightshift/refined/activity-dark-wide.webp" width="1160" alt="Twelve weeks of GitHub public contributions, with an anime character holding a handheld radio next to the chart">
 </picture>
 
-<sub>Dated snapshot of my public GitHub calendar. The contribution snake below updates separately.</sub>
+<sub>12-week snapshot from my public GitHub calendar. The contribution snake below updates separately.</sub>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/muhrafi-fsdev/muhrafi-fsdev/output/snake-dark.svg?v=restore-command-center-20261110">
@@ -55,28 +64,15 @@
 
 </details>
 
-## Toolkit
+<h2 align="center">Toolkit</h2>
 
-<table align="center">
-  <tr>
-    <td align="center"><img src="assets/nightshift/toolkit/typescript.svg" width="32" alt=""><br><sub>TypeScript</sub></td>
-    <td align="center"><img src="assets/nightshift/toolkit/react.svg" width="32" alt=""><br><sub>React</sub></td>
-    <td align="center"><img src="assets/nightshift/toolkit/nodejs.svg" width="32" alt=""><br><sub>Node.js</sub></td>
-    <td align="center"><img src="assets/nightshift/toolkit/php.svg" width="32" alt=""><br><sub>PHP</sub></td>
-  </tr>
-  <tr>
-    <td align="center"><img src="assets/nightshift/toolkit/python.svg" width="32" alt=""><br><sub>Python</sub></td>
-    <td align="center"><img src="assets/nightshift/toolkit/sqlite.svg" width="32" alt=""><br><sub>SQLite</sub></td>
-    <td align="center"><img src="assets/nightshift/toolkit/docker.svg" width="32" alt=""><br><sub>Docker</sub></td>
-    <td align="center"><img src="assets/nightshift/toolkit/linux.webp" width="32" alt=""><br><sub>Linux</sub></td>
-  </tr>
-  <tr>
-    <td align="center"><img src="assets/nightshift/toolkit/raspberrypi.svg" width="32" alt=""><br><sub>Raspberry Pi</sub></td>
-    <td align="center"><img src="assets/nightshift/toolkit/git.svg" width="32" alt=""><br><sub>Git</sub></td>
-    <td align="center"><img src="assets/nightshift/toolkit/javascript.svg" width="32" alt=""><br><sub>JavaScript</sub></td>
-    <td align="center"><img src="assets/nightshift/toolkit/postgresql.svg" width="32" alt=""><br><sub>PostgreSQL</sub></td>
-  </tr>
-</table>
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="assets/nightshift/refined/toolkit-light-compact.webp">
+  <source media="(max-width: 600px)" srcset="assets/nightshift/refined/toolkit-dark-compact.webp">
+  <source media="(prefers-color-scheme: light)" srcset="assets/nightshift/refined/toolkit-light.webp">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/nightshift/refined/toolkit-dark.webp">
+  <img src="assets/nightshift/refined/toolkit-dark.webp" width="1056" alt="Toolkit: TypeScript, React, Node.js, PHP, Python, JavaScript, SQLite, PostgreSQL, Docker, Linux, Raspberry Pi, and Git">
+</picture>
 
 ## Selected projects
 
