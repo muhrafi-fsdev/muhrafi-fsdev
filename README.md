@@ -1,9 +1,4 @@
-<picture>
-  <source media="(prefers-reduced-motion: no-preference)" type="image/webp" srcset="assets/nightshift/refined/banner-motion.webp">
-  <img src="assets/nightshift/banner.webp" width="1440" alt="Anime illustration looking out over a hillside city on a rainy night">
-</picture>
-
-<h1 align="center">Hi, I’m Rafi</h1>
+<h1 align="center">Muhammad Rafi Priyo Sembodo</h1>
 
 <p align="center">
   <sub>Telecommunication Engineering · Web development · Local AI</sub>
