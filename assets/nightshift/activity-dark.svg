@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="292" viewBox="0 0 880 292" role="img" aria-labelledby="title desc">
+<title id="title">Public contribution activity</title>
+<desc id="desc">GitHub public calendar snapshot from 26 Aug 2026 – 17 Nov 2026. Contributions by week, oldest first: 0 / 0 / 0 / 0 / 0 / 0 / 0 / 1 / 15 / 0 / 29 / 10.</desc>
+<rect x=".5" y=".5" width="879" height="291" rx="13" fill="#101827" stroke="#1f2b3e"/>
+<g font-family="system-ui,Segoe UI,Arial,sans-serif">
+<text x="30" y="38" fill="#e6eefb" font-size="22" font-weight="700">Public contribution activity</text>
+<text x="850" y="38" text-anchor="end" fill="#8c9db7" font-size="15">26 Aug 2026 – 17 Nov 2026</text>
+<path d="M30 55H850 M30 128H850 M303 69V114 M576 69V114" stroke="#1f2b3e"/>
+
+<text x="30" y="79" fill="#8c9db7" font-size="13" letter-spacing="1.2">CONTRIBUTIONS</text><text x="30" y="111" fill="#e6eefb" font-size="26" font-weight="700">55</text>
+<text x="331" y="79" fill="#8c9db7" font-size="13" letter-spacing="1.2">ACTIVE DAYS</text><text x="331" y="111" fill="#e6eefb" font-size="26" font-weight="700">6</text>
+<text x="605" y="79" fill="#8c9db7" font-size="13" letter-spacing="1.2">BEST DAY</text><text x="605" y="111" fill="#e6eefb" font-size="26" font-weight="700">29</text>
+<polygon points="68,254 68.0,254.0 138.55,254.0 209.09,254.0 279.64,254.0 350.18,254.0 420.73,254.0 491.27,254.0 561.82,251.12 632.36,210.88 702.91,254.0 773.45,170.62 844.0,225.25 844,254" fill="#17283d"/>
+<path d="M68 254.0H844" stroke="#1f2b3e"/><text x="55" y="258.0" text-anchor="end" fill="#8c9db7" font-size="12">0</text>
+<path d="M68 231.0H844" stroke="#1f2b3e"/><text x="55" y="235.0" text-anchor="end" fill="#8c9db7" font-size="12">8</text>
+<path d="M68 208.0H844" stroke="#1f2b3e"/><text x="55" y="212.0" text-anchor="end" fill="#8c9db7" font-size="12">16</text>
+<path d="M68 185.0H844" stroke="#1f2b3e"/><text x="55" y="189.0" text-anchor="end" fill="#8c9db7" font-size="12">24</text>
+<path d="M68 162.0H844" stroke="#1f2b3e"/><text x="55" y="166.0" text-anchor="end" fill="#8c9db7" font-size="12">32</text>
+<polyline points="68.0,254.0 138.55,254.0 209.09,254.0 279.64,254.0 350.18,254.0 420.73,254.0 491.27,254.0 561.82,251.12 632.36,210.88 702.91,254.0 773.45,170.62 844.0,225.25" fill="none" stroke="#75caff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="68.0" cy="254.0" r="3" fill="#101827" stroke="#75caff" stroke-width="1.7"/>
+<circle cx="138.55" cy="254.0" r="3" fill="#101827" stroke="#75caff" stroke-width="1.7"/>
+<circle cx="209.09" cy="254.0" r="3" fill="#101827" stroke="#75caff" stroke-width="1.7"/>
+<circle cx="279.64" cy="254.0" r="3" fill="#101827" stroke="#75caff" stroke-width="1.7"/>
+<circle cx="350.18" cy="254.0" r="3" fill="#101827" stroke="#75caff" stroke-width="1.7"/>
+<circle cx="420.73" cy="254.0" r="3" fill="#101827" stroke="#75caff" stroke-width="1.7"/>
+<circle cx="491.27" cy="254.0" r="3" fill="#101827" stroke="#75caff" stroke-width="1.7"/>
+<circle cx="561.82" cy="251.12" r="3" fill="#101827" stroke="#75caff" stroke-width="1.7"/>
+<circle cx="632.36" cy="210.88" r="3" fill="#101827" stroke="#75caff" stroke-width="1.7"/>
+<circle cx="702.91" cy="254.0" r="3" fill="#101827" stroke="#75caff" stroke-width="1.7"/>
+<circle cx="773.45" cy="170.62" r="3" fill="#101827" stroke="#75caff" stroke-width="1.7"/>
+<circle cx="844.0" cy="225.25" r="3" fill="#101827" stroke="#75caff" stroke-width="1.7"/>
+<text x="68" y="278" fill="#8c9db7" font-size="12">Week of 26 Aug</text><text x="844" y="278" text-anchor="end" fill="#8c9db7" font-size="12">Week ending 17 Nov</text></g>
+</svg>
