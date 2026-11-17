@@ -3,7 +3,7 @@
   <source media="(prefers-reduced-motion: reduce)" type="image/webp" srcset="assets/signal-lab/signal-dark-still.webp">
   <source media="(prefers-color-scheme: light)" type="image/webp" srcset="assets/signal-lab/signal-light.webp">
   <source media="(prefers-color-scheme: dark)" type="image/webp" srcset="assets/signal-lab/signal-dark.webp">
-  <img width="1000" height="354" alt="Signal Lab — a radio tower sending waves across a mountain ridge. Web, local AI, and telecom." src="assets/signal-lab/signal-dark-still.webp">
+  <img width="1000" alt="Signal Lab — a radio tower sending waves across a mountain ridge. Web, local AI, and telecom." src="assets/signal-lab/signal-dark-still.webp">
 </picture>
 
 # Hi, I’m Rafi
