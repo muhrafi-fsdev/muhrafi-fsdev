@@ -11,21 +11,15 @@
 
 ## About me
 
-<table>
-  <tr>
-    <td valign="middle">
-      <strong>Studying</strong><br>
-      Telecommunication Engineering at Telkom University<br><br>
-      <strong>Building</strong><br>
-      Web apps and local-first AI tools, including NusaMind<br><br>
-      <strong>On the bench</strong><br>
-      IoT experiments with Raspberry Pi and MQTT
-    </td>
-    <td align="center" valign="middle">
-      <img src="assets/nightshift/mascot.webp" width="146" alt="Chibi radio technician with a black cat and a toolbox">
-    </td>
-  </tr>
-</table>
+<img align="right" src="assets/nightshift/mascot.webp" width="146" alt="Chibi radio technician with a black cat and a toolbox">
+
+| | |
+| :-- | :-- |
+| **Studying** | Telecommunication Engineering at Telkom University |
+| **Building** | Web apps and local-first AI tools, including NusaMind |
+| **On the bench** | IoT experiments with Raspberry Pi and MQTT |
+
+<br clear="right">
 
 ## GitHub activity
 
