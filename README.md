@@ -1,4 +1,12 @@
-<h1 align="center">Muhammad Rafi Priyo Sembodo</h1>
+<h1 align="center">
+  <picture>
+    <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="assets/nightshift/masthead/name-light-compact.svg">
+    <source media="(max-width: 600px)" srcset="assets/nightshift/masthead/name-dark-compact.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/nightshift/masthead/name-light.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/nightshift/masthead/name-dark.svg">
+    <img src="assets/nightshift/masthead/name-dark.svg" width="1160" alt="Muhammad Rafi Priyo Sembodo">
+  </picture>
+</h1>
 
 <p align="center">
   <sub>Telecommunication Engineering · Web development · Local AI</sub>
