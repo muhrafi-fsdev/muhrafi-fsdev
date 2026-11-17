@@ -1,58 +1,43 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" type="image/webp" srcset="https://raw.githubusercontent.com/muhrafi-fsdev/muhrafi-fsdev/motion/command-center-dark.webp?v=frame-motion-25fps-20261110">
-  <source media="(prefers-color-scheme: light)" type="image/webp" srcset="https://raw.githubusercontent.com/muhrafi-fsdev/muhrafi-fsdev/motion/command-center-light.webp?v=frame-motion-25fps-20261110">
-  <source media="(prefers-color-scheme: dark)" type="image/gif" srcset="https://raw.githubusercontent.com/muhrafi-fsdev/muhrafi-fsdev/motion/command-center-dark.gif?v=frame-motion-25fps-20261110">
-  <source media="(prefers-color-scheme: light)" type="image/gif" srcset="https://raw.githubusercontent.com/muhrafi-fsdev/muhrafi-fsdev/motion/command-center-light.gif?v=frame-motion-25fps-20261110">
-  <img width="100%" alt="25 FPS frame-by-frame animated terminal command center showing developer identity and technical focus" src="https://raw.githubusercontent.com/muhrafi-fsdev/muhrafi-fsdev/motion/command-center-dark.gif?v=frame-motion-25fps-20261110">
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: light)" type="image/webp" srcset="assets/signal-lab/signal-light-still.webp">
+  <source media="(prefers-reduced-motion: reduce)" type="image/webp" srcset="assets/signal-lab/signal-dark-still.webp">
+  <source media="(prefers-color-scheme: light)" type="image/webp" srcset="assets/signal-lab/signal-light.webp">
+  <source media="(prefers-color-scheme: dark)" type="image/webp" srcset="assets/signal-lab/signal-dark.webp">
+  <img width="1000" height="354" alt="Signal Lab — a radio tower sending waves across a mountain ridge. Web, local AI, and telecom." src="assets/signal-lab/signal-dark-still.webp">
 </picture>
 
-<br>
+# Hi, I’m Rafi
+
+I study Telecommunication Engineering at Telkom University. I build web apps, tinker with local AI tools, and work with Raspberry Pi and MQTT for IoT projects.
+
+[Portfolio](https://riyooprivateweb.my.id/PORTFOLIO_WEB/) · [LinkedIn](https://www.linkedin.com/in/rafipriyo) · [Instagram](https://www.instagram.com/mhmmd_rayfy) · [Email](mailto:raymufiyo@gmail.com)
+
+## Selected projects
+
+- [**NusaMind Zenith**](https://github.com/muhrafi-fsdev/NUSAMIND-ZENITH) — A local-first AI workspace for projects that span multiple files.
+- [**NusaMonitor**](https://github.com/muhrafi-fsdev/NusaMonitor) — A map-based dashboard that brings together public live data for Indonesia.
+- [**NusaMind Swift**](https://github.com/muhrafi-fsdev/NUSAMIND-SWIFT) — A lighter AI assistant for local file analysis, retrieval, and memory.
+
+Also on GitHub: [RYKA Core](https://github.com/muhrafi-fsdev/RYKA-CORE) · [RayStore](https://github.com/muhrafi-fsdev/Raystore-topup) · [Academic Organizer](https://github.com/muhrafi-fsdev/AcademicOrganizer)
+
+## Tools I use
+
+| Area | Tools |
+| :-- | :-- |
+| Web | TypeScript · React · Node.js · PHP |
+| AI & data | Python · SQLite |
+| IoT & infrastructure | MQTT · Raspberry Pi · Docker · Linux |
+
+## GitHub activity
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" type="image/webp" srcset="https://raw.githubusercontent.com/muhrafi-fsdev/muhrafi-fsdev/motion/rocket-launch-dark.webp?v=frame-motion-25fps-20261110">
-  <source media="(prefers-color-scheme: light)" type="image/webp" srcset="https://raw.githubusercontent.com/muhrafi-fsdev/muhrafi-fsdev/motion/rocket-launch-light.webp?v=frame-motion-25fps-20261110">
-  <source media="(prefers-color-scheme: dark)" type="image/gif" srcset="https://raw.githubusercontent.com/muhrafi-fsdev/muhrafi-fsdev/motion/rocket-launch-dark.gif?v=frame-motion-25fps-20261110">
-  <source media="(prefers-color-scheme: light)" type="image/gif" srcset="https://raw.githubusercontent.com/muhrafi-fsdev/muhrafi-fsdev/motion/rocket-launch-light.gif?v=frame-motion-25fps-20261110">
-  <img width="100%" alt="25 FPS frame-by-frame pixel rocket launch with animated particles, atmospheric smoke and flame" src="https://raw.githubusercontent.com/muhrafi-fsdev/muhrafi-fsdev/motion/rocket-launch-dark.gif?v=frame-motion-25fps-20261110">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/muhrafi-fsdev/muhrafi-fsdev/output/snake-dark.svg?v=restore-command-center-20261110">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/muhrafi-fsdev/muhrafi-fsdev/output/snake-light.svg?v=restore-command-center-20261110">
+  <img width="100%" alt="Animated snake following the GitHub contribution calendar" src="https://raw.githubusercontent.com/muhrafi-fsdev/muhrafi-fsdev/output/snake-dark.svg?v=restore-command-center-20261110">
 </picture>
 
-<br>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/muhrafi-fsdev/muhrafi-fsdev/main/projects.svg?v=restore-command-center-20261110">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/muhrafi-fsdev/muhrafi-fsdev/main/projects-light.svg?v=restore-command-center-20261110">
-  <img width="100%" alt="Six featured GitHub software projects with descriptions and technology badges" src="https://raw.githubusercontent.com/muhrafi-fsdev/muhrafi-fsdev/main/projects.svg?v=restore-command-center-20261110">
-</picture>
-
-<br>
-
 <details>
-<summary>Explore the featured repositories</summary>
-
-<p align="center">
-  <a href="https://github.com/muhrafi-fsdev/NUSAMIND-SWIFT">NusaMind Swift</a> ·
-  <a href="https://github.com/muhrafi-fsdev/NUSAMIND-ZENITH">NusaMind Zenith</a> ·
-  <a href="https://github.com/muhrafi-fsdev/NusaMonitor">NusaMonitor</a> ·
-  <a href="https://github.com/muhrafi-fsdev/RYKA-CORE">RYKA Core</a> ·
-  <a href="https://github.com/muhrafi-fsdev/Raystore-topup">RayStore</a> ·
-  <a href="https://github.com/muhrafi-fsdev/AcademicOrganizer">Academic Organizer</a>
-</p>
-</details>
-
-<div align="center">
-
-<a href="https://www.linkedin.com/in/rafipriyo"><img src="https://img.shields.io/badge/LinkedIn-0A101F?style=for-the-badge&logo=linkedin&logoColor=22D3EE" alt="LinkedIn"></a>
-&nbsp;
-<a href="https://www.instagram.com/mhmmd_rayfy"><img src="https://img.shields.io/badge/Instagram-0A101F?style=for-the-badge&logo=instagram&logoColor=A78BFA" alt="Instagram"></a>
-&nbsp;
-<a href="mailto:raymufiyo@gmail.com"><img src="https://img.shields.io/badge/Email-0A101F?style=for-the-badge&logo=gmail&logoColor=10B981" alt="Email"></a>
-&nbsp;
-<a href="https://riyooprivateweb.my.id/PORTFOLIO_WEB/"><img src="https://img.shields.io/badge/Portfolio-0A101F?style=for-the-badge&logo=vercel&logoColor=F8FAFC" alt="Portfolio"></a>
-
-</div>
-
-<details>
-<summary>GitHub Activity · Live repository data &amp; contribution animation</summary>
+<summary>Public repository activity</summary>
 
 <!-- LIVE_REPOS_START -->
 | Repository | Primary language | Last push (UTC) | Stars |
@@ -65,12 +50,19 @@
 | [Academic Organizer](https://github.com/muhrafi-fsdev/AcademicOrganizer) | HTML | 2026-02-11 | 0 |
 <!-- LIVE_REPOS_END -->
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/muhrafi-fsdev/muhrafi-fsdev/output/snake-dark.svg?v=restore-command-center-20261110">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/muhrafi-fsdev/muhrafi-fsdev/output/snake-light.svg?v=restore-command-center-20261110">
-  <img width="100%" alt="Contribution snake, automatically generated from GitHub activity" src="https://raw.githubusercontent.com/muhrafi-fsdev/muhrafi-fsdev/output/snake-dark.svg?v=restore-command-center-20261110">
-</picture>
+<sub>Refreshed by GitHub Actions using public GitHub repository data.</sub>
 
-<sub>Repository metrics update via GitHub Actions. Data is sourced from public repositories.</sub>
+</details>
+
+<details>
+<summary>From the archive · Pixel rocket</summary>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" type="image/webp" srcset="https://raw.githubusercontent.com/muhrafi-fsdev/muhrafi-fsdev/motion/rocket-launch-dark.webp?v=frame-motion-25fps-20261110">
+  <source media="(prefers-color-scheme: light)" type="image/webp" srcset="https://raw.githubusercontent.com/muhrafi-fsdev/muhrafi-fsdev/motion/rocket-launch-light.webp?v=frame-motion-25fps-20261110">
+  <source media="(prefers-color-scheme: dark)" type="image/gif" srcset="https://raw.githubusercontent.com/muhrafi-fsdev/muhrafi-fsdev/motion/rocket-launch-dark.gif?v=frame-motion-25fps-20261110">
+  <source media="(prefers-color-scheme: light)" type="image/gif" srcset="https://raw.githubusercontent.com/muhrafi-fsdev/muhrafi-fsdev/motion/rocket-launch-light.gif?v=frame-motion-25fps-20261110">
+  <img width="100%" alt="Pixel rocket lifting off beside the NusaMind and NusaMonitor project notes" src="https://raw.githubusercontent.com/muhrafi-fsdev/muhrafi-fsdev/motion/rocket-launch-dark.gif?v=frame-motion-25fps-20261110">
+</picture>
 
 </details>
