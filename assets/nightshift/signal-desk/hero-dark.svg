@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="320" viewBox="0 0 1160 320" role="img" aria-labelledby="title desc">
+  <title id="title">Muhammad Rafi Priyo Sembodo — Nightshift Signal Desk</title>
+  <desc id="desc">Terminal-styled profile banner for Muhammad Rafi Priyo Sembodo with verified focus on NusaMind, NusaMonitor, and Raspberry Pi MQTT experiments.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d131f"/>
+      <stop offset="100%" stop-color="#121b2b"/>
+    </linearGradient>
+    <clipPath id="frameClip"><rect x="1" y="1" width="1158" height="318" rx="16"/></clipPath>
+  </defs>
+
+  <rect x="1" y="1" width="1158" height="318" rx="16" fill="url(#bg)" stroke="#26354d" stroke-width="2"/>
+  <g clip-path="url(#frameClip)">
+    <!-- Terminal Header -->
+    <rect x="0" y="0" width="1160" height="38" fill="#152033"/>
+    <line x1="0" y1="38" x2="1160" y2="38" stroke="#26354d" stroke-width="1"/>
+    <circle cx="24" cy="19" r="5" fill="#4d607d"/>
+    <circle cx="42" cy="19" r="5" fill="#4d607d"/>
+    <circle cx="60" cy="19" r="5" fill="#4d607d"/>
+    <text x="84" y="24" fill="#9fb3cf" font-family="DejaVu Sans Mono, Consolas, ui-monospace, monospace" font-size="13" font-weight="500">muhrafi-fsdev — signal-desk</text>
+    <text x="1126" y="24" text-anchor="end" fill="#6e83a3" font-family="DejaVu Sans Mono, Consolas, ui-monospace, monospace" font-size="12" letter-spacing="0.8">TELKOM UNIV · ID</text>
+
+    <!-- Subtle background signal trace -->
+    <line x1="42" y1="232" x2="702" y2="232" stroke="#1c293d" stroke-width="1" stroke-dasharray="3 6"/>
+    <path d="M42.0,232.0 L48.0,232.2 L54.0,232.7 L60.0,233.6 L66.0,234.5 L72.0,235.6 L78.0,236.4 L84.0,237.0 L90.0,237.2 L96.0,236.9 L102.0,236.0 L108.0,234.5 L114.0,232.5 L120.0,230.1 L126.0,227.5 L132.0,224.9 L138.0,222.5 L144.0,220.6 L150.0,219.3 L156.0,218.8 L162.0,219.2 L168.0,220.6 L174.0,223.0 L180.0,226.2 L186.0,230.1 L192.0,234.4 L198.0,238.8 L204.0,243.1 L210.0,246.8 L216.0,249.6 L222.0,251.4 L228.0,252.0 L234.0,251.2 L240.0,249.0 L246.0,245.6 L252.0,241.1 L258.0,235.8 L264.0,230.1 L270.0,224.3 L276.0,218.8 L282.0,214.1 L288.0,210.5 L294.0,208.3 L300.0,207.6 L306.0,208.5 L312.0,211.0 L318.0,215.0 L324.0,220.2 L330.0,226.2 L336.0,232.7 L342.0,239.3 L348.0,245.3 L354.0,250.6 L360.0,254.6 L366.0,257.1 L372.0,258.0 L378.0,257.1 L384.0,254.6 L390.0,250.6 L396.0,245.3 L402.0,239.3 L408.0,232.7 L414.0,226.2 L420.0,220.2 L426.0,215.0 L432.0,211.0 L438.0,208.5 L444.0,207.6 L450.0,208.3 L456.0,210.5 L462.0,214.1 L468.0,218.8 L474.0,224.3 L480.0,230.1 L486.0,235.8 L492.0,241.1 L498.0,245.6 L504.0,249.0 L510.0,251.2 L516.0,252.0 L522.0,251.4 L528.0,249.6 L534.0,246.8 L540.0,243.1 L546.0,238.8 L552.0,234.4 L558.0,230.1 L564.0,226.2 L570.0,223.0 L576.0,220.6 L582.0,219.2 L588.0,218.8 L594.0,219.3 L600.0,220.6 L606.0,222.5 L612.0,224.9 L618.0,227.5 L624.0,230.1 L630.0,232.5 L636.0,234.5 L642.0,236.0 L648.0,236.9 L654.0,237.2 L660.0,237.0 L666.0,236.4 L672.0,235.6 L678.0,234.5 L684.0,233.6 L690.0,232.7 L696.0,232.2 L702.0,232.0" fill="none" stroke="#67d4ff" stroke-opacity="0.14" stroke-width="2"/>
+    <circle cx="207" cy="232" r="3" fill="#67d4ff" fill-opacity="0.35"/>
+    <circle cx="537" cy="232" r="3" fill="#f0b35a" fill-opacity="0.45"/>
+
+    <!-- Left Main Identity -->
+    <text x="44" y="74" fill="#67d4ff" font-family="DejaVu Sans Mono, Consolas, ui-monospace, monospace" font-size="14" font-weight="600">&gt; whoami --desk</text>
+    <line x1="44" y1="96" x2="44" y2="206" stroke="#67d4ff" stroke-width="3.5" stroke-linecap="round"/>
+
+    <text x="64" y="144" fill="#f3f7ff" font-family="DejaVu Sans, Segoe UI, -apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="56" font-weight="700" letter-spacing="-1.4">Muhammad Rafi</text>
+    <text x="64" y="204" fill="#f3f7ff" font-family="DejaVu Sans, Segoe UI, -apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="56" font-weight="700" letter-spacing="-1.4">Priyo Sembodo</text>
+
+    <text x="44" y="244" fill="#9fb3cf" font-family="DejaVu Sans, Segoe UI, -apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="17" font-weight="500">Telecommunication Engineering · Web Development · Local AI</text>
+
+    <!-- Topic Pills -->
+    <g font-family="DejaVu Sans Mono, Consolas, ui-monospace, monospace" font-size="12.5" font-weight="600">
+      <rect x="44" y="264" width="102" height="28" rx="7" fill="#152236" stroke="#26354d"/>
+      <text x="95" y="282" text-anchor="middle" fill="#67d4ff">Web Apps</text>
+
+      <rect x="156" y="264" width="98" height="28" rx="7" fill="#152236" stroke="#26354d"/>
+      <text x="205" y="282" text-anchor="middle" fill="#f3f7ff">Local AI</text>
+
+      <rect x="264" y="264" width="166" height="28" rx="7" fill="#2b2216" stroke="#f0b35a" stroke-opacity="0.55"/>
+      <text x="347" y="282" text-anchor="middle" fill="#f0b35a">Raspberry Pi · MQTT</text>
+    </g>
+
+    <!-- Right Focus Panel -->
+    <rect x="756" y="56" width="370" height="240" rx="12" fill="#0a101a" stroke="#26354d" stroke-width="1.5"/>
+    <text x="778" y="84" fill="#67d4ff" font-family="DejaVu Sans Mono, Consolas, ui-monospace, monospace" font-size="12.5" font-weight="700" letter-spacing="1.1">VERIFIED FOCUS</text>
+    <text x="1104" y="84" text-anchor="end" fill="#6e83a3" font-family="DejaVu Sans Mono, Consolas, ui-monospace, monospace" font-size="11.5">3 TRACKS</text>
+    <line x1="778" y1="96" x2="1104" y2="96" stroke="#1c293d" stroke-width="1"/>
+
+    <!-- Row 1: NusaMind -->
+    <g transform="translate(778, 110)">
+      <rect width="32" height="32" rx="8" fill="#122b3d"/>
+      <g transform="translate(4, 4)"><g stroke="#67d4ff" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9L12 3z"/><path d="M12 12l8-4.5M12 12v9M12 12L4 7.5"/></g></g>
+      <text x="44" y="14" fill="#f3f7ff" font-family="DejaVu Sans, Segoe UI, -apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="15" font-weight="700">NusaMind</text>
+      <text x="44" y="31" fill="#9fb3cf" font-family="DejaVu Sans, Segoe UI, -apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="12.5">Local-first AI workspace</text>
+    </g>
+
+    <!-- Row 2: NusaMonitor -->
+    <g transform="translate(778, 156)">
+      <rect width="32" height="32" rx="8" fill="#122b3d"/>
+      <g transform="translate(4, 4)"><g stroke="#67d4ff" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="3.5"/><path d="M12 3.5v3M12 17.5v3M3.5 12h3M17.5 12h3"/></g></g>
+      <text x="44" y="14" fill="#f3f7ff" font-family="DejaVu Sans, Segoe UI, -apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="15" font-weight="700">NusaMonitor</text>
+      <text x="44" y="31" fill="#9fb3cf" font-family="DejaVu Sans, Segoe UI, -apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="12.5">Live public data map</text>
+    </g>
+
+    <!-- Row 3: IoT Bench -->
+    <g transform="translate(778, 202)">
+      <rect width="32" height="32" rx="8" fill="#2b2216"/>
+      <g transform="translate(4, 4)"><g stroke="#f0b35a" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="16" r="2"/><path d="M7.8 12.2a6 6 0 0 1 8.4 0"/><path d="M4.6 9a10.5 10.5 0 0 1 14.8 0"/><path d="M12 18v3"/></g></g>
+      <text x="44" y="14" fill="#f3f7ff" font-family="DejaVu Sans, Segoe UI, -apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="15" font-weight="700">IoT &amp; MQTT Bench</text>
+      <text x="44" y="31" fill="#9fb3cf" font-family="DejaVu Sans, Segoe UI, -apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="12.5">Raspberry Pi telemetry</text>
+    </g>
+
+    <!-- Signal trace footer inside right panel -->
+    <line x1="778" y1="256" x2="1096" y2="256" stroke="#1c293d" stroke-width="1"/>
+    <path d="M780.0,256.0 L784.0,256.2 L787.9,256.6 L791.9,257.2 L795.8,257.9 L799.8,258.5 L803.7,258.9 L807.6,258.9 L811.6,258.4 L815.5,257.4 L819.5,256.0 L823.5,254.3 L827.4,252.5 L831.4,250.9 L835.3,249.5 L839.3,248.8 L843.2,248.7 L847.1,249.5 L851.1,251.0 L855.0,253.3 L859.0,256.0 L863.0,258.9 L866.9,261.8 L870.9,264.3 L874.8,266.0 L878.8,266.8 L882.7,266.5 L886.6,265.2 L890.6,262.8 L894.5,259.6 L898.5,256.0 L902.5,252.2 L906.4,248.7 L910.4,245.9 L914.3,244.0 L918.3,243.2 L922.2,243.8 L926.1,245.6 L930.1,248.4 L934.0,252.0 L938.0,256.0 L942.0,260.0 L945.9,263.6 L949.9,266.4 L953.8,268.2 L957.8,268.8 L961.7,268.0 L965.6,266.1 L969.6,263.3 L973.5,259.8 L977.5,256.0 L981.5,252.4 L985.4,249.2 L989.4,246.8 L993.3,245.5 L997.3,245.2 L1001.2,246.0 L1005.1,247.7 L1009.1,250.2 L1013.0,253.1 L1017.0,256.0 L1021.0,258.7 L1024.9,261.0 L1028.8,262.5 L1032.8,263.3 L1036.8,263.2 L1040.7,262.5 L1044.7,261.1 L1048.6,259.5 L1052.5,257.7 L1056.5,256.0 L1060.5,254.6 L1064.4,253.6 L1068.3,253.1 L1072.3,253.1 L1076.3,253.5 L1080.2,254.1 L1084.2,254.8 L1088.1,255.4 L1092.0,255.8 L1096.0,256.0" fill="none" stroke="#67d4ff" stroke-width="1.8" stroke-opacity="0.75"/>
+    <circle cx="859" cy="256" r="2.8" fill="#f0b35a"/>
+    <circle cx="1017" cy="256" r="2.8" fill="#67d4ff"/>
+    <text x="778" y="282" fill="#6e83a3" font-family="DejaVu Sans Mono, Consolas, ui-monospace, monospace" font-size="11">CH-01 // SIGNAL TRACE</text>
+    <text x="1104" y="282" text-anchor="end" fill="#f0b35a" font-family="DejaVu Sans Mono, Consolas, ui-monospace, monospace" font-size="11">RF · WEB · AI</text>
+  </g>
+</svg>
