@@ -41,6 +41,18 @@
   </picture></a>
 </p>
 
+<h2 align="center">Toolkit</h2>
+
+<p align="center">
+  <picture>
+    <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="assets/nightshift/refined/toolkit-light-compact.webp">
+    <source media="(max-width: 600px)" srcset="assets/nightshift/refined/toolkit-dark-compact.webp">
+    <source media="(prefers-color-scheme: light)" srcset="assets/nightshift/refined/toolkit-light.webp">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/nightshift/refined/toolkit-dark.webp">
+    <img src="assets/nightshift/refined/toolkit-dark.webp" width="1056" alt="Toolkit: TypeScript, React, Node.js, PHP, Python, JavaScript, SQLite, PostgreSQL, Docker, Linux, Raspberry Pi, and Git">
+  </picture>
+</p>
+
 ## About me · Field Notes
 
 I am a **Telecommunication Engineering** student at **Telkom University**, building web applications, local-first AI tools, and connected hardware experiments.
@@ -91,18 +103,6 @@ Curated highlights across architecture, UI, and local-first tooling:
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/muhrafi-fsdev/muhrafi-fsdev/output/snake-light.svg?v=restore-command-center-20261110">
   <img width="100%" alt="Animated snake following the GitHub contribution calendar" src="https://raw.githubusercontent.com/muhrafi-fsdev/muhrafi-fsdev/output/snake-dark.svg?v=restore-command-center-20261110">
 </picture>
-
-<h2 align="center">Toolkit</h2>
-
-<p align="center">
-  <picture>
-    <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="assets/nightshift/refined/toolkit-light-compact.webp">
-    <source media="(max-width: 600px)" srcset="assets/nightshift/refined/toolkit-dark-compact.webp">
-    <source media="(prefers-color-scheme: light)" srcset="assets/nightshift/refined/toolkit-light.webp">
-    <source media="(prefers-color-scheme: dark)" srcset="assets/nightshift/refined/toolkit-dark.webp">
-    <img src="assets/nightshift/refined/toolkit-dark.webp" width="1056" alt="Toolkit: TypeScript, React, Node.js, PHP, Python, JavaScript, SQLite, PostgreSQL, Docker, Linux, Raspberry Pi, and Git">
-  </picture>
-</p>
 
 <details>
 <summary>Archive · Pixel rocket and Signal Lab animations</summary>
