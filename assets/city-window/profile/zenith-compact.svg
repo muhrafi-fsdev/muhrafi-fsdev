@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="410" height="84" viewBox="0 0 410 84">
+<defs><linearGradient id="cover"><stop stop-color="#201b31"/><stop offset="1" stop-color="#142238"/></linearGradient></defs>
+<rect x=".5" y=".5" width="409" height="83" rx="10" fill="url(#cover)" stroke="#405672"/>
+<rect x="12" y="18" width="46" height="46" rx="8" fill="#101c2b" stroke="#d6b5ff" stroke-opacity=".38"/>
+<g transform="translate(22 28) scale(1.0833333333333333)" fill="none" stroke="#d6b5ff" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round"><path d="m3 17 6-10 4 6 2-3 6 7H3zm12-12h4m-2-2v4"/></g>
+<text x="72" y="32" fill="#ecf3ff" font-size="22" font-weight="690" font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">NusaMind Zenith</text>
+<path d="M374 40h16m-6-6 6 6-6 6" fill="none" stroke="#d6b5ff" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="72" y="54" fill="#c1d1e4" font-size="15" font-weight="400" font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">Local AI workspace for multi-file</text>
+<text x="72" y="72" fill="#c1d1e4" font-size="15" font-weight="400" font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">projects</text>
+</svg>

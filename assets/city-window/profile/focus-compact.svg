@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="410" height="247" viewBox="0 0 410 247">
+<defs><linearGradient id="bg"><stop stop-color="#121e2f"/><stop offset="1" stop-color="#101827"/></linearGradient></defs>
+<rect x=".5" y=".5" width="409" height="246" rx="15" fill="url(#bg)" stroke="#3b536e"/>
+<g transform="translate(18 22) scale(1.1666666666666667)" fill="none" stroke="#8ddcf5" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="4" width="19" height="16" rx="2.5"/><path d="M3 9h18m-12 3-2 2 2 2m6-4 2 2-2 2m-2-5-2 6"/></g>
+<text x="64" y="35" fill="#eef4ff" font-size="24" font-weight="680" font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">Web development</text>
+<text x="64" y="65" fill="#b8cbe1" font-size="14" font-weight="400" font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">Browser extensions and live-data dashboards</text>
+<path d="M18 89h374" stroke="#2e435c"/>
+<g transform="translate(18 102) scale(1.1666666666666667)" fill="none" stroke="#ccaff7" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="6" width="12" height="12" rx="3"/><path d="M9 2v4m6-4v4m-6 12v4m6-4v4M2 9h4m-4 6h4m12-6h4m-4 6h4"/><path d="M9 15l2-6 2 6m-3-2h2m3-4v6"/></g>
+<text x="64" y="115" fill="#eef4ff" font-size="24" font-weight="680" font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">Local AI</text>
+<text x="64" y="145" fill="#b8cbe1" font-size="14" font-weight="400" font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">Private workspaces that run on the user’s device</text>
+<path d="M18 169h374" stroke="#2e435c"/>
+<g transform="translate(18 182) scale(1.1666666666666667)" fill="none" stroke="#f2c48a" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round"><path d="M3 19h18M12 18v-5m-4 5 4-3 4 3M8.5 9.5a5 5 0 0 1 7 0m-10-3a9 9 0 0 1 13 0"/><circle cx="12" cy="12" r="1"/></g>
+<text x="64" y="195" fill="#eef4ff" font-size="24" font-weight="680" font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">IoT &amp; networking</text>
+<text x="64" y="225" fill="#b8cbe1" font-size="14" font-weight="400" font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">Sensor telemetry with Raspberry Pi and MQTT</text>
+</svg>

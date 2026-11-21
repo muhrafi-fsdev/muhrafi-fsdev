@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="66" viewBox="0 0 820 66">
+  <rect x=".5" y=".5" width="819" height="65" rx="10" fill="#111d2d" stroke="#405773"/>
+  <path d="M8 13v14" stroke="#90c8fa" stroke-width="2" stroke-linecap="round"/>
+  <g font-family="system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif">
+    <text x="25" y="26" font-size="20" font-weight="650" fill="#edf5ff">NusaMind Swift</text>
+    <text x="25" y="48" font-size="15" fill="#c1d2e6">Local AI assistant with retrieval and memory</text>
+    <circle cx="523" cy="35.5" r="3.5" fill="#90c8fa"/>
+    <text x="533" y="40" font-size="14" fill="#c6d5e8">TypeScript</text>
+    <text x="786" y="40" text-anchor="end" font-size="14" font-family="ui-monospace,Consolas,monospace" fill="#d5e4f4">15 Sep 2026</text>
+    <path d="M797 31h9m-4-4 4 4-4 4" fill="none" stroke="#8dc5e9" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

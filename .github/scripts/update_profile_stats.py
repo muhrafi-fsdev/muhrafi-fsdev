@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Refresh the profile README’s public repository activity table.
+"""Refresh the profile README’s public repository activity and linked cards.
 
 Uses only official GitHub API responses (or a local fixture file when
 `--fixture` is passed for testing). Never invents numbers or overwrites
@@ -17,8 +17,10 @@ import urllib.error
 import urllib.request
 from datetime import datetime, timezone
 from html import escape
+from textwrap import shorten
 
 README = pathlib.Path("README.md")
+CARD_DIR = pathlib.Path("assets/city-window/activity")
 START = "<!-- LIVE_REPOS_START -->"
 END = "<!-- LIVE_REPOS_END -->"
 OWNER = "muhrafi-fsdev"
@@ -36,6 +38,12 @@ PROFILE_SUMMARIES = {
     "NUSAMIND-SWIFT": "Local AI assistant with retrieval and memory",
     "Raystore-topup": "Game top-up storefront prototype",
     "RYKA-CORE": "Gesture controls for accessible desktop interaction",
+}
+LANGUAGE_COLORS = {
+    "CSS": "#b59aee",
+    "HTML": "#ff9e82",
+    "JavaScript": "#f3d584",
+    "TypeScript": "#90c8fa",
 }
 
 
@@ -61,12 +69,35 @@ def fetch_repo(repo: str) -> dict:
     return data
 
 
-def _clean_cell(text: str) -> str:
-    return escape(" ".join(text.split())).replace("|", "&#124;")
+def render_card(title: str, desc: str, language: str, date: str, *, latest: bool, compact: bool) -> str:
+    """Lay out the same repository metadata for wide and narrow displays."""
+    width, height = (440, 85) if compact else (820, 66)
+    inset = 20 if compact else 25
+    title_y, desc_y, meta_y = (26, 49, 72) if compact else (26, 48, 40)
+    language_x = inset + 12 if compact else width - 287
+    color = LANGUAGE_COLORS.get(language, "#a7becf")
+    fill = "#14273b" if latest else "#111d2d"
+    border = "#5986ac" if latest else "#405773"
+    max_desc = 50 if compact else 58
+    short_desc = shorten(desc, width=max_desc, placeholder="…")
+
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}">
+  <rect x=".5" y=".5" width="{width-1}" height="{height-1}" rx="10" fill="{fill}" stroke="{border}"/>
+  <path d="M8 {title_y-13}v14" stroke="{color}" stroke-width="2" stroke-linecap="round"/>
+  <g font-family="system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif">
+    <text x="{inset}" y="{title_y}" font-size="20" font-weight="650" fill="#edf5ff">{escape(title)}</text>
+    <text x="{inset}" y="{desc_y}" font-size="15" fill="#c1d2e6">{escape(short_desc)}</text>
+    <circle cx="{language_x-10}" cy="{meta_y-4.5}" r="3.5" fill="{color}"/>
+    <text x="{language_x}" y="{meta_y}" font-size="14" fill="#c6d5e8">{escape(language)}</text>
+    <text x="{width-34}" y="{meta_y}" text-anchor="end" font-size="14" font-family="ui-monospace,Consolas,monospace" fill="#d5e4f4">{date}</text>
+    <path d="M{width-23} {meta_y-9}h9m-4-4 4 4-4 4" fill="none" stroke="#8dc5e9" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
+"""
 
 
-def render_activity(metadata: list[tuple[str, str, str, dict]]) -> str:
-    """Render scannable Markdown rows sorted by most recent public push."""
+def render_activity(metadata: list[tuple[str, str, str, dict]]) -> tuple[str, dict[pathlib.Path, str]]:
+    """Render linked cards sorted by most recent public push."""
     projects = []
     for title, repo, fallback_desc, data in metadata:
         timestamp = data["pushed_at"]
@@ -74,26 +105,33 @@ def render_activity(metadata: list[tuple[str, str, str, dict]]) -> str:
         if date.tzinfo is None:
             raise ValueError(f"Timezone missing for {repo}")
         lang = data.get("language") or "Not specified"
-        desc = PROFILE_SUMMARIES.get(repo) or (data.get("description") or "").strip() or fallback_desc
+        desc = PROFILE_SUMMARIES.get(repo) or data.get("description") or fallback_desc
+        desc = " ".join(desc.split()) or fallback_desc
         projects.append((title, repo, desc, date.astimezone(timezone.utc), lang))
 
     projects.sort(key=lambda row: row[3], reverse=True)
     lead_title, lead_repo, _, latest, _ = projects[0]
     lead_url = f"https://github.com/{OWNER}/{lead_repo}"
 
-    parts = [
-        f'**Latest push** · [{lead_title}]({lead_url}) · {latest:%d %b %Y} (UTC)',
-        "",
-        "| Repository | Last push (UTC) |",
-        "| :-- | --: |",
-    ]
-    for title, repo, desc, date, language in projects:
-        display_date = date.strftime("%d %b %Y").replace(" ", "&nbsp;")
+    lead = f"**Latest push** · [{lead_title}]({lead_url}) · {latest:%d %b %Y} (UTC)"
+    parts = []
+    cards = {}
+    for index, (title, repo, desc, date, language) in enumerate(projects):
+        name = repo.lower()
+        wide = CARD_DIR / f"{name}.svg"
+        narrow = CARD_DIR / f"{name}-compact.svg"
+        formatted = f"{date:%d %b %Y}"
+        alt = escape(f"{title} — {desc}. {language}. Last push {formatted} (UTC).")
+        cards[wide] = render_card(title, desc, language, formatted, latest=index == 0, compact=False)
+        cards[narrow] = render_card(title, desc, language, formatted, latest=index == 0, compact=True)
         parts.append(
-            f"| **[{title}](https://github.com/{OWNER}/{repo})**"
-            f"<br><sub>{_clean_cell(desc)} · {_clean_cell(language)}</sub> | {display_date} |"
+            f'  <a href="https://github.com/{OWNER}/{repo}"><picture>\n'
+            f'    <source media="(max-width: 600px)" srcset="{narrow.as_posix()}">\n'
+            f'    <img width="820" src="{wide.as_posix()}" alt="{alt}">\n'
+            f'  </picture></a>'
         )
-    return "\n".join(parts)
+    card_links = "<br>\n".join(parts)
+    return f"{lead}\n\n<p>\n{card_links}\n</p>", cards
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -112,7 +150,7 @@ def main(argv: list[str] | None = None) -> int:
     else:
         metadata = [(title, repo, fallback, fetch_repo(repo)) for title, repo, fallback in REPOS]
 
-    activity = render_activity(metadata)
+    activity, cards = render_activity(metadata)
     if args.dry_run:
         print(activity)
         return 0
@@ -123,11 +161,15 @@ def main(argv: list[str] | None = None) -> int:
         original,
         count=1,
     )
+    CARD_DIR.mkdir(parents=True, exist_ok=True)
+    changed = updated != original
+    for path, card in cards.items():
+        if not path.exists() or path.read_text(encoding="utf-8") != card:
+            path.write_text(card, encoding="utf-8")
+            changed = True
     if updated != original:
         README.write_text(updated, encoding="utf-8")
-        print("Updated public repository activity table")
-    else:
-        print("Profile stats already current")
+    print("Updated public repository cards" if changed else "Profile stats already current")
     return 0
 
 
@@ -137,4 +179,3 @@ if __name__ == "__main__":
     except (OSError, ValueError, RuntimeError, urllib.error.URLError, json.JSONDecodeError, KeyError) as err:
         print(f"Profile update aborted safely: {err}", file=sys.stderr)
         sys.exit(1)
-

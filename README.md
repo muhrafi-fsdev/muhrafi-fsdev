@@ -6,10 +6,10 @@
 </h1>
 
 <p align="center">
-  <a href="https://riyooprivateweb.my.id/PORTFOLIO_WEB/">Portfolio</a> ·
-  <a href="https://www.linkedin.com/in/rafipriyo">LinkedIn</a> ·
-  <a href="https://www.instagram.com/mhmmd_rayfy">Instagram</a> ·
-  <a href="mailto:raymufiyo@gmail.com">Email</a>
+  <a href="https://riyooprivateweb.my.id/PORTFOLIO_WEB/"><img src="assets/city-window/profile/portfolio.svg" width="130" alt="Portfolio"></a>
+  <a href="https://www.linkedin.com/in/rafipriyo"><img src="assets/city-window/profile/linkedin.svg" width="130" alt="LinkedIn"></a>
+  <a href="https://www.instagram.com/mhmmd_rayfy"><img src="assets/city-window/profile/instagram.svg" width="130" alt="Instagram"></a>
+  <a href="mailto:raymufiyo@gmail.com"><img src="assets/city-window/profile/email.svg" width="130" alt="Email"></a>
 </p>
 
 ## Latest projects
@@ -27,19 +27,29 @@
 
 ## About me
 
-> I study **Telecommunication Engineering** at **Telkom University** and build projects for the web, local devices, and sensor networks.
+I’m a **Telecommunication Engineering** student at **Telkom University**. I build browser tools, local AI workspaces, and connected devices.
 
-**Web development.** I build browser tools and dashboards, including [NusaMonitor](https://github.com/muhrafi-fsdev/NusaMonitor), an interactive map of live public data across Indonesia.
-
-**Local AI.** I build tools that run on the user’s machine. [NusaMind Zenith](https://github.com/muhrafi-fsdev/NUSAMIND-ZENITH) is my workspace for working across files and keeping project context.
-
-**IoT and networking.** I use Raspberry Pi and MQTT to collect sensor readings and test how telemetry moves between devices.
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/city-window/profile/focus-compact.svg">
+  <img src="assets/city-window/profile/focus.svg" width="820" alt="Web development — browser extensions and live-data dashboards. Local AI — private workspaces that run on the user’s device. IoT and networking — sensor telemetry with Raspberry Pi and MQTT.">
+</picture>
 
 ## Selected projects
 
-- [NusaMind Zenith](https://github.com/muhrafi-fsdev/NUSAMIND-ZENITH) · Local-first AI workspace for multi-file projects
-- [NusaMonitor](https://github.com/muhrafi-fsdev/NusaMonitor) · Interactive map of live public data for Indonesia
-- [RYKA Core](https://github.com/muhrafi-fsdev/RYKA-CORE) · Gesture controls for accessible desktop interaction
+<p>
+  <a href="https://github.com/muhrafi-fsdev/NUSAMIND-ZENITH"><picture>
+    <source media="(max-width: 600px)" srcset="assets/city-window/profile/zenith-compact.svg">
+    <img src="assets/city-window/profile/zenith.svg" width="820" alt="NusaMind Zenith — Local AI workspace for multi-file projects">
+  </picture></a><br>
+  <a href="https://github.com/muhrafi-fsdev/NusaMonitor"><picture>
+    <source media="(max-width: 600px)" srcset="assets/city-window/profile/map-compact.svg">
+    <img src="assets/city-window/profile/map.svg" width="820" alt="NusaMonitor — Live public data on an interactive map of Indonesia">
+  </picture></a><br>
+  <a href="https://github.com/muhrafi-fsdev/RYKA-CORE"><picture>
+    <source media="(max-width: 600px)" srcset="assets/city-window/profile/gesture-compact.svg">
+    <img src="assets/city-window/profile/gesture.svg" width="820" alt="RYKA Core — Gesture controls for accessible desktop interaction">
+  </picture></a>
+</p>
 
 ## Toolkit
 
@@ -58,19 +68,43 @@
 <!-- LIVE_REPOS_START -->
 **Latest push** · [KillerTab](https://github.com/muhrafi-fsdev/KillerTab) · 21 Nov 2026 (UTC)
 
-| Repository | Last push (UTC) |
-| :-- | --: |
-| **[KillerTab](https://github.com/muhrafi-fsdev/KillerTab)**<br><sub>Tab sleep, ad blocking, and suspicious link checks · JavaScript</sub> | 21&nbsp;Nov&nbsp;2026 |
-| **[YouTube Ambient Glass](https://github.com/muhrafi-fsdev/YouTube-Ambient)**<br><sub>Video-powered ambience for YouTube · JavaScript</sub> | 21&nbsp;Nov&nbsp;2026 |
-| **[RYKA Core](https://github.com/muhrafi-fsdev/RYKA-CORE)**<br><sub>Gesture controls for accessible desktop interaction · TypeScript</sub> | 25&nbsp;Oct&nbsp;2026 |
-| **[NusaMind Zenith](https://github.com/muhrafi-fsdev/NUSAMIND-ZENITH)**<br><sub>Local-first AI workspace for multi-file projects · TypeScript</sub> | 23&nbsp;Oct&nbsp;2026 |
-| **[NusaMind Swift](https://github.com/muhrafi-fsdev/NUSAMIND-SWIFT)**<br><sub>Local AI assistant with retrieval and memory · TypeScript</sub> | 15&nbsp;Sep&nbsp;2026 |
-| **[NusaMonitor](https://github.com/muhrafi-fsdev/NusaMonitor)**<br><sub>Live public data mapping dashboard for Indonesia · JavaScript</sub> | 25&nbsp;Jul&nbsp;2026 |
-| **[RayStore](https://github.com/muhrafi-fsdev/Raystore-topup)**<br><sub>Game top-up storefront prototype · CSS</sub> | 24&nbsp;Jul&nbsp;2026 |
-| **[Academic Organizer](https://github.com/muhrafi-fsdev/AcademicOrganizer)**<br><sub>Student tasks, schedules, and academic planning · HTML</sub> | 11&nbsp;Feb&nbsp;2026 |
+<p>
+  <a href="https://github.com/muhrafi-fsdev/KillerTab"><picture>
+    <source media="(max-width: 600px)" srcset="assets/city-window/activity/killertab-compact.svg">
+    <img width="820" src="assets/city-window/activity/killertab.svg" alt="KillerTab — Tab sleep, ad blocking, and suspicious link checks. JavaScript. Last push 21 Nov 2026 (UTC).">
+  </picture></a><br>
+  <a href="https://github.com/muhrafi-fsdev/YouTube-Ambient"><picture>
+    <source media="(max-width: 600px)" srcset="assets/city-window/activity/youtube-ambient-compact.svg">
+    <img width="820" src="assets/city-window/activity/youtube-ambient.svg" alt="YouTube Ambient Glass — Video-powered ambience for YouTube. JavaScript. Last push 21 Nov 2026 (UTC).">
+  </picture></a><br>
+  <a href="https://github.com/muhrafi-fsdev/RYKA-CORE"><picture>
+    <source media="(max-width: 600px)" srcset="assets/city-window/activity/ryka-core-compact.svg">
+    <img width="820" src="assets/city-window/activity/ryka-core.svg" alt="RYKA Core — Gesture controls for accessible desktop interaction. TypeScript. Last push 25 Oct 2026 (UTC).">
+  </picture></a><br>
+  <a href="https://github.com/muhrafi-fsdev/NUSAMIND-ZENITH"><picture>
+    <source media="(max-width: 600px)" srcset="assets/city-window/activity/nusamind-zenith-compact.svg">
+    <img width="820" src="assets/city-window/activity/nusamind-zenith.svg" alt="NusaMind Zenith — Local-first AI workspace for multi-file projects. TypeScript. Last push 23 Oct 2026 (UTC).">
+  </picture></a><br>
+  <a href="https://github.com/muhrafi-fsdev/NUSAMIND-SWIFT"><picture>
+    <source media="(max-width: 600px)" srcset="assets/city-window/activity/nusamind-swift-compact.svg">
+    <img width="820" src="assets/city-window/activity/nusamind-swift.svg" alt="NusaMind Swift — Local AI assistant with retrieval and memory. TypeScript. Last push 15 Sep 2026 (UTC).">
+  </picture></a><br>
+  <a href="https://github.com/muhrafi-fsdev/NusaMonitor"><picture>
+    <source media="(max-width: 600px)" srcset="assets/city-window/activity/nusamonitor-compact.svg">
+    <img width="820" src="assets/city-window/activity/nusamonitor.svg" alt="NusaMonitor — Live public data mapping dashboard for Indonesia. JavaScript. Last push 25 Jul 2026 (UTC).">
+  </picture></a><br>
+  <a href="https://github.com/muhrafi-fsdev/Raystore-topup"><picture>
+    <source media="(max-width: 600px)" srcset="assets/city-window/activity/raystore-topup-compact.svg">
+    <img width="820" src="assets/city-window/activity/raystore-topup.svg" alt="RayStore — Game top-up storefront prototype. CSS. Last push 24 Jul 2026 (UTC).">
+  </picture></a><br>
+  <a href="https://github.com/muhrafi-fsdev/AcademicOrganizer"><picture>
+    <source media="(max-width: 600px)" srcset="assets/city-window/activity/academicorganizer-compact.svg">
+    <img width="820" src="assets/city-window/activity/academicorganizer.svg" alt="Academic Organizer — Student tasks, schedules, and academic planning. HTML. Last push 11 Feb 2026 (UTC).">
+  </picture></a>
+</p>
 <!-- LIVE_REPOS_END -->
 
-[Browse all repositories](https://github.com/muhrafi-fsdev?tab=repositories) · <sub>Push dates updated by GitHub Actions.</sub>
+[Browse all repositories →](https://github.com/muhrafi-fsdev?tab=repositories)
 
 ## GitHub activity
 
