@@ -1,47 +1,47 @@
 <h1 align="center">
   <picture>
-    <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="assets/nightshift/signal-desk/hero-light-compact.svg">
-    <source media="(max-width: 600px)" srcset="assets/nightshift/signal-desk/hero-dark-compact.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/nightshift/signal-desk/hero-light.svg">
-    <source media="(prefers-color-scheme: dark)" srcset="assets/nightshift/signal-desk/hero-dark.svg">
-    <img src="assets/nightshift/signal-desk/hero-dark.svg" width="1160" alt="Muhammad Rafi Priyo Sembodo — Nightshift Signal Desk">
+    <source media="(prefers-reduced-motion: no-preference)" type="image/webp" srcset="assets/city-window/header.webp">
+    <img src="assets/city-window/header-still.webp" width="1080" alt="Muhammad Rafi Priyo Sembodo (@muhrafi-fsdev), with a rainy city skyline after dark">
   </picture>
 </h1>
 
 <p align="center">
-  <picture>
-    <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: light)" srcset="assets/nightshift/signal-desk/signal-pulse-light-still.webp">
-    <source media="(prefers-reduced-motion: reduce)" srcset="assets/nightshift/signal-desk/signal-pulse-dark-still.webp">
-    <source media="(prefers-color-scheme: light)" srcset="assets/nightshift/signal-desk/signal-pulse-light.webp">
-    <source media="(prefers-color-scheme: dark)" srcset="assets/nightshift/signal-desk/signal-pulse-dark.webp">
-    <img src="assets/nightshift/signal-desk/signal-pulse-dark-still.webp" width="760" alt="Signal trace pulse divider">
-  </picture>
+  <a href="https://riyooprivateweb.my.id/PORTFOLIO_WEB/">Portfolio</a> ·
+  <a href="https://www.linkedin.com/in/rafipriyo">LinkedIn</a> ·
+  <a href="https://www.instagram.com/mhmmd_rayfy">Instagram</a> ·
+  <a href="mailto:raymufiyo@gmail.com">Email</a>
 </p>
 
-<p align="center">
-  <a href="https://riyooprivateweb.my.id/PORTFOLIO_WEB/"><picture>
-    <source media="(prefers-color-scheme: light)" srcset="assets/nightshift/signal-desk/btn-portfolio-light.svg">
-    <source media="(prefers-color-scheme: dark)" srcset="assets/nightshift/signal-desk/btn-portfolio-dark.svg">
-    <img src="assets/nightshift/signal-desk/btn-portfolio-dark.svg" width="146" alt="Portfolio">
-  </picture></a>&nbsp;
-  <a href="https://www.linkedin.com/in/rafipriyo"><picture>
-    <source media="(prefers-color-scheme: light)" srcset="assets/nightshift/signal-desk/btn-linkedin-light.svg">
-    <source media="(prefers-color-scheme: dark)" srcset="assets/nightshift/signal-desk/btn-linkedin-dark.svg">
-    <img src="assets/nightshift/signal-desk/btn-linkedin-dark.svg" width="144" alt="LinkedIn">
-  </picture></a>&nbsp;
-  <a href="https://www.instagram.com/mhmmd_rayfy"><picture>
-    <source media="(prefers-color-scheme: light)" srcset="assets/nightshift/signal-desk/btn-instagram-light.svg">
-    <source media="(prefers-color-scheme: dark)" srcset="assets/nightshift/signal-desk/btn-instagram-dark.svg">
-    <img src="assets/nightshift/signal-desk/btn-instagram-dark.svg" width="156" alt="Instagram">
-  </picture></a>&nbsp;
-  <a href="mailto:raymufiyo@gmail.com"><picture>
-    <source media="(prefers-color-scheme: light)" srcset="assets/nightshift/signal-desk/btn-email-light.svg">
-    <source media="(prefers-color-scheme: dark)" srcset="assets/nightshift/signal-desk/btn-email-dark.svg">
-    <img src="assets/nightshift/signal-desk/btn-email-dark.svg" width="128" alt="Email">
-  </picture></a>
+## Latest projects
+
+<p>
+  <a href="https://github.com/muhrafi-fsdev/YouTube-Ambient">
+    <img src="assets/city-window/youtube-ambient.webp" width="820" alt="YouTube Ambient Glass — video-powered ambience for YouTube">
+  </a>
+</p>
+<p>
+  <a href="https://github.com/muhrafi-fsdev/KillerTab">
+    <img src="assets/city-window/killertab.webp" width="820" alt="KillerTab — tab sleep, ad blocking and suspicious link checks">
+  </a>
 </p>
 
-<h2 align="center">Toolkit</h2>
+## About me
+
+> I study **Telecommunication Engineering** at **Telkom University** and build projects for the web, local devices, and sensor networks.
+
+**Web development.** I build browser tools and dashboards, including [NusaMonitor](https://github.com/muhrafi-fsdev/NusaMonitor), an interactive map of live public data across Indonesia.
+
+**Local AI.** I build tools that run on the user’s machine. [NusaMind Zenith](https://github.com/muhrafi-fsdev/NUSAMIND-ZENITH) is my workspace for working across files and keeping project context.
+
+**IoT and networking.** I use Raspberry Pi and MQTT to collect sensor readings and test how telemetry moves between devices.
+
+## Selected projects
+
+- [NusaMind Zenith](https://github.com/muhrafi-fsdev/NUSAMIND-ZENITH) · Local-first AI workspace for multi-file projects
+- [NusaMonitor](https://github.com/muhrafi-fsdev/NusaMonitor) · Interactive map of live public data for Indonesia
+- [RYKA Core](https://github.com/muhrafi-fsdev/RYKA-CORE) · Gesture controls for accessible desktop interaction
+
+## Toolkit
 
 <p align="center">
   <picture>
@@ -53,38 +53,24 @@
   </picture>
 </p>
 
-## About me · Field Notes
-
-I am a **Telecommunication Engineering** student at **Telkom University**, building web applications, local-first AI tools, and connected hardware experiments.
-
-- **Web Development** — Full-stack web interfaces and live public data dashboards · e.g. [NusaMonitor](https://github.com/muhrafi-fsdev/NusaMonitor)
-- **Local AI** — Privacy-aware retrieval, bounded reasoning, and local-first assistants · e.g. [NusaMind Zenith](https://github.com/muhrafi-fsdev/NUSAMIND-ZENITH)
-- **IoT & Networking** — Embedded telemetry, sensor nodes, and brokered messaging · e.g. Raspberry Pi & MQTT bench experiments
-
-## Selected projects
-
-Curated highlights across architecture, UI, and local-first tooling:
-
-- **[NusaMind Zenith](https://github.com/muhrafi-fsdev/NUSAMIND-ZENITH)** — Local-first AI workspace structured for multi-file projects and context continuity.
-- **[NusaMonitor](https://github.com/muhrafi-fsdev/NusaMonitor)** — Interactive dashboard mapping live public data across Indonesia.
-- **[RYKA Core](https://github.com/muhrafi-fsdev/RYKA-CORE)** — Accessible gesture control and desktop interaction platform.
-
 ## Public repository activity
 
 <!-- LIVE_REPOS_START -->
-<sub><strong>Latest public push</strong> · <a href="https://github.com/muhrafi-fsdev/RYKA-CORE">RYKA Core</a> · 25 Oct 2026 (UTC)</sub>
+**Latest push** · [KillerTab](https://github.com/muhrafi-fsdev/KillerTab) · 21 Nov 2026 (UTC)
 
-| Repository | Function | Language | Last push (UTC) |
-| :-- | :-- | :-- | --: |
-| [RYKA Core](https://github.com/muhrafi-fsdev/RYKA-CORE) | Accessible gesture control and secure desktop interaction platform. | TypeScript | 2026-10-25 |
-| [NusaMind Zenith](https://github.com/muhrafi-fsdev/NUSAMIND-ZENITH) | Local-first AI workspace for multi-file projects | TypeScript | 2026-10-23 |
-| [NusaMind Swift](https://github.com/muhrafi-fsdev/NUSAMIND-SWIFT) | Fast local-first AI assistant with bounded reasoning, verified retrieval, privacy-aware memory, and defensive cybersecurity. | TypeScript | 2026-09-15 |
-| [NusaMonitor](https://github.com/muhrafi-fsdev/NusaMonitor) | Live public data mapping dashboard for Indonesia | JavaScript | 2026-07-25 |
-| [RayStore](https://github.com/muhrafi-fsdev/Raystore-topup) | LANDING TOP UP | CSS | 2026-07-24 |
-| [Academic Organizer](https://github.com/muhrafi-fsdev/AcademicOrganizer) | Student tasks, schedules, and academic planning | HTML | 2026-02-11 |
+| Repository | Last push (UTC) |
+| :-- | --: |
+| **[KillerTab](https://github.com/muhrafi-fsdev/KillerTab)**<br><sub>Tab sleep, ad blocking, and suspicious link checks · JavaScript</sub> | 21&nbsp;Nov&nbsp;2026 |
+| **[YouTube Ambient Glass](https://github.com/muhrafi-fsdev/YouTube-Ambient)**<br><sub>Video-powered ambience for YouTube · JavaScript</sub> | 21&nbsp;Nov&nbsp;2026 |
+| **[RYKA Core](https://github.com/muhrafi-fsdev/RYKA-CORE)**<br><sub>Gesture controls for accessible desktop interaction · TypeScript</sub> | 25&nbsp;Oct&nbsp;2026 |
+| **[NusaMind Zenith](https://github.com/muhrafi-fsdev/NUSAMIND-ZENITH)**<br><sub>Local-first AI workspace for multi-file projects · TypeScript</sub> | 23&nbsp;Oct&nbsp;2026 |
+| **[NusaMind Swift](https://github.com/muhrafi-fsdev/NUSAMIND-SWIFT)**<br><sub>Local AI assistant with retrieval and memory · TypeScript</sub> | 15&nbsp;Sep&nbsp;2026 |
+| **[NusaMonitor](https://github.com/muhrafi-fsdev/NusaMonitor)**<br><sub>Live public data mapping dashboard for Indonesia · JavaScript</sub> | 25&nbsp;Jul&nbsp;2026 |
+| **[RayStore](https://github.com/muhrafi-fsdev/Raystore-topup)**<br><sub>Game top-up storefront prototype · CSS</sub> | 24&nbsp;Jul&nbsp;2026 |
+| **[Academic Organizer](https://github.com/muhrafi-fsdev/AcademicOrganizer)**<br><sub>Student tasks, schedules, and academic planning · HTML</sub> | 11&nbsp;Feb&nbsp;2026 |
 <!-- LIVE_REPOS_END -->
 
-<sub>Activity data refreshed from public GitHub metadata by GitHub Actions.</sub>
+[Browse all repositories](https://github.com/muhrafi-fsdev?tab=repositories) · <sub>Push dates updated by GitHub Actions.</sub>
 
 ## GitHub activity
 

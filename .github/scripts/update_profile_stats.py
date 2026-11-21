@@ -23,13 +23,20 @@ START = "<!-- LIVE_REPOS_START -->"
 END = "<!-- LIVE_REPOS_END -->"
 OWNER = "muhrafi-fsdev"
 REPOS = [
+    ("YouTube Ambient Glass", "YouTube-Ambient", "Video-powered ambience for YouTube"),
+    ("KillerTab", "KillerTab", "Tab sleep, ad blocking, and suspicious link checks"),
     ("NusaMind Zenith", "NUSAMIND-ZENITH", "Local-first AI workspace for multi-file projects"),
-    ("NusaMind Swift", "NUSAMIND-SWIFT", "Lightweight local AI assistant with retrieval and memory"),
+    ("NusaMind Swift", "NUSAMIND-SWIFT", "Local AI assistant with retrieval and memory"),
     ("NusaMonitor", "NusaMonitor", "Live public data mapping dashboard for Indonesia"),
     ("RYKA Core", "RYKA-CORE", "Accessible gesture control and desktop interaction platform"),
     ("RayStore", "Raystore-topup", "Game top-up storefront prototype"),
     ("Academic Organizer", "AcademicOrganizer", "Student tasks, schedules, and academic planning"),
 ]
+PROFILE_SUMMARIES = {
+    "NUSAMIND-SWIFT": "Local AI assistant with retrieval and memory",
+    "Raystore-topup": "Game top-up storefront prototype",
+    "RYKA-CORE": "Gesture controls for accessible desktop interaction",
+}
 
 
 def fetch_repo(repo: str) -> dict:
@@ -67,7 +74,7 @@ def render_activity(metadata: list[tuple[str, str, str, dict]]) -> str:
         if date.tzinfo is None:
             raise ValueError(f"Timezone missing for {repo}")
         lang = data.get("language") or "Not specified"
-        desc = (data.get("description") or "").strip() or fallback_desc
+        desc = PROFILE_SUMMARIES.get(repo) or (data.get("description") or "").strip() or fallback_desc
         projects.append((title, repo, desc, date.astimezone(timezone.utc), lang))
 
     projects.sort(key=lambda row: row[3], reverse=True)
@@ -75,16 +82,16 @@ def render_activity(metadata: list[tuple[str, str, str, dict]]) -> str:
     lead_url = f"https://github.com/{OWNER}/{lead_repo}"
 
     parts = [
-        f'<sub><strong>Latest public push</strong> · <a href="{lead_url}">{escape(lead_title)}</a>'
-        f" · {latest:%d %b %Y} (UTC)</sub>",
+        f'**Latest push** · [{lead_title}]({lead_url}) · {latest:%d %b %Y} (UTC)',
         "",
-        "| Repository | Function | Language | Last push (UTC) |",
-        "| :-- | :-- | :-- | --: |",
+        "| Repository | Last push (UTC) |",
+        "| :-- | --: |",
     ]
     for title, repo, desc, date, language in projects:
+        display_date = date.strftime("%d %b %Y").replace(" ", "&nbsp;")
         parts.append(
-            f"| [{title}](https://github.com/{OWNER}/{repo}) "
-            f"| {_clean_cell(desc)} | {_clean_cell(language)} | {date:%Y-%m-%d} |"
+            f"| **[{title}](https://github.com/{OWNER}/{repo})**"
+            f"<br><sub>{_clean_cell(desc)} · {_clean_cell(language)}</sub> | {display_date} |"
         )
     return "\n".join(parts)
 
@@ -130,3 +137,4 @@ if __name__ == "__main__":
     except (OSError, ValueError, RuntimeError, urllib.error.URLError, json.JSONDecodeError, KeyError) as err:
         print(f"Profile update aborted safely: {err}", file=sys.stderr)
         sys.exit(1)
+
