@@ -66,12 +66,12 @@ I’m a **Telecommunication Engineering** student at **Telkom University**. I bu
 ## Public repository activity
 
 <!-- LIVE_REPOS_START -->
-**Latest push** · [KillerTab](https://github.com/muhrafi-fsdev/KillerTab) · 25 Nov 2026 (UTC)
+**Latest push** · [KillerTab](https://github.com/muhrafi-fsdev/KillerTab) · 26 Nov 2026 (UTC)
 
 <p>
   <a href="https://github.com/muhrafi-fsdev/KillerTab"><picture>
     <source media="(max-width: 600px)" srcset="assets/city-window/activity/killertab-compact.svg">
-    <img width="820" src="assets/city-window/activity/killertab.svg" alt="KillerTab — Tab sleep, ad blocking, and suspicious link checks. JavaScript. Last push 25 Nov 2026 (UTC).">
+    <img width="820" src="assets/city-window/activity/killertab.svg" alt="KillerTab — Tab sleep, ad blocking, and suspicious link checks. JavaScript. Last push 26 Nov 2026 (UTC).">
   </picture></a><br>
   <a href="https://github.com/muhrafi-fsdev/YouTube-Ambient"><picture>
     <source media="(max-width: 600px)" srcset="assets/city-window/activity/youtube-ambient-compact.svg">
